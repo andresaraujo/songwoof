@@ -1,6 +1,6 @@
 # Songwoof
 
-A sample application show a more complete Angular 2 example.
+A sample application to show a more complete Angular 2 example.
 
 It includes:
 
@@ -30,7 +30,7 @@ It includes:
 - Rework styles, add animations
 - Add more tests
 - Add Spotify backend
-- Add component to show 
+- Add component to show current play time
 - Complete Readme
 - Improve discovery of songs
 
