@@ -1,0 +1,9 @@
+<div class="heading">Select a mood or genre</div>
+
+<div style="padding-bottom: 10px;">
+    <swoof-tag *ngFor="#tag of tags" [title]="tag" [active]="isTagActive(tag)" (click)="addTag(tag)"></swoof-tag>
+</div>
+
+<div>
+    <a href="javascript:void(0)" class="discover-btn" (click)="discover()">Discover</a>
+</div>

@@ -1,0 +1,10 @@
+<div class="playlist">
+    <div class="playlist-current" [hidden]="current == null">
+        <span><b>{{current?.title}}</b> by {{current?.username}}</span>
+    </div>
+    <div>
+        <li *ngFor="#track of tracks; #i = index" [hidden]="isHidden(i)">
+            <a href="javascript:void(0)" (click)="trackSelected(track)">{{track.title}}</a>
+        </li>
+    </div>
+</div>

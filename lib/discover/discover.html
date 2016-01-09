@@ -1,0 +1,17 @@
+<swoof-player
+        [track]="currentTrack"
+        [trackList]="trackList"
+        (onTogglePlay)="togglePlay($event)"
+        (onDismiss)="dismiss($event)"
+        (onTrackChange)="onTrackChange($event)"
+        (onFavorite)="addToUserFavorites($event)">
+</swoof-player>
+
+<swoof-playlist
+        [tracks]="trackList"
+        [current]="currentTrack"
+        (onTrackSelected)="onTrackSelected($event)"
+        [hidePrevious]="true"
+        [tracksToShow]="4"
+>
+</swoof-playlist>

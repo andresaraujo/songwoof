@@ -1,0 +1,15 @@
+<div class="swoof" [ngClass]="{'dark': isDarkTheme}">
+    <div class="h-container flex-space-between" [ngClass]="{'hidden': currentRoute == 'login'}">
+        <div class="h-container">
+            <a class="menu-item" [routerLink]="['/Home']">Home</a>
+            <a class="menu-item" [routerLink]="['/Favorites']">Favorites</a>
+        </div>
+        <div class="menu-item">Hi {{userData.displayName}} (<a href="javascript:void(0)" (click)="logout()">logout</a>)</div>
+    </div>
+
+    <div class="swoof-logo">
+        <a (click)="toggleTheme()"><b>Song</b>woof</a>
+    </div>
+
+    <router-outlet></router-outlet>
+</div>
