@@ -1,0 +1,63 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "dart:async",
+        "5": false
+      },
+      {
+        "1": "package:angular2/angular2.dart",
+        "5": false
+      },
+      {
+        "1": "package:firebase/firebase.dart",
+        "5": false
+      },
+      {
+        "1": "package:songwoof/common/models/user_data.dart",
+        "5": false
+      },
+      {
+        "1": "package:songwoof/common/models/track.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "UserService",
+        "4": [
+          {
+            "1": "Injectable",
+            "4": false,
+            "5": false,
+            "6": false,
+            "7": true,
+            "8": false
+          }
+        ],
+        "5": [
+          {
+            "1": "Firebase",
+            "4": "_firebase"
+          },
+          {
+            "1": "UserData",
+            "4": "_userData"
+          }
+        ]
+      }
+    ],
+    "6": "user_service.dart",
+    "10": [
+      {
+        "1": "package:angular2/angular2.ng_deps.dart",
+        "4": "i0"
+      },
+      {
+        "1": "package:songwoof/common/models/user_data.ng_deps.dart",
+        "4": "i1"
+      }
+    ]
+  }
+}

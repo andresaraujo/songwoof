@@ -1,0 +1,50 @@
+{
+  "ngDeps": {
+    "1": "songwoof.routes",
+    "3": [
+      {
+        "1": "package:angular2/router.dart",
+        "5": false
+      },
+      {
+        "1": "package:songwoof/discover/discover.dart",
+        "5": false
+      },
+      {
+        "1": "package:songwoof/login/login.dart",
+        "5": false
+      },
+      {
+        "1": "package:songwoof/home/home.dart",
+        "5": false
+      },
+      {
+        "1": "package:songwoof/favorites/favorites.dart",
+        "5": false
+      }
+    ],
+    "6": "swoof_routes.dart",
+    "10": [
+      {
+        "1": "package:angular2/router.ng_deps.dart",
+        "4": "i0"
+      },
+      {
+        "1": "package:songwoof/discover/discover.ng_deps.dart",
+        "4": "i1"
+      },
+      {
+        "1": "package:songwoof/login/login.ng_deps.dart",
+        "4": "i2"
+      },
+      {
+        "1": "package:songwoof/home/home.ng_deps.dart",
+        "4": "i3"
+      },
+      {
+        "1": "package:songwoof/favorites/favorites.ng_deps.dart",
+        "4": "i4"
+      }
+    ]
+  }
+}

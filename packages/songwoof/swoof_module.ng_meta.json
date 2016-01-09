@@ -1,0 +1,101 @@
+{
+  "ngDeps": {
+    "1": "songwoof.module",
+    "3": [
+      {
+        "1": "dart:html",
+        "4": "html",
+        "5": false
+      },
+      {
+        "1": "package:angular2/angular2.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2/router.dart",
+        "5": false
+      },
+      {
+        "1": "package:http/browser_client.dart",
+        "5": false
+      },
+      {
+        "1": "package:firebase/firebase.dart",
+        "5": false
+      },
+      {
+        "1": "package:songwoof/common/soundcloud/soundcloud_config.dart",
+        "5": false
+      },
+      {
+        "1": "package:songwoof/common/soundcloud/soundcloud_interop.dart",
+        "5": false
+      },
+      {
+        "1": "package:songwoof/common/models/user_data.dart",
+        "5": false
+      }
+    ],
+    "4": [
+      {
+        "1": "swoof_app.dart"
+      }
+    ],
+    "6": "swoof_module.dart",
+    "10": [
+      {
+        "1": "package:angular2/angular2.ng_deps.dart",
+        "4": "i0"
+      },
+      {
+        "1": "package:angular2/router.ng_deps.dart",
+        "4": "i1"
+      },
+      {
+        "1": "package:songwoof/common/soundcloud/soundcloud_config.ng_deps.dart",
+        "4": "i2"
+      },
+      {
+        "1": "package:songwoof/common/soundcloud/soundcloud_interop.ng_deps.dart",
+        "4": "i3"
+      },
+      {
+        "1": "package:songwoof/common/models/user_data.ng_deps.dart",
+        "4": "i4"
+      },
+      {
+        "1": "swoof_app.ng_deps.dart",
+        "4": "i5"
+      }
+    ]
+  },
+  "SWoofApp": {
+    "kind": "type",
+    "value": {
+      "isComponent": true,
+      "dynamicLoadable": true,
+      "selector": "songwoof-app",
+      "exportAs": null,
+      "type": {
+        "name": "SWoofApp",
+        "moduleUrl": "asset:songwoof/lib/swoof_app.dart",
+        "isHost": false
+      },
+      "changeDetection": 5,
+      "inputs": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": {
+        "encapsulation": 2,
+        "template": "<div class=\"swoof\" [ngClass]=\"{'dark': isDarkTheme}\">\n    <div class=\"h-container flex-space-between\" [ngClass]=\"{'hidden': currentRoute == 'login'}\">\n        <div class=\"h-container\">\n            <a class=\"menu-item\" [routerLink]=\"['/Home']\">Home</a>\n            <a class=\"menu-item\" [routerLink]=\"['/Favorites']\">Favorites</a>\n        </div>\n        <div class=\"menu-item\">Hi {{userData.displayName}} (<a href=\"javascript:void(0)\" (click)=\"logout()\">logout</a>)</div>\n    </div>\n\n    <div class=\"swoof-logo\">\n        <a (click)=\"toggleTheme()\"><b>Song</b>woof</a>\n    </div>\n\n    <router-outlet></router-outlet>\n</div>",
+        "templateUrl": "asset:songwoof/lib/swoof_app.html",
+        "styles": [],
+        "styleUrls": [],
+        "ngContentSelectors": []
+      }
+    }
+  }
+}

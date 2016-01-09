@@ -1,0 +1,46 @@
+{
+  "ngDeps": {
+    "1": "songwoof.module",
+    "3": [
+      {
+        "1": "dart:html",
+        "4": "html",
+        "5": false
+      },
+      {
+        "1": "package:angular2/angular2.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2/router.dart",
+        "5": false
+      },
+      {
+        "1": "package:http/browser_client.dart",
+        "5": false
+      },
+      {
+        "1": "package:firebase/firebase.dart",
+        "5": false
+      },
+      {
+        "1": "package:songwoof/common/soundcloud/soundcloud_config.dart",
+        "5": false
+      },
+      {
+        "1": "package:songwoof/common/soundcloud/soundcloud_interop.dart",
+        "5": false
+      },
+      {
+        "1": "package:songwoof/common/models/user_data.dart",
+        "5": false
+      }
+    ],
+    "4": [
+      {
+        "1": "swoof_app.dart"
+      }
+    ],
+    "6": "swoof_module.dart"
+  }
+}

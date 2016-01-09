@@ -1,0 +1,141 @@
+{
+  "ngDeps": {
+    "1": "songwoof.favorites",
+    "3": [
+      {
+        "1": "package:angular2/angular2.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2/router.dart",
+        "5": false
+      },
+      {
+        "1": "package:songwoof/common/models/user_data.dart",
+        "5": false
+      },
+      {
+        "1": "package:songwoof/common/models/track.dart",
+        "5": false
+      },
+      {
+        "1": "package:songwoof/common/components/playlist/playlist.dart",
+        "5": false
+      },
+      {
+        "1": "package:songwoof/common/services/user_service.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "FavoritesComponent",
+        "4": [
+          {
+            "1": "Component",
+            "3": [
+              {
+                "1": "selector",
+                "2": "'swoof-favorites'"
+              },
+              {
+                "1": "templateUrl",
+                "2": "'favorites.html'"
+              },
+              {
+                "1": "directives",
+                "2": "const [PlaylistComponent]"
+              },
+              {
+                "1": "providers",
+                "2": "const [UserService]"
+              }
+            ],
+            "4": false,
+            "5": true,
+            "6": true,
+            "7": true,
+            "8": false
+          }
+        ],
+        "5": [
+          {
+            "1": "Router",
+            "4": "_router"
+          },
+          {
+            "1": "UserData",
+            "4": "_userData"
+          },
+          {
+            "1": "UserService",
+            "4": "_userService"
+          }
+        ],
+        "6": [
+          "OnInit",
+          "OnActivate"
+        ],
+        "8": [
+          {
+            "2": "PlaylistComponent"
+          }
+        ]
+      }
+    ],
+    "6": "favorites.dart",
+    "10": [
+      {
+        "1": "package:angular2/angular2.ng_deps.dart",
+        "4": "i0"
+      },
+      {
+        "1": "package:angular2/router.ng_deps.dart",
+        "4": "i1"
+      },
+      {
+        "1": "package:songwoof/common/models/user_data.ng_deps.dart",
+        "4": "i2"
+      },
+      {
+        "1": "package:songwoof/common/components/playlist/playlist.ng_deps.dart",
+        "4": "i3"
+      },
+      {
+        "1": "package:songwoof/common/services/user_service.ng_deps.dart",
+        "4": "i4"
+      }
+    ]
+  },
+  "FavoritesComponent": {
+    "kind": "type",
+    "value": {
+      "isComponent": true,
+      "dynamicLoadable": true,
+      "selector": "swoof-favorites",
+      "exportAs": null,
+      "type": {
+        "name": "FavoritesComponent",
+        "moduleUrl": "asset:songwoof/lib/favorites/favorites.dart",
+        "isHost": false
+      },
+      "changeDetection": 5,
+      "inputs": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [
+        0
+      ],
+      "template": {
+        "encapsulation": 2,
+        "template": "<swoof-playlist\n        [tracks]=\"favorites\"\n>\n</swoof-playlist>",
+        "templateUrl": "asset:songwoof/lib/favorites/favorites.html",
+        "styles": [],
+        "styleUrls": [],
+        "ngContentSelectors": []
+      }
+    }
+  }
+}

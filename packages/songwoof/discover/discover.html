@@ -1,0 +1,5 @@
+<html><head></head><body><swoof-player [track]="currentTrack" [tracklist]="trackList" (ontoggleplay)="togglePlay($event)" (ondismiss)="dismiss($event)" (ontrackchange)="onTrackChange($event)" (onfavorite)="addToUserFavorites($event)">
+</swoof-player>
+
+<swoof-playlist [tracks]="trackList" [current]="currentTrack" (ontrackselected)="onTrackSelected($event)" [hideprevious]="true" [trackstoshow]="4">
+</swoof-playlist></body></html>

@@ -1,0 +1,167 @@
+{
+  "ngDeps": {
+    "1": "songwoof.common.components.playlist",
+    "3": [
+      {
+        "1": "package:angular2/angular2.dart",
+        "5": false
+      },
+      {
+        "1": "package:songwoof/common/models/track.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "PlaylistComponent",
+        "4": [
+          {
+            "1": "Component",
+            "3": [
+              {
+                "1": "selector",
+                "2": "'swoof-playlist'"
+              },
+              {
+                "1": "templateUrl",
+                "2": "'playlist.html'"
+              },
+              {
+                "1": "directives",
+                "2": "const [NgFor, NgIf]"
+              }
+            ],
+            "4": false,
+            "5": true,
+            "6": true,
+            "7": true,
+            "8": false
+          }
+        ],
+        "6": [
+          "AfterContentChecked"
+        ],
+        "7": [
+          {
+            "1": "tracks",
+            "2": [
+              {
+                "1": "Input",
+                "4": false,
+                "5": false,
+                "6": false,
+                "7": false,
+                "8": false
+              }
+            ]
+          },
+          {
+            "1": "current",
+            "2": [
+              {
+                "1": "Input",
+                "4": false,
+                "5": false,
+                "6": false,
+                "7": false,
+                "8": false
+              }
+            ]
+          },
+          {
+            "1": "hidePrevious",
+            "2": [
+              {
+                "1": "Input",
+                "4": false,
+                "5": false,
+                "6": false,
+                "7": false,
+                "8": false
+              }
+            ]
+          },
+          {
+            "1": "tracksToShow",
+            "2": [
+              {
+                "1": "Input",
+                "4": false,
+                "5": false,
+                "6": false,
+                "7": false,
+                "8": false
+              }
+            ]
+          },
+          {
+            "1": "onTrackSelected",
+            "2": [
+              {
+                "1": "Output",
+                "4": false,
+                "5": false,
+                "6": false,
+                "7": false,
+                "8": false
+              }
+            ]
+          }
+        ],
+        "8": [
+          {
+            "2": "NgFor"
+          },
+          {
+            "2": "NgIf"
+          }
+        ]
+      }
+    ],
+    "6": "playlist.dart",
+    "10": [
+      {
+        "1": "package:angular2/angular2.ng_deps.dart",
+        "4": "i0"
+      }
+    ]
+  },
+  "PlaylistComponent": {
+    "kind": "type",
+    "value": {
+      "isComponent": true,
+      "dynamicLoadable": true,
+      "selector": "swoof-playlist",
+      "exportAs": null,
+      "type": {
+        "name": "PlaylistComponent",
+        "moduleUrl": "asset:songwoof/lib/common/components/playlist/playlist.dart",
+        "isHost": false
+      },
+      "changeDetection": 5,
+      "inputs": {
+        "tracks": "tracks",
+        "current": "current",
+        "hidePrevious": "hidePrevious",
+        "tracksToShow": "tracksToShow"
+      },
+      "outputs": {
+        "onTrackSelected": "onTrackSelected"
+      },
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [
+        5
+      ],
+      "template": {
+        "encapsulation": 2,
+        "template": "<div class=\"playlist\">\n    <div class=\"playlist-current\" [hidden]=\"current == null\">\n        <span><b>{{current?.title}}</b> by {{current?.username}}</span>\n    </div>\n    <div>\n        <li *ngFor=\"#track of tracks; #i = index\" [hidden]=\"isHidden(i)\">\n            <a href=\"javascript:void(0)\" (click)=\"trackSelected(track)\">{{track.title}}</a>\n        </li>\n    </div>\n</div>",
+        "templateUrl": "asset:songwoof/lib/common/components/playlist/playlist.html",
+        "styles": [],
+        "styleUrls": [],
+        "ngContentSelectors": []
+      }
+    }
+  }
+}

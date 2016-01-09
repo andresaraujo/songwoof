@@ -1,0 +1,109 @@
+{
+  "ngDeps": {
+    "1": "songwoof.common.components.cover",
+    "3": [
+      {
+        "1": "package:angular2/angular2.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "CoverComponent",
+        "4": [
+          {
+            "1": "Component",
+            "3": [
+              {
+                "1": "selector",
+                "2": "'cover'"
+              },
+              {
+                "1": "templateUrl",
+                "2": "'cover.html'"
+              },
+              {
+                "1": "directives",
+                "2": "const [NgClass]"
+              }
+            ],
+            "4": false,
+            "5": true,
+            "6": true,
+            "7": true,
+            "8": false
+          }
+        ],
+        "7": [
+          {
+            "1": "rotate",
+            "2": [
+              {
+                "1": "Input",
+                "4": false,
+                "5": false,
+                "6": false,
+                "7": false,
+                "8": false
+              }
+            ]
+          },
+          {
+            "1": "coverUrl",
+            "2": [
+              {
+                "1": "Input",
+                "2": [
+                  "'coverUrl'"
+                ],
+                "4": false,
+                "5": false,
+                "6": false,
+                "7": false,
+                "8": false
+              }
+            ]
+          }
+        ],
+        "8": [
+          {
+            "2": "NgClass"
+          }
+        ]
+      }
+    ],
+    "6": "cover.dart"
+  },
+  "CoverComponent": {
+    "kind": "type",
+    "value": {
+      "isComponent": true,
+      "dynamicLoadable": true,
+      "selector": "cover",
+      "exportAs": null,
+      "type": {
+        "name": "CoverComponent",
+        "moduleUrl": "asset:songwoof/lib/common/components/cover/cover.dart",
+        "isHost": false
+      },
+      "changeDetection": 5,
+      "inputs": {
+        "rotate": "rotate",
+        "coverUrl": "coverUrl"
+      },
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": {
+        "encapsulation": 2,
+        "template": "<img class=\"cover vinyl\"\n     id=\"picture\"\n     [ngClass]=\"{'rotate-animation': rotate, 'rotate-animation-idle': !rotate}\"\n     [src]=\"coverUrl\">\n",
+        "templateUrl": "asset:songwoof/lib/common/components/cover/cover.html",
+        "styles": [],
+        "styleUrls": [],
+        "ngContentSelectors": []
+      }
+    }
+  }
+}

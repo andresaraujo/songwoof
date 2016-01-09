@@ -1,0 +1,106 @@
+{
+  "ngDeps": {
+    "1": "songwoof.common.components.tag",
+    "3": [
+      {
+        "1": "package:angular2/angular2.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "TagComponent",
+        "4": [
+          {
+            "1": "Component",
+            "3": [
+              {
+                "1": "selector",
+                "2": "'swoof-tag'"
+              },
+              {
+                "1": "templateUrl",
+                "2": "'tag.html'"
+              },
+              {
+                "1": "directives",
+                "2": "const [NgClass]"
+              }
+            ],
+            "4": false,
+            "5": true,
+            "6": true,
+            "7": true,
+            "8": false
+          }
+        ],
+        "7": [
+          {
+            "1": "active",
+            "2": [
+              {
+                "1": "Input",
+                "4": false,
+                "5": false,
+                "6": false,
+                "7": false,
+                "8": false
+              }
+            ]
+          },
+          {
+            "1": "title",
+            "2": [
+              {
+                "1": "Input",
+                "4": false,
+                "5": false,
+                "6": false,
+                "7": false,
+                "8": false
+              }
+            ]
+          }
+        ],
+        "8": [
+          {
+            "2": "NgClass"
+          }
+        ]
+      }
+    ],
+    "6": "tag.dart"
+  },
+  "TagComponent": {
+    "kind": "type",
+    "value": {
+      "isComponent": true,
+      "dynamicLoadable": true,
+      "selector": "swoof-tag",
+      "exportAs": null,
+      "type": {
+        "name": "TagComponent",
+        "moduleUrl": "asset:songwoof/lib/common/components/tag/tag.dart",
+        "isHost": false
+      },
+      "changeDetection": 5,
+      "inputs": {
+        "active": "active",
+        "title": "title"
+      },
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": {
+        "encapsulation": 2,
+        "template": "<a class=\"tag\"\n   href=\"javascript:void(0)\"\n   [ngClass]=\"{'tag-active': active}\">\n    <span>{{title}}</span>\n</a>",
+        "templateUrl": "asset:songwoof/lib/common/components/tag/tag.html",
+        "styles": [],
+        "styleUrls": [],
+        "ngContentSelectors": []
+      }
+    }
+  }
+}

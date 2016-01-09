@@ -1,0 +1,91 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "package:angular2/angular2.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "MdIconComponent",
+        "4": [
+          {
+            "1": "Component",
+            "3": [
+              {
+                "1": "selector",
+                "2": "'md-icon'"
+              },
+              {
+                "1": "templateUrl",
+                "2": "'md_icon.html'"
+              }
+            ],
+            "4": false,
+            "5": true,
+            "6": true,
+            "7": true,
+            "8": false
+          }
+        ],
+        "7": [
+          {
+            "1": "onClick",
+            "2": [
+              {
+                "1": "Output",
+                "4": false,
+                "5": false,
+                "6": false,
+                "7": false,
+                "8": false
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "6": "md_icon.dart",
+    "10": [
+      {
+        "1": "package:angular2/angular2.ng_deps.dart",
+        "4": "i0"
+      }
+    ]
+  },
+  "MdIconComponent": {
+    "kind": "type",
+    "value": {
+      "isComponent": true,
+      "dynamicLoadable": true,
+      "selector": "md-icon",
+      "exportAs": null,
+      "type": {
+        "name": "MdIconComponent",
+        "moduleUrl": "asset:songwoof/lib/common/components/md_icon/md_icon.dart",
+        "isHost": false
+      },
+      "changeDetection": 5,
+      "inputs": {},
+      "outputs": {
+        "onClick": "onClick"
+      },
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": {
+        "encapsulation": 2,
+        "template": "<div class=\"md-icon\">\n    <a href=\"javascript:void(0)\" (click)=\"click($event)\">\n        <i class=\"material-icons md-48\"><ng-content></ng-content></i>\n    </a>\n</div>",
+        "templateUrl": "asset:songwoof/lib/common/components/md_icon/md_icon.html",
+        "styles": [],
+        "styleUrls": [],
+        "ngContentSelectors": [
+          "*"
+        ]
+      }
+    }
+  }
+}

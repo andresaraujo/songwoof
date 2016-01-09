@@ -1,0 +1,33 @@
+{
+  "ngDeps": {
+    "1": "songwoof.common.soundcloud.soundcloud_config",
+    "3": [
+      {
+        "1": "package:angular2/angular2.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "SoundCloudConfig",
+        "4": [
+          {
+            "1": "Injectable",
+            "4": false,
+            "5": false,
+            "6": false,
+            "7": true,
+            "8": false
+          }
+        ],
+        "5": [
+          {
+            "1": "String",
+            "4": "CLIENT_ID"
+          }
+        ]
+      }
+    ],
+    "6": "soundcloud_config.dart"
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "ngDeps": {
+    "1": "songwoof.common.components.player",
+    "3": [
+      {
+        "1": "package:angular2/angular2.dart",
+        "5": false
+      },
+      {
+        "1": "package:songwoof/common/components/cover/cover.dart",
+        "5": false
+      },
+      {
+        "1": "package:songwoof/common/components/md_icon/md_icon.dart",
+        "5": false
+      },
+      {
+        "1": "package:songwoof/common/models/track.dart",
+        "5": false
+      },
+      {
+        "1": "package:songwoof/common/soundcloud/soundcloud_player.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "SwoofPlayerComponent",
+        "4": [
+          {
+            "1": "Component",
+            "3": [
+              {
+                "1": "selector",
+                "2": "'swoof-player'"
+              },
+              {
+                "1": "templateUrl",
+                "2": "'player.html'"
+              },
+              {
+                "1": "directives",
+                "2": "const [CoverComponent, MdIconComponent]"
+              },
+              {
+                "1": "providers",
+                "2": "const [SoundCloudPlayer]"
+              }
+            ],
+            "4": false,
+            "5": true,
+            "6": true,
+            "7": true,
+            "8": false
+          }
+        ],
+        "5": [
+          {
+            "1": "SoundCloudPlayer",
+            "4": "_scPlayer"
+          }
+        ],
+        "6": [
+          "OnDestroy"
+        ],
+        "7": [
+          {
+            "1": "trackList",
+            "2": [
+              {
+                "1": "Input",
+                "4": false,
+                "5": false,
+                "6": false,
+                "7": false,
+                "8": false
+              }
+            ]
+          },
+          {
+            "1": "onTogglePlay",
+            "2": [
+              {
+                "1": "Output",
+                "4": false,
+                "5": false,
+                "6": false,
+                "7": false,
+                "8": false
+              }
+            ]
+          },
+          {
+            "1": "onDismiss",
+            "2": [
+              {
+                "1": "Output",
+                "4": false,
+                "5": false,
+                "6": false,
+                "7": false,
+                "8": false
+              }
+            ]
+          },
+          {
+            "1": "onFavorite",
+            "2": [
+              {
+                "1": "Output",
+                "4": false,
+                "5": false,
+                "6": false,
+                "7": false,
+                "8": false
+              }
+            ]
+          },
+          {
+            "1": "onTrackChange",
+            "2": [
+              {
+                "1": "Output",
+                "4": false,
+                "5": false,
+                "6": false,
+                "7": false,
+                "8": false
+              }
+            ]
+          },
+          {
+            "1": "track",
+            "2": [
+              {
+                "1": "Input",
+                "4": false,
+                "5": false,
+                "6": false,
+                "7": false,
+                "8": false
+              }
+            ]
+          }
+        ],
+        "8": [
+          {
+            "2": "CoverComponent"
+          },
+          {
+            "2": "MdIconComponent"
+          }
+        ]
+      }
+    ],
+    "6": "player.dart",
+    "10": [
+      {
+        "1": "package:angular2/angular2.ng_deps.dart",
+        "4": "i0"
+      },
+      {
+        "1": "package:songwoof/common/components/cover/cover.ng_deps.dart",
+        "4": "i1"
+      },
+      {
+        "1": "package:songwoof/common/components/md_icon/md_icon.ng_deps.dart",
+        "4": "i2"
+      },
+      {
+        "1": "package:songwoof/common/soundcloud/soundcloud_player.ng_deps.dart",
+        "4": "i3"
+      }
+    ]
+  },
+  "SwoofPlayerComponent": {
+    "kind": "type",
+    "value": {
+      "isComponent": true,
+      "dynamicLoadable": true,
+      "selector": "swoof-player",
+      "exportAs": null,
+      "type": {
+        "name": "SwoofPlayerComponent",
+        "moduleUrl": "asset:songwoof/lib/common/components/player/player.dart",
+        "isHost": false
+      },
+      "changeDetection": 5,
+      "inputs": {
+        "trackList": "trackList",
+        "track": "track"
+      },
+      "outputs": {
+        "onTogglePlay": "onTogglePlay",
+        "onDismiss": "onDismiss",
+        "onFavorite": "onFavorite",
+        "onTrackChange": "onTrackChange"
+      },
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [
+        1
+      ],
+      "template": {
+        "encapsulation": 2,
+        "template": "<div class=\"v-container\">\n    <cover\n            [coverUrl]=\"track?.artworkUrl\"\n            (click)=\"togglePlay()\"\n            [rotate]=\"isPlaying()\"></cover>\n\n    <div class=\"h-container\">\n        <md-icon (onClick)=\"dismiss()\">close</md-icon>\n        <md-icon (onClick)=\"favorite()\">favorite</md-icon>\n    </div>\n</div>",
+        "templateUrl": "asset:songwoof/lib/common/components/player/player.html",
+        "styles": [],
+        "styleUrls": [],
+        "ngContentSelectors": []
+      }
+    }
+  }
+}

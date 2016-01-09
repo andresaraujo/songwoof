@@ -1,0 +1,106 @@
+{
+  "ngDeps": {
+    "1": "songwoof.home",
+    "3": [
+      {
+        "1": "package:angular2/angular2.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2/router.dart",
+        "5": false
+      },
+      {
+        "1": "package:songwoof/common/models/user_data.dart",
+        "5": false
+      },
+      {
+        "1": "package:songwoof/common/components/tag/tag.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "HomeComponent",
+        "4": [
+          {
+            "1": "Component",
+            "3": [
+              {
+                "1": "selector",
+                "2": "'swoof-home'"
+              },
+              {
+                "1": "templateUrl",
+                "2": "'home.html'"
+              },
+              {
+                "1": "directives",
+                "2": "const [NgFor, NgClass, TagComponent]"
+              }
+            ],
+            "4": false,
+            "5": true,
+            "6": true,
+            "7": true,
+            "8": false
+          }
+        ],
+        "5": [
+          {
+            "1": "Router",
+            "4": "_router"
+          },
+          {
+            "1": "UserData",
+            "4": "_userData"
+          }
+        ],
+        "6": [
+          "OnActivate"
+        ],
+        "8": [
+          {
+            "2": "NgFor"
+          },
+          {
+            "2": "NgClass"
+          },
+          {
+            "2": "TagComponent"
+          }
+        ]
+      }
+    ],
+    "6": "home.dart"
+  },
+  "HomeComponent": {
+    "kind": "type",
+    "value": {
+      "isComponent": true,
+      "dynamicLoadable": true,
+      "selector": "swoof-home",
+      "exportAs": null,
+      "type": {
+        "name": "HomeComponent",
+        "moduleUrl": "asset:songwoof/lib/home/home.dart",
+        "isHost": false
+      },
+      "changeDetection": 5,
+      "inputs": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": {
+        "encapsulation": 2,
+        "template": "<div class=\"heading\">Select a mood or genre</div>\n\n<div style=\"padding-bottom: 10px;\">\n    <swoof-tag *ngFor=\"#tag of tags\" [title]=\"tag\" [active]=\"isTagActive(tag)\" (click)=\"addTag(tag)\"></swoof-tag>\n</div>\n\n<div>\n    <a href=\"javascript:void(0)\" class=\"discover-btn\" (click)=\"discover()\">Discover</a>\n</div>",
+        "templateUrl": "asset:songwoof/lib/home/home.html",
+        "styles": [],
+        "styleUrls": [],
+        "ngContentSelectors": []
+      }
+    }
+  }
+}

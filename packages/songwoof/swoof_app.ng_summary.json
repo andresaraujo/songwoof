@@ -1,0 +1,126 @@
+{
+  "ngDeps": {
+    "1": "songwoof.app",
+    "3": [
+      {
+        "1": "package:angular2/angular2.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2/router.dart",
+        "5": false
+      },
+      {
+        "1": "package:songwoof/common/models/user_data.dart",
+        "5": false
+      },
+      {
+        "1": "package:songwoof/common/services/user_service.dart",
+        "5": false
+      },
+      {
+        "1": "package:songwoof/swoof_routes.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "SWoofApp",
+        "4": [
+          {
+            "1": "Component",
+            "3": [
+              {
+                "1": "selector",
+                "2": "'songwoof-app'"
+              },
+              {
+                "1": "templateUrl",
+                "2": "'swoof_app.html'"
+              },
+              {
+                "1": "directives",
+                "2": "const [ROUTER_DIRECTIVES, NgClass, NgStyle]"
+              },
+              {
+                "1": "providers",
+                "2": "const [UserService]"
+              }
+            ],
+            "4": false,
+            "5": true,
+            "6": true,
+            "7": true,
+            "8": false
+          },
+          {
+            "1": "RouteConfig",
+            "2": [
+              "SWOOF_ROUTES"
+            ],
+            "4": false,
+            "5": false,
+            "6": false,
+            "7": false,
+            "8": false
+          }
+        ],
+        "5": [
+          {
+            "1": "Router",
+            "4": "_router"
+          },
+          {
+            "1": "UserService",
+            "4": "_userService"
+          },
+          {
+            "1": "UserData",
+            "4": "userData"
+          }
+        ],
+        "8": [
+          {
+            "2": "ROUTER_DIRECTIVES"
+          },
+          {
+            "2": "NgClass"
+          },
+          {
+            "2": "NgStyle"
+          }
+        ]
+      }
+    ],
+    "6": "swoof_app.dart"
+  },
+  "SWoofApp": {
+    "kind": "type",
+    "value": {
+      "isComponent": true,
+      "dynamicLoadable": true,
+      "selector": "songwoof-app",
+      "exportAs": null,
+      "type": {
+        "name": "SWoofApp",
+        "moduleUrl": "asset:songwoof/lib/swoof_app.dart",
+        "isHost": false
+      },
+      "changeDetection": 5,
+      "inputs": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": {
+        "encapsulation": 2,
+        "template": "<div class=\"swoof\" [ngClass]=\"{'dark': isDarkTheme}\">\n    <div class=\"h-container flex-space-between\" [ngClass]=\"{'hidden': currentRoute == 'login'}\">\n        <div class=\"h-container\">\n            <a class=\"menu-item\" [routerLink]=\"['/Home']\">Home</a>\n            <a class=\"menu-item\" [routerLink]=\"['/Favorites']\">Favorites</a>\n        </div>\n        <div class=\"menu-item\">Hi {{userData.displayName}} (<a href=\"javascript:void(0)\" (click)=\"logout()\">logout</a>)</div>\n    </div>\n\n    <div class=\"swoof-logo\">\n        <a (click)=\"toggleTheme()\"><b>Song</b>woof</a>\n    </div>\n\n    <router-outlet></router-outlet>\n</div>",
+        "templateUrl": "asset:songwoof/lib/swoof_app.html",
+        "styles": [],
+        "styleUrls": [],
+        "ngContentSelectors": []
+      }
+    }
+  }
+}

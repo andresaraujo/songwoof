@@ -1,0 +1,194 @@
+{
+  "ngDeps": {
+    "1": "songwoof.discover",
+    "3": [
+      {
+        "1": "dart:async",
+        "5": false
+      },
+      {
+        "1": "package:angular2/angular2.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2/router.dart",
+        "5": false
+      },
+      {
+        "1": "package:songwoof/common/services/user_service.dart",
+        "5": false
+      },
+      {
+        "1": "package:songwoof/common/components/playlist/playlist.dart",
+        "5": false
+      },
+      {
+        "1": "package:songwoof/common/components/cover/cover.dart",
+        "5": false
+      },
+      {
+        "1": "package:songwoof/common/components/md_icon/md_icon.dart",
+        "5": false
+      },
+      {
+        "1": "package:songwoof/common/components/player/player.dart",
+        "5": false
+      },
+      {
+        "1": "package:songwoof/common/models/user_data.dart",
+        "5": false
+      },
+      {
+        "1": "package:songwoof/common/models/track.dart",
+        "5": false
+      },
+      {
+        "1": "package:songwoof/common/soundcloud/soundcloud_api.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "DiscoverComponent",
+        "4": [
+          {
+            "1": "Component",
+            "3": [
+              {
+                "1": "selector",
+                "2": "'swoof-discover'"
+              },
+              {
+                "1": "templateUrl",
+                "2": "'discover.html'"
+              },
+              {
+                "1": "directives",
+                "2": "const [SwoofPlayerComponent, PlaylistComponent, CoverComponent, MdIconComponent]"
+              },
+              {
+                "1": "providers",
+                "2": "const [SoundCloudApi, UserService]"
+              }
+            ],
+            "4": false,
+            "5": true,
+            "6": true,
+            "7": true,
+            "8": false
+          }
+        ],
+        "5": [
+          {
+            "1": "SoundCloudApi",
+            "4": "_api"
+          },
+          {
+            "1": "UserService",
+            "4": "_userService"
+          },
+          {
+            "1": "Router",
+            "4": "_router"
+          },
+          {
+            "1": "UserData",
+            "4": "_userData"
+          },
+          {
+            "1": "RouteParams",
+            "4": "params"
+          }
+        ],
+        "6": [
+          "OnInit",
+          "OnActivate"
+        ],
+        "8": [
+          {
+            "2": "SwoofPlayerComponent"
+          },
+          {
+            "2": "PlaylistComponent"
+          },
+          {
+            "2": "CoverComponent"
+          },
+          {
+            "2": "MdIconComponent"
+          }
+        ]
+      }
+    ],
+    "6": "discover.dart",
+    "10": [
+      {
+        "1": "package:angular2/angular2.ng_deps.dart",
+        "4": "i0"
+      },
+      {
+        "1": "package:angular2/router.ng_deps.dart",
+        "4": "i1"
+      },
+      {
+        "1": "package:songwoof/common/services/user_service.ng_deps.dart",
+        "4": "i2"
+      },
+      {
+        "1": "package:songwoof/common/components/playlist/playlist.ng_deps.dart",
+        "4": "i3"
+      },
+      {
+        "1": "package:songwoof/common/components/cover/cover.ng_deps.dart",
+        "4": "i4"
+      },
+      {
+        "1": "package:songwoof/common/components/md_icon/md_icon.ng_deps.dart",
+        "4": "i5"
+      },
+      {
+        "1": "package:songwoof/common/components/player/player.ng_deps.dart",
+        "4": "i6"
+      },
+      {
+        "1": "package:songwoof/common/models/user_data.ng_deps.dart",
+        "4": "i7"
+      },
+      {
+        "1": "package:songwoof/common/soundcloud/soundcloud_api.ng_deps.dart",
+        "4": "i8"
+      }
+    ]
+  },
+  "DiscoverComponent": {
+    "kind": "type",
+    "value": {
+      "isComponent": true,
+      "dynamicLoadable": true,
+      "selector": "swoof-discover",
+      "exportAs": null,
+      "type": {
+        "name": "DiscoverComponent",
+        "moduleUrl": "asset:songwoof/lib/discover/discover.dart",
+        "isHost": false
+      },
+      "changeDetection": 5,
+      "inputs": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [
+        0
+      ],
+      "template": {
+        "encapsulation": 2,
+        "template": "<swoof-player\n        [track]=\"currentTrack\"\n        [trackList]=\"trackList\"\n        (onTogglePlay)=\"togglePlay($event)\"\n        (onDismiss)=\"dismiss($event)\"\n        (onTrackChange)=\"onTrackChange($event)\"\n        (onFavorite)=\"addToUserFavorites($event)\">\n</swoof-player>\n\n<swoof-playlist\n        [tracks]=\"trackList\"\n        [current]=\"currentTrack\"\n        (onTrackSelected)=\"onTrackSelected($event)\"\n        [hidePrevious]=\"true\"\n        [tracksToShow]=\"4\"\n>\n</swoof-playlist>",
+        "templateUrl": "asset:songwoof/lib/discover/discover.html",
+        "styles": [],
+        "styleUrls": [],
+        "ngContentSelectors": []
+      }
+    }
+  }
+}

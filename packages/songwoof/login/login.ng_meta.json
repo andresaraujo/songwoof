@@ -1,0 +1,121 @@
+{
+  "ngDeps": {
+    "1": "songwoof.login",
+    "3": [
+      {
+        "1": "dart:async",
+        "5": false
+      },
+      {
+        "1": "package:angular2/angular2.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2/router.dart",
+        "5": false
+      },
+      {
+        "1": "package:songwoof/common/models/user_data.dart",
+        "5": false
+      },
+      {
+        "1": "package:songwoof/common/services/user_service.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "LoginComponent",
+        "4": [
+          {
+            "1": "Component",
+            "3": [
+              {
+                "1": "selector",
+                "2": "'swoof-login'"
+              },
+              {
+                "1": "templateUrl",
+                "2": "'login.html'"
+              },
+              {
+                "1": "providers",
+                "2": "const [UserService]"
+              }
+            ],
+            "4": false,
+            "5": true,
+            "6": true,
+            "7": true,
+            "8": false
+          }
+        ],
+        "5": [
+          {
+            "1": "Router",
+            "4": "_router"
+          },
+          {
+            "1": "UserService",
+            "4": "_userService"
+          },
+          {
+            "1": "UserData",
+            "4": "_userData"
+          }
+        ],
+        "6": [
+          "OnActivate"
+        ]
+      }
+    ],
+    "6": "login.dart",
+    "10": [
+      {
+        "1": "package:angular2/angular2.ng_deps.dart",
+        "4": "i0"
+      },
+      {
+        "1": "package:angular2/router.ng_deps.dart",
+        "4": "i1"
+      },
+      {
+        "1": "package:songwoof/common/models/user_data.ng_deps.dart",
+        "4": "i2"
+      },
+      {
+        "1": "package:songwoof/common/services/user_service.ng_deps.dart",
+        "4": "i3"
+      }
+    ]
+  },
+  "LoginComponent": {
+    "kind": "type",
+    "value": {
+      "isComponent": true,
+      "dynamicLoadable": true,
+      "selector": "swoof-login",
+      "exportAs": null,
+      "type": {
+        "name": "LoginComponent",
+        "moduleUrl": "asset:songwoof/lib/login/login.dart",
+        "isHost": false
+      },
+      "changeDetection": 5,
+      "inputs": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": {
+        "encapsulation": 2,
+        "template": "<p>Discover Soundcloud Music</p>\n\n<div class=\"v-container\">\n    <a href=\"javascript:void(0)\" (click)=\"login('github')\">Sign in with Github</a>\n</div>",
+        "templateUrl": "asset:songwoof/lib/login/login.html",
+        "styles": [],
+        "styleUrls": [],
+        "ngContentSelectors": []
+      }
+    }
+  }
+}

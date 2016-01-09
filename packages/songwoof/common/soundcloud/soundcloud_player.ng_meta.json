@@ -1,0 +1,60 @@
+{
+  "ngDeps": {
+    "1": "songwoof.common.soundcloud.soundcloud_player",
+    "3": [
+      {
+        "1": "dart:async",
+        "5": false
+      },
+      {
+        "1": "package:angular2/angular2.dart",
+        "5": false
+      },
+      {
+        "1": "package:js/js.dart",
+        "4": "js",
+        "5": false
+      },
+      {
+        "1": "package:songwoof/common/models/track.dart",
+        "5": false
+      },
+      {
+        "1": "package:songwoof/common/soundcloud/soundcloud_interop.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "SoundCloudPlayer",
+        "4": [
+          {
+            "1": "Injectable",
+            "4": false,
+            "5": false,
+            "6": false,
+            "7": true,
+            "8": false
+          }
+        ],
+        "5": [
+          {
+            "1": "SoundCloudAudio",
+            "4": "_scAudio"
+          }
+        ]
+      }
+    ],
+    "6": "soundcloud_player.dart",
+    "10": [
+      {
+        "1": "package:angular2/angular2.ng_deps.dart",
+        "4": "i0"
+      },
+      {
+        "1": "package:songwoof/common/soundcloud/soundcloud_interop.ng_deps.dart",
+        "4": "i1"
+      }
+    ]
+  }
+}
