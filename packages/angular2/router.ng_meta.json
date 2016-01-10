@@ -242,6 +242,28 @@
       }
     ]
   },
+  "RouterOutlet": {
+    "kind": "type",
+    "value": {
+      "isComponent": false,
+      "dynamicLoadable": true,
+      "selector": "router-outlet",
+      "exportAs": null,
+      "type": {
+        "name": "RouterOutlet",
+        "moduleUrl": "asset:angular2/lib/src/router/router_outlet.dart",
+        "isHost": false
+      },
+      "changeDetection": 5,
+      "inputs": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": null
+    }
+  },
   "RouterLink": {
     "kind": "type",
     "value": {
@@ -267,28 +289,6 @@
         "class.router-link-active": "isRouteActive",
         "attr.href": "visibleHref"
       },
-      "hostAttributes": {},
-      "lifecycleHooks": [],
-      "template": null
-    }
-  },
-  "RouterOutlet": {
-    "kind": "type",
-    "value": {
-      "isComponent": false,
-      "dynamicLoadable": true,
-      "selector": "router-outlet",
-      "exportAs": null,
-      "type": {
-        "name": "RouterOutlet",
-        "moduleUrl": "asset:angular2/lib/src/router/router_outlet.dart",
-        "isHost": false
-      },
-      "changeDetection": 5,
-      "inputs": {},
-      "outputs": {},
-      "hostListeners": {},
-      "hostProperties": {},
       "hostAttributes": {},
       "lifecycleHooks": [],
       "template": null
