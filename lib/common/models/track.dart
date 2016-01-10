@@ -34,4 +34,5 @@ class Track {
   }
 
   toString() => toMap().toString();
+  bool operator ==(o) => o is Track && id == o.id;
 }
