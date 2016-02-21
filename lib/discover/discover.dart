@@ -63,7 +63,7 @@ class DiscoverComponent implements OnInit, OnActivate {
   }
 
   void onTrackChange(Track track) {
-    // do nothing
+    currentTrack = track;
   }
 
   @override

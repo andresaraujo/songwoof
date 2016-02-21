@@ -30,7 +30,7 @@ class SwoofPlayerComponent implements OnDestroy {
 
   @Input()
   set track(Track newTrack) {
-    if (trackList != null) {
+    if (trackList != null && newTrack != _track) {
       _playNext(newTrack);
     }
   }
