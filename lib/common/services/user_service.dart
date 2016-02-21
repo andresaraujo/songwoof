@@ -38,7 +38,7 @@ class UserService {
     return _firebase.authWithOAuthPopup(provider).then((authJson) {
       if (authJson != null) {
         _userData.uid = authJson['uid'];
-        _userData.displayName = authJson['github']['displayName'];
+        _userData.displayName = authJson[provider]['displayName'];
         return authJson;
       }
     });

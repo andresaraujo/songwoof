@@ -14,6 +14,7 @@ import 'package:songwoof/common/soundcloud/soundcloud_player.dart';
 class SwoofPlayerComponent implements OnDestroy {
   final SoundCloudPlayer _scPlayer;
   Track _track;
+  bool _firstSong = true;
 
   @Input() List<Track> trackList;
 
@@ -30,8 +31,9 @@ class SwoofPlayerComponent implements OnDestroy {
 
   @Input()
   set track(Track newTrack) {
-    if (trackList != null) {
+    if (trackList != null && _firstSong) {
       _playNext(newTrack);
+      _firstSong = false;
     }
   }
 

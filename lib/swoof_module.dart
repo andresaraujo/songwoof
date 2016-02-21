@@ -25,7 +25,7 @@ class SWoofModule {
     firebase.onAuth().listen((authJson) {
       if (authJson != null) {
         userData.uid = authJson['uid'];
-        userData.displayName = authJson['github']['displayName'];
+        userData.displayName = authJson[authJson['provider']]['displayName'];
       }
     });
     return [
