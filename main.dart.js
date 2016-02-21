@@ -15251,7 +15251,7 @@ y=z.h(a,"title")
 this.c=y==null?"":y
 this.d=z.h(a,"user")!=null?J.E(z.h(a,"user"),"username"):z.h(a,"username")
 y=z.h(a,"artwork_url")
-this.b=y==null?"/doge_300x300.jpeg":y
+this.b=y==null?"doge_300x300.jpeg":y
 this.e=z.h(a,"stream_url")
 this.f=z.h(a,"permalink_url")
 this.r=z.h(a,"fb_key")},
@@ -15545,7 +15545,7 @@ this.fy=y[x].y.a1(z.b)},
 T:function(a){if(a);this.fy=$.al},
 $asU:I.aQ}}],["songwoof.common.components.cover","",,N,{"^":"",iz:{"^":"b;a,jM:b*",
 gfI:function(){return this.a},
-sfI:function(a){var z=a==null?"/doge_300x300.jpeg":a
+sfI:function(a){var z=a==null?"doge_300x300.jpeg":a
 this.a=z
 return z}}}],["songwoof.common.components.cover.template.dart","",,T,{"^":"",
 wc:function(){var z,y
