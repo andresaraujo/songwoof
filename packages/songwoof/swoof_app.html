@@ -4,12 +4,18 @@
             <a class="menu-item" [routerlink]="['/Home']">Home</a>
             <a class="menu-item" [routerlink]="['/Favorites']">Favorites</a>
         </div>
-        <div class="menu-item">Hi {{userData.displayName}} (<a href="javascript:void(0)" (click)="logout()">logout</a>)</div>
+        <div class="menu-item">Hi {{userData.displayName}} (<a href="javascript:void(0)" (click)="logout()">logout</a>)
+        </div>
     </div>
 
     <div class="swoof-logo">
         <a (click)="toggleTheme()"><b>Song</b>woof</a>
     </div>
 
-    <router-outlet></router-outlet>
+    <div style="flex: 1 0 auto;">
+        <router-outlet></router-outlet>
+    </div>
+    <footer>
+        <p>Twitter: <a href="https://twitter.com/amarokaz">@amarokaz</a> Source: <a href="https://github.com/andresaraujo/songwoof">@andresaraujo/songwoof</a></p>
+    </footer>
 </div></body></html>

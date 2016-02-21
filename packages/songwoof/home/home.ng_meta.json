@@ -114,7 +114,7 @@
       "lifecycleHooks": [],
       "template": {
         "encapsulation": 2,
-        "template": "<div class=\"heading\">Select a mood or genre</div>\n\n<div style=\"padding-bottom: 10px;\">\n    <swoof-tag *ngFor=\"#tag of tags\" [title]=\"tag\" [active]=\"isTagActive(tag)\" (click)=\"addTag(tag)\"></swoof-tag>\n</div>\n\n<div>\n    <a href=\"javascript:void(0)\" class=\"discover-btn\" (click)=\"discover()\">Discover</a>\n</div>",
+        "template": "<div class=\"heading\">Select a mood or genre</div>\n\n<div style=\"padding-bottom: 10px;\">\n    <swoof-tag *ngFor=\"#tag of tags\" [title]=\"tag\" [active]=\"isTagActive(tag)\" (click)=\"addTag(tag)\"></swoof-tag>\n</div>\n\n<div class=\"discover-btn\">\n    <a href=\"javascript:void(0)\" (click)=\"discover()\">Discover</a>\n</div>",
         "templateUrl": "asset:songwoof/lib/home/home.html",
         "styles": [],
         "styleUrls": [],
