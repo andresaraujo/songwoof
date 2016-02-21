@@ -11,5 +11,5 @@ class CoverComponent {
   String get coverUrl => _coverUrl;
 
   @Input('coverUrl')
-  void set coverUrl(coverUrl) => _coverUrl = coverUrl ?? '/doge_300x300.jpeg';
+  void set coverUrl(coverUrl) => _coverUrl = coverUrl ?? 'doge_300x300.jpeg';
 }

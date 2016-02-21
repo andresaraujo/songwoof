@@ -15,7 +15,7 @@ class Track {
     id = map['id'];
     title = map['title'] ?? '';
     username = map['user'] != null ? map['user']['username'] : map['username'];
-    artworkUrl = map['artwork_url'] ?? '/doge_300x300.jpeg';
+    artworkUrl = map['artwork_url'] ?? 'doge_300x300.jpeg';
     streamUrl = map['stream_url'];
     permalinkUrl = map['permalink_url'];
     firebaseKey = map['fb_key'];
