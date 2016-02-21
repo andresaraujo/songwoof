@@ -22,7 +22,7 @@ class SoundCloudApi {
 
     params['limit'] = '$limit';
     params['tags'] = tags ?? 'ambient';
-    params['license'] = 'cc-by';
+    //params['license'] = 'cc-by';
 
     Uri uri = new Uri(
         path: '${_config.SOUND_CLOUD_BASE}/tracks', queryParameters: params);
