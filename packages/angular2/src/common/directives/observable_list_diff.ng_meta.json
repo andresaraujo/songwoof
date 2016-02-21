@@ -25,11 +25,11 @@
     "6": "observable_list_diff.dart",
     "10": [
       {
-        "1": "package:angular2/core.ng_deps.dart",
+        "1": "package:angular2/core.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/core/change_detection/differs/default_iterable_differ.ng_deps.dart",
+        "1": "package:angular2/src/core/change_detection/differs/default_iterable_differ.template.dart",
         "4": "i1"
       }
     ]

@@ -22,9 +22,9 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/facade/browser.dart",
+        "1": "platform_location.dart",
         "2": [
-          "EventListener"
+          "UrlChangeListener"
         ],
         "5": false
       },
@@ -75,16 +75,12 @@
     "6": "hash_location_strategy.dart",
     "10": [
       {
-        "1": "package:angular2/core.ng_deps.dart",
+        "1": "package:angular2/core.template.dart",
         "4": "i0"
       },
       {
-        "1": "location_strategy.ng_deps.dart",
+        "1": "location_strategy.template.dart",
         "4": "i1"
-      },
-      {
-        "1": "platform_location.ng_deps.dart",
-        "4": "i2"
       }
     ]
   }

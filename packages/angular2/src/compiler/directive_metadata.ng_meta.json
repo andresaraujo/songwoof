@@ -16,6 +16,13 @@
         "5": false
       },
       {
+        "1": "package:angular2/src/facade/exceptions.dart",
+        "2": [
+          "unimplemented"
+        ],
+        "5": false
+      },
+      {
         "1": "package:angular2/src/facade/collection.dart",
         "2": [
           "StringMapWrapper"
@@ -64,24 +71,28 @@
     "6": "directive_metadata.dart",
     "10": [
       {
-        "1": "package:angular2/src/core/change_detection/change_detection.ng_deps.dart",
+        "1": "package:angular2/src/facade/exceptions.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/core/metadata/view.ng_deps.dart",
+        "1": "package:angular2/src/core/change_detection/change_detection.template.dart",
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/compiler/selector.ng_deps.dart",
+        "1": "package:angular2/src/core/metadata/view.template.dart",
         "4": "i2"
       },
       {
-        "1": "util.ng_deps.dart",
+        "1": "package:angular2/src/compiler/selector.template.dart",
         "4": "i3"
       },
       {
-        "1": "package:angular2/src/core/linker/interfaces.ng_deps.dart",
+        "1": "util.template.dart",
         "4": "i4"
+      },
+      {
+        "1": "package:angular2/src/core/linker/interfaces.template.dart",
+        "4": "i5"
       }
     ]
   }

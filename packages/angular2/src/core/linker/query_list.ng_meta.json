@@ -14,7 +14,7 @@
     "6": "query_list.dart",
     "10": [
       {
-        "1": "package:angular2/src/facade/async.ng_deps.dart",
+        "1": "package:angular2/src/facade/async.template.dart",
         "4": "i0"
       }
     ]

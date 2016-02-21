@@ -54,19 +54,19 @@
     "6": "pipes.dart",
     "10": [
       {
-        "1": "package:angular2/src/facade/exceptions.ng_deps.dart",
+        "1": "package:angular2/src/facade/exceptions.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/core/di.ng_deps.dart",
+        "1": "package:angular2/src/core/di.template.dart",
         "4": "i1"
       },
       {
-        "1": "pipe_provider.ng_deps.dart",
+        "1": "pipe_provider.template.dart",
         "4": "i2"
       },
       {
-        "1": "package:angular2/src/core/change_detection/pipes.ng_deps.dart",
+        "1": "package:angular2/src/core/change_detection/pipes.template.dart",
         "4": "i3"
       }
     ]

@@ -27,11 +27,11 @@
     "6": "css_animation_builder.dart",
     "10": [
       {
-        "1": "animation.ng_deps.dart",
+        "1": "animation.template.dart",
         "4": "i0"
       },
       {
-        "1": "browser_details.ng_deps.dart",
+        "1": "browser_details.template.dart",
         "4": "i1"
       }
     ]

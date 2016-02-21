@@ -1,20 +1,26 @@
 {
   "ngDeps": {
     "1": "angular2.platform.worker_render",
+    "3": [
+      {
+        "1": "package:angular2/src/platform/worker_render_common.dart",
+        "5": false
+      }
+    ],
     "4": [
       {
         "1": "package:angular2/src/platform/worker_render_common.dart",
         "2": [
           "WORKER_SCRIPT",
           "WORKER_RENDER_PLATFORM",
-          "WORKER_RENDER_APP_COMMON",
+          "WORKER_RENDER_APPLICATION_COMMON",
           "initializeGenericWorkerRenderer"
         ]
       },
       {
         "1": "package:angular2/src/platform/worker_render.dart",
         "2": [
-          "WORKER_RENDER_APP",
+          "WORKER_RENDER_APPLICATION",
           "initIsolate",
           "WebWorkerInstance"
         ]
@@ -44,33 +50,43 @@
       },
       {
         "1": "../src/web_workers/shared/message_bus.dart"
+      },
+      {
+        "1": "../src/web_workers/ui/router_providers.dart",
+        "2": [
+          "WORKER_RENDER_ROUTER"
+        ]
       }
     ],
     "6": "worker_render.dart",
     "10": [
       {
-        "1": "package:angular2/src/platform/worker_render_common.ng_deps.dart",
+        "1": "package:angular2/src/platform/worker_render_common.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/platform/worker_render.ng_deps.dart",
+        "1": "package:angular2/src/platform/worker_render.template.dart",
         "4": "i1"
       },
       {
-        "1": "../src/web_workers/shared/client_message_broker.ng_deps.dart",
+        "1": "../src/web_workers/shared/client_message_broker.template.dart",
         "4": "i2"
       },
       {
-        "1": "../src/web_workers/shared/service_message_broker.ng_deps.dart",
+        "1": "../src/web_workers/shared/service_message_broker.template.dart",
         "4": "i3"
       },
       {
-        "1": "../src/web_workers/shared/serializer.ng_deps.dart",
+        "1": "../src/web_workers/shared/serializer.template.dart",
         "4": "i4"
       },
       {
-        "1": "../src/web_workers/shared/message_bus.ng_deps.dart",
+        "1": "../src/web_workers/shared/message_bus.template.dart",
         "4": "i5"
+      },
+      {
+        "1": "../src/web_workers/ui/router_providers.template.dart",
+        "4": "i6"
       }
     ]
   },
@@ -79,6 +95,12 @@
     "value": [
       "MessageBasedRenderer",
       "MessageBasedXHRImpl"
+    ]
+  },
+  "WORKER_RENDER_ROUTER": {
+    "kind": "alias",
+    "value": [
+      "BrowserPlatformLocation"
     ]
   }
 }

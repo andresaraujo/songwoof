@@ -3,6 +3,10 @@
     "1": "angular2.src.router.component_recognizer",
     "3": [
       {
+        "1": "dart:async",
+        "5": false
+      },
+      {
         "1": "package:angular2/src/facade/lang.dart",
         "2": [
           "isBlank",
@@ -31,7 +35,6 @@
       {
         "1": "package:angular2/src/facade/async.dart",
         "2": [
-          "Future",
           "PromiseWrapper"
         ],
         "5": false
@@ -42,7 +45,8 @@
           "AbstractRecognizer",
           "RouteRecognizer",
           "RedirectRecognizer",
-          "RouteMatch"
+          "RouteMatch",
+          "PathMatch"
         ],
         "5": false
       },

@@ -86,23 +86,23 @@
     "6": "favorites.dart",
     "10": [
       {
-        "1": "package:angular2/angular2.ng_deps.dart",
+        "1": "package:angular2/angular2.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/router.ng_deps.dart",
+        "1": "package:angular2/router.template.dart",
         "4": "i1"
       },
       {
-        "1": "package:songwoof/common/models/user_data.ng_deps.dart",
+        "1": "package:songwoof/common/models/user_data.template.dart",
         "4": "i2"
       },
       {
-        "1": "package:songwoof/common/components/playlist/playlist.ng_deps.dart",
+        "1": "package:songwoof/common/components/playlist/playlist.template.dart",
         "4": "i3"
       },
       {
-        "1": "package:songwoof/common/services/user_service.ng_deps.dart",
+        "1": "package:songwoof/common/services/user_service.template.dart",
         "4": "i4"
       }
     ]
@@ -110,6 +110,7 @@
   "FavoritesComponent": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": true,
       "dynamicLoadable": true,
       "selector": "swoof-favorites",

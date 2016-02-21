@@ -64,47 +64,47 @@
     "6": "transformer.dart",
     "10": [
       {
-        "1": "common/eager_transformer_wrapper.ng_deps.dart",
+        "1": "common/eager_transformer_wrapper.template.dart",
         "4": "i0"
       },
       {
-        "1": "common/formatter.ng_deps.dart",
+        "1": "common/formatter.template.dart",
         "4": "i1"
       },
       {
-        "1": "common/options.ng_deps.dart",
+        "1": "common/options.template.dart",
         "4": "i2"
       },
       {
-        "1": "common/options_reader.ng_deps.dart",
+        "1": "common/options_reader.template.dart",
         "4": "i3"
       },
       {
-        "1": "deferred_rewriter/transformer.ng_deps.dart",
+        "1": "deferred_rewriter/transformer.template.dart",
         "4": "i4"
       },
       {
-        "1": "directive_metadata_linker/transformer.ng_deps.dart",
+        "1": "directive_metadata_linker/transformer.template.dart",
         "4": "i5"
       },
       {
-        "1": "directive_processor/transformer.ng_deps.dart",
+        "1": "directive_processor/transformer.template.dart",
         "4": "i6"
       },
       {
-        "1": "inliner_for_test/transformer.ng_deps.dart",
+        "1": "inliner_for_test/transformer.template.dart",
         "4": "i7"
       },
       {
-        "1": "reflection_remover/transformer.ng_deps.dart",
+        "1": "reflection_remover/transformer.template.dart",
         "4": "i8"
       },
       {
-        "1": "stylesheet_compiler/transformer.ng_deps.dart",
+        "1": "stylesheet_compiler/transformer.template.dart",
         "4": "i9"
       },
       {
-        "1": "template_compiler/transformer.ng_deps.dart",
+        "1": "template_compiler/transformer.template.dart",
         "4": "i10"
       }
     ]

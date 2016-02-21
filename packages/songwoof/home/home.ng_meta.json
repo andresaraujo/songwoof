@@ -75,19 +75,19 @@
     "6": "home.dart",
     "10": [
       {
-        "1": "package:angular2/angular2.ng_deps.dart",
+        "1": "package:angular2/angular2.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/router.ng_deps.dart",
+        "1": "package:angular2/router.template.dart",
         "4": "i1"
       },
       {
-        "1": "package:songwoof/common/models/user_data.ng_deps.dart",
+        "1": "package:songwoof/common/models/user_data.template.dart",
         "4": "i2"
       },
       {
-        "1": "package:songwoof/common/components/tag/tag.ng_deps.dart",
+        "1": "package:songwoof/common/components/tag/tag.template.dart",
         "4": "i3"
       }
     ]
@@ -95,6 +95,7 @@
   "HomeComponent": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": true,
       "dynamicLoadable": true,
       "selector": "swoof-home",

@@ -15,7 +15,7 @@
     "6": "zone.dart",
     "10": [
       {
-        "1": "zone/ng_zone.ng_deps.dart",
+        "1": "zone/ng_zone.template.dart",
         "4": "i0"
       }
     ]

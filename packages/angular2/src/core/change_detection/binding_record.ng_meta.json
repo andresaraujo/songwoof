@@ -36,11 +36,11 @@
     "6": "binding_record.dart",
     "10": [
       {
-        "1": "parser/ast.ng_deps.dart",
+        "1": "parser/ast.template.dart",
         "4": "i0"
       },
       {
-        "1": "directive_record.ng_deps.dart",
+        "1": "directive_record.template.dart",
         "4": "i1"
       }
     ]

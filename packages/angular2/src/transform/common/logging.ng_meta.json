@@ -26,7 +26,7 @@
     "6": "logging.dart",
     "10": [
       {
-        "1": "zone.ng_deps.dart",
+        "1": "zone.template.dart",
         "4": "i0"
       }
     ]

@@ -47,11 +47,5 @@
       }
     ],
     "6": "form_builder.dart"
-  },
-  "FORM_PROVIDERS": {
-    "kind": "alias",
-    "value": [
-      "FormBuilder"
-    ]
   }
 }

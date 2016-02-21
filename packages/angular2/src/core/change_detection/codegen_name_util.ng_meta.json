@@ -44,15 +44,15 @@
     "6": "codegen_name_util.dart",
     "10": [
       {
-        "1": "directive_record.ng_deps.dart",
+        "1": "directive_record.template.dart",
         "4": "i0"
       },
       {
-        "1": "proto_record.ng_deps.dart",
+        "1": "proto_record.template.dart",
         "4": "i1"
       },
       {
-        "1": "event_binding.ng_deps.dart",
+        "1": "event_binding.template.dart",
         "4": "i2"
       }
     ]

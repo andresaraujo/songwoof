@@ -24,7 +24,7 @@
     "6": "style_url_resolver.dart",
     "10": [
       {
-        "1": "package:angular2/src/compiler/url_resolver.ng_deps.dart",
+        "1": "package:angular2/src/compiler/url_resolver.template.dart",
         "4": "i0"
       }
     ]

@@ -15,6 +15,10 @@
         "5": false
       },
       {
+        "1": "package:barback/barback.dart",
+        "5": false
+      },
+      {
         "1": "package:angular2/src/transform/common/asset_reader.dart",
         "5": false
       },
@@ -28,15 +32,6 @@
       },
       {
         "1": "package:angular2/src/transform/common/url_resolver.dart",
-        "5": false
-      },
-      {
-        "1": "package:barback/barback.dart",
-        "5": false
-      },
-      {
-        "1": "package:quiver/iterables.dart",
-        "4": "it",
         "5": false
       }
     ],

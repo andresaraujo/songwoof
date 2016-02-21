@@ -73,6 +73,13 @@
         "5": false
       },
       {
+        "1": "directives/radio_control_value_accessor.dart",
+        "2": [
+          "RadioControlValueAccessor"
+        ],
+        "5": false
+      },
+      {
         "1": "directives/ng_control_status.dart",
         "2": [
           "NgControlStatus"
@@ -147,6 +154,13 @@
         ]
       },
       {
+        "1": "directives/radio_control_value_accessor.dart",
+        "2": [
+          "RadioControlValueAccessor",
+          "RadioButtonState"
+        ]
+      },
+      {
         "1": "directives/number_value_accessor.dart",
         "2": [
           "NumberValueAccessor"
@@ -189,66 +203,71 @@
     "6": "directives.dart",
     "10": [
       {
-        "1": "directives/ng_control_name.ng_deps.dart",
+        "1": "directives/ng_control_name.template.dart",
         "4": "i0"
       },
       {
-        "1": "directives/ng_form_control.ng_deps.dart",
+        "1": "directives/ng_form_control.template.dart",
         "4": "i1"
       },
       {
-        "1": "directives/ng_model.ng_deps.dart",
+        "1": "directives/ng_model.template.dart",
         "4": "i2"
       },
       {
-        "1": "directives/ng_control_group.ng_deps.dart",
+        "1": "directives/ng_control_group.template.dart",
         "4": "i3"
       },
       {
-        "1": "directives/ng_form_model.ng_deps.dart",
+        "1": "directives/ng_form_model.template.dart",
         "4": "i4"
       },
       {
-        "1": "directives/ng_form.ng_deps.dart",
+        "1": "directives/ng_form.template.dart",
         "4": "i5"
       },
       {
-        "1": "directives/default_value_accessor.ng_deps.dart",
+        "1": "directives/default_value_accessor.template.dart",
         "4": "i6"
       },
       {
-        "1": "directives/checkbox_value_accessor.ng_deps.dart",
+        "1": "directives/checkbox_value_accessor.template.dart",
         "4": "i7"
       },
       {
-        "1": "directives/number_value_accessor.ng_deps.dart",
+        "1": "directives/number_value_accessor.template.dart",
         "4": "i8"
       },
       {
-        "1": "directives/ng_control_status.ng_deps.dart",
+        "1": "directives/radio_control_value_accessor.template.dart",
         "4": "i9"
       },
       {
-        "1": "directives/select_control_value_accessor.ng_deps.dart",
+        "1": "directives/ng_control_status.template.dart",
         "4": "i10"
       },
       {
-        "1": "directives/validators.ng_deps.dart",
+        "1": "directives/select_control_value_accessor.template.dart",
         "4": "i11"
       },
       {
-        "1": "directives/ng_control.ng_deps.dart",
+        "1": "directives/validators.template.dart",
         "4": "i12"
       },
       {
-        "1": "directives/control_value_accessor.ng_deps.dart",
+        "1": "directives/ng_control.template.dart",
         "4": "i13"
+      },
+      {
+        "1": "directives/control_value_accessor.template.dart",
+        "4": "i14"
       }
     ]
   },
   "NgControlName": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "[ngControl]",
@@ -279,6 +298,7 @@
   "NgFormControl": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "[ngFormControl]",
@@ -308,6 +328,7 @@
   "NgModel": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "[ngModel]:not([ngControl]):not([ngFormControl])",
@@ -336,6 +357,7 @@
   "NgControlGroup": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "[ngControlGroup]",
@@ -363,6 +385,7 @@
   "NgFormModel": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "[ngFormModel]",
@@ -393,6 +416,7 @@
   "NgForm": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "form:not([ngNoForm]):not([ngFormModel]),ngForm,[ngForm]",
@@ -419,6 +443,7 @@
   "DefaultValueAccessor": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "input:not([type=checkbox])[ngControl],textarea[ngControl],input:not([type=checkbox])[ngFormControl],textarea[ngFormControl],input:not([type=checkbox])[ngModel],textarea[ngModel],[ngDefaultControl]",
@@ -444,6 +469,7 @@
   "CheckboxControlValueAccessor": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "input[type=checkbox][ngControl],input[type=checkbox][ngFormControl],input[type=checkbox][ngModel]",
@@ -466,9 +492,41 @@
       "template": null
     }
   },
+  "RadioControlValueAccessor": {
+    "kind": "type",
+    "value": {
+      "class": "Directive",
+      "isComponent": false,
+      "dynamicLoadable": true,
+      "selector": "input[type=radio][ngControl],input[type=radio][ngFormControl],input[type=radio][ngModel]",
+      "exportAs": null,
+      "type": {
+        "name": "RadioControlValueAccessor",
+        "moduleUrl": "asset:angular2/lib/src/common/forms/directives/radio_control_value_accessor.dart",
+        "isHost": false
+      },
+      "changeDetection": 5,
+      "inputs": {
+        "name": "name"
+      },
+      "outputs": {},
+      "hostListeners": {
+        "blur": "onTouched()",
+        "change": "onChange()"
+      },
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [
+        1,
+        0
+      ],
+      "template": null
+    }
+  },
   "NumberValueAccessor": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "input[type=number][ngControl],input[type=number][ngFormControl],input[type=number][ngModel]",
@@ -495,6 +553,7 @@
   "NgControlStatus": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "[ngControl],[ngModel],[ngFormControl]",
@@ -524,6 +583,7 @@
   "NgSelectOption": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "option",
@@ -546,6 +606,7 @@
   "SelectControlValueAccessor": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "select[ngControl],select[ngFormControl],select[ngModel]",
@@ -560,8 +621,7 @@
       "outputs": {},
       "hostListeners": {
         "input": "onChange($event.target.value)",
-        "blur": "onTouched()",
-        "change": "onChange($event.target.value)"
+        "blur": "onTouched()"
       },
       "hostProperties": {},
       "hostAttributes": {},
@@ -572,6 +632,7 @@
   "RequiredValidator": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "[required][ngControl],[required][ngFormControl],[required][ngModel]",
@@ -594,6 +655,7 @@
   "MinLengthValidator": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "[minlength][ngControl],[minlength][ngFormControl],[minlength][ngModel]",
@@ -616,6 +678,7 @@
   "MaxLengthValidator": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "[maxlength][ngControl],[maxlength][ngFormControl],[maxlength][ngModel]",
@@ -649,6 +712,7 @@
       "NumberValueAccessor",
       "CheckboxControlValueAccessor",
       "SelectControlValueAccessor",
+      "RadioControlValueAccessor",
       "NgControlStatus",
       "RequiredValidator",
       "MinLengthValidator",

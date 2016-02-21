@@ -3,25 +3,22 @@
     "1": "angular2.src.compiler.runtime_compiler",
     "3": [
       {
+        "1": "dart:async",
+        "5": false
+      },
+      {
         "1": "package:angular2/src/core/linker/compiler.dart",
         "2": [
           "Compiler",
-          "Compiler_",
-          "internalCreateProtoView"
+          "Compiler_"
         ],
         "5": false
       },
       {
         "1": "package:angular2/src/core/linker/view_ref.dart",
         "2": [
-          "ProtoViewRef"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/linker/proto_view_factory.dart",
-        "2": [
-          "ProtoViewFactory"
+          "HostViewFactoryRef",
+          "HostViewFactoryRef_"
         ],
         "5": false
       },
@@ -45,14 +42,6 @@
           "Type"
         ],
         "5": false
-      },
-      {
-        "1": "package:angular2/src/facade/async.dart",
-        "2": [
-          "Future",
-          "PromiseWrapper"
-        ],
-        "5": false
       }
     ],
     "5": [
@@ -69,10 +58,6 @@
           }
         ],
         "5": [
-          {
-            "1": "ProtoViewFactory",
-            "4": "_protoViewFactory"
-          },
           {
             "1": "TemplateCompiler",
             "4": "_templateCompiler"

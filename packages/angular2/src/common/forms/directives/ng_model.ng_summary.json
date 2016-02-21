@@ -144,6 +144,7 @@
   "NgModel": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "[ngModel]:not([ngControl]):not([ngFormControl])",

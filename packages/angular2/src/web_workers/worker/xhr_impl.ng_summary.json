@@ -3,16 +3,13 @@
     "1": "angular2.src.web_workers.worker.xhr_impl",
     "3": [
       {
-        "1": "package:angular2/src/core/di.dart",
-        "2": [
-          "Injectable"
-        ],
+        "1": "dart:async",
         "5": false
       },
       {
-        "1": "package:angular2/src/facade/async.dart",
+        "1": "package:angular2/src/core/di.dart",
         "2": [
-          "Future"
+          "Injectable"
         ],
         "5": false
       },

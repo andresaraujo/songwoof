@@ -3,16 +3,13 @@
     "1": "angular2.src.core.linker.compiler",
     "3": [
       {
-        "1": "package:angular2/src/core/linker/view_ref.dart",
-        "2": [
-          "ProtoViewRef"
-        ],
+        "1": "dart:async",
         "5": false
       },
       {
-        "1": "package:angular2/src/core/linker/proto_view_factory.dart",
+        "1": "package:angular2/src/core/linker/view_ref.dart",
         "2": [
-          "ProtoViewFactory"
+          "HostViewFactoryRef"
         ],
         "5": false
       },
@@ -42,7 +39,6 @@
       {
         "1": "package:angular2/src/facade/async.dart",
         "2": [
-          "Future",
           "PromiseWrapper"
         ],
         "5": false
@@ -55,9 +51,16 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/core/linker/template_commands.dart",
+        "1": "package:angular2/src/core/linker/view.dart",
         "2": [
-          "CompiledHostTemplate"
+          "HostViewFactory"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/linker/view_ref.dart",
+        "2": [
+          "HostViewFactoryRef_"
         ],
         "5": false
       }
@@ -74,44 +77,34 @@
             "7": true,
             "8": false
           }
-        ],
-        "5": [
-          {
-            "1": "ProtoViewFactory",
-            "4": "_protoViewFactory"
-          }
         ]
       }
     ],
     "6": "compiler.dart",
     "10": [
       {
-        "1": "package:angular2/src/core/linker/view_ref.ng_deps.dart",
+        "1": "package:angular2/src/core/linker/view_ref.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/core/linker/proto_view_factory.ng_deps.dart",
+        "1": "package:angular2/src/core/di.template.dart",
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/core/di.ng_deps.dart",
+        "1": "package:angular2/src/facade/exceptions.template.dart",
         "4": "i2"
       },
       {
-        "1": "package:angular2/src/facade/exceptions.ng_deps.dart",
+        "1": "package:angular2/src/facade/async.template.dart",
         "4": "i3"
       },
       {
-        "1": "package:angular2/src/facade/async.ng_deps.dart",
+        "1": "package:angular2/src/core/reflection/reflection.template.dart",
         "4": "i4"
       },
       {
-        "1": "package:angular2/src/core/reflection/reflection.ng_deps.dart",
+        "1": "package:angular2/src/core/linker/view.template.dart",
         "4": "i5"
-      },
-      {
-        "1": "package:angular2/src/core/linker/template_commands.ng_deps.dart",
-        "4": "i6"
       }
     ]
   }

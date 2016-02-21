@@ -73,6 +73,13 @@
         "5": false
       },
       {
+        "1": "directives/radio_control_value_accessor.dart",
+        "2": [
+          "RadioControlValueAccessor"
+        ],
+        "5": false
+      },
+      {
         "1": "directives/ng_control_status.dart",
         "2": [
           "NgControlStatus"
@@ -147,6 +154,13 @@
         ]
       },
       {
+        "1": "directives/radio_control_value_accessor.dart",
+        "2": [
+          "RadioControlValueAccessor",
+          "RadioButtonState"
+        ]
+      },
+      {
         "1": "directives/number_value_accessor.dart",
         "2": [
           "NumberValueAccessor"
@@ -202,6 +216,7 @@
       "NumberValueAccessor",
       "CheckboxControlValueAccessor",
       "SelectControlValueAccessor",
+      "RadioControlValueAccessor",
       "NgControlStatus",
       "RequiredValidator",
       "MinLengthValidator",

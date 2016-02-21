@@ -129,6 +129,7 @@
   "NgControlGroup": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "[ngControlGroup]",

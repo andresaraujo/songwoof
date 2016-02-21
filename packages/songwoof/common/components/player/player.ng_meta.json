@@ -156,19 +156,19 @@
     "6": "player.dart",
     "10": [
       {
-        "1": "package:angular2/angular2.ng_deps.dart",
+        "1": "package:angular2/angular2.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:songwoof/common/components/cover/cover.ng_deps.dart",
+        "1": "package:songwoof/common/components/cover/cover.template.dart",
         "4": "i1"
       },
       {
-        "1": "package:songwoof/common/components/md_icon/md_icon.ng_deps.dart",
+        "1": "package:songwoof/common/components/md_icon/md_icon.template.dart",
         "4": "i2"
       },
       {
-        "1": "package:songwoof/common/soundcloud/soundcloud_player.ng_deps.dart",
+        "1": "package:songwoof/common/soundcloud/soundcloud_player.template.dart",
         "4": "i3"
       }
     ]
@@ -176,6 +176,7 @@
   "SwoofPlayerComponent": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": true,
       "dynamicLoadable": true,
       "selector": "swoof-player",

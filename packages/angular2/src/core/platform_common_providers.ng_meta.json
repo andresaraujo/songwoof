@@ -48,19 +48,19 @@
     "6": "platform_common_providers.dart",
     "10": [
       {
-        "1": "package:angular2/src/core/di.ng_deps.dart",
+        "1": "package:angular2/src/core/di.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/core/console.ng_deps.dart",
+        "1": "package:angular2/src/core/console.template.dart",
         "4": "i1"
       },
       {
-        "1": "reflection/reflection.ng_deps.dart",
+        "1": "reflection/reflection.template.dart",
         "4": "i2"
       },
       {
-        "1": "package:angular2/src/core/testability/testability.ng_deps.dart",
+        "1": "package:angular2/src/core/testability/testability.template.dart",
         "4": "i3"
       }
     ]

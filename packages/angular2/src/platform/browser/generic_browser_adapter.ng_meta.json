@@ -37,11 +37,11 @@
     "6": "generic_browser_adapter.dart",
     "10": [
       {
-        "1": "package:angular2/src/platform/dom/dom_adapter.ng_deps.dart",
+        "1": "package:angular2/src/platform/dom/dom_adapter.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/platform/browser/xhr_impl.ng_deps.dart",
+        "1": "package:angular2/src/platform/browser/xhr_impl.template.dart",
         "4": "i1"
       }
     ]

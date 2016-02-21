@@ -47,41 +47,41 @@
         "1": "package:angular2/src/platform/dom/debug/by.dart"
       },
       {
-        "1": "package:angular2/src/platform/dom/debug/debug_element_view_listener.dart"
+        "1": "package:angular2/src/platform/dom/debug/ng_probe.dart"
       }
     ],
     "6": "common_dom.dart",
     "10": [
       {
-        "1": "package:angular2/src/platform/dom/dom_adapter.ng_deps.dart",
+        "1": "package:angular2/src/platform/dom/dom_adapter.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/platform/dom/dom_renderer.ng_deps.dart",
+        "1": "package:angular2/src/platform/dom/dom_renderer.template.dart",
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/platform/dom/dom_tokens.ng_deps.dart",
+        "1": "package:angular2/src/platform/dom/dom_tokens.template.dart",
         "4": "i2"
       },
       {
-        "1": "package:angular2/src/platform/dom/shared_styles_host.ng_deps.dart",
+        "1": "package:angular2/src/platform/dom/shared_styles_host.template.dart",
         "4": "i3"
       },
       {
-        "1": "package:angular2/src/platform/dom/events/dom_events.ng_deps.dart",
+        "1": "package:angular2/src/platform/dom/events/dom_events.template.dart",
         "4": "i4"
       },
       {
-        "1": "package:angular2/src/platform/dom/events/event_manager.ng_deps.dart",
+        "1": "package:angular2/src/platform/dom/events/event_manager.template.dart",
         "4": "i5"
       },
       {
-        "1": "package:angular2/src/platform/dom/debug/by.ng_deps.dart",
+        "1": "package:angular2/src/platform/dom/debug/by.template.dart",
         "4": "i6"
       },
       {
-        "1": "package:angular2/src/platform/dom/debug/debug_element_view_listener.ng_deps.dart",
+        "1": "package:angular2/src/platform/dom/debug/ng_probe.template.dart",
         "4": "i7"
       }
     ]

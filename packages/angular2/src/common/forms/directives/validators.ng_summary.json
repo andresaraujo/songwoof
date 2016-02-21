@@ -140,6 +140,7 @@
   "RequiredValidator": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "[required][ngControl],[required][ngFormControl],[required][ngModel]",
@@ -162,6 +163,7 @@
   "MinLengthValidator": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "[minlength][ngControl],[minlength][ngFormControl],[minlength][ngModel]",
@@ -184,6 +186,7 @@
   "MaxLengthValidator": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "[maxlength][ngControl],[maxlength][ngFormControl],[maxlength][ngModel]",

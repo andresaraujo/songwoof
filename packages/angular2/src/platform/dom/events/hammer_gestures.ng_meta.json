@@ -48,15 +48,15 @@
     "6": "hammer_gestures.dart",
     "10": [
       {
-        "1": "./hammer_common.ng_deps.dart",
+        "1": "./hammer_common.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/facade/exceptions.ng_deps.dart",
+        "1": "package:angular2/src/facade/exceptions.template.dart",
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/core/di.ng_deps.dart",
+        "1": "package:angular2/src/core/di.template.dart",
         "4": "i2"
       }
     ]

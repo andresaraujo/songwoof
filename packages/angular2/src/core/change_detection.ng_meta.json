@@ -17,14 +17,15 @@
           "IterableDifferFactory",
           "KeyValueDiffers",
           "KeyValueDiffer",
-          "KeyValueDifferFactory"
+          "KeyValueDifferFactory",
+          "TrackByFn"
         ]
       }
     ],
     "6": "change_detection.dart",
     "10": [
       {
-        "1": "change_detection/change_detection.ng_deps.dart",
+        "1": "change_detection/change_detection.template.dart",
         "4": "i0"
       }
     ]

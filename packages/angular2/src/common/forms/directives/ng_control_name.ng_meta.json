@@ -161,35 +161,35 @@
     "6": "ng_control_name.dart",
     "10": [
       {
-        "1": "package:angular2/src/facade/async.ng_deps.dart",
+        "1": "package:angular2/src/facade/async.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/core.ng_deps.dart",
+        "1": "package:angular2/core.template.dart",
         "4": "i1"
       },
       {
-        "1": "control_container.ng_deps.dart",
+        "1": "control_container.template.dart",
         "4": "i2"
       },
       {
-        "1": "ng_control.ng_deps.dart",
+        "1": "ng_control.template.dart",
         "4": "i3"
       },
       {
-        "1": "control_value_accessor.ng_deps.dart",
+        "1": "control_value_accessor.template.dart",
         "4": "i4"
       },
       {
-        "1": "shared.ng_deps.dart",
+        "1": "shared.template.dart",
         "4": "i5"
       },
       {
-        "1": "../model.ng_deps.dart",
+        "1": "../model.template.dart",
         "4": "i6"
       },
       {
-        "1": "../validators.ng_deps.dart",
+        "1": "../validators.template.dart",
         "4": "i7"
       }
     ]
@@ -197,6 +197,7 @@
   "NgControlName": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "[ngControl]",

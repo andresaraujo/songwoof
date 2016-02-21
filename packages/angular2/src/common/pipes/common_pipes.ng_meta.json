@@ -57,31 +57,31 @@
     "6": "common_pipes.dart",
     "10": [
       {
-        "1": "async_pipe.ng_deps.dart",
+        "1": "async_pipe.template.dart",
         "4": "i0"
       },
       {
-        "1": "uppercase_pipe.ng_deps.dart",
+        "1": "uppercase_pipe.template.dart",
         "4": "i1"
       },
       {
-        "1": "lowercase_pipe.ng_deps.dart",
+        "1": "lowercase_pipe.template.dart",
         "4": "i2"
       },
       {
-        "1": "json_pipe.ng_deps.dart",
+        "1": "json_pipe.template.dart",
         "4": "i3"
       },
       {
-        "1": "slice_pipe.ng_deps.dart",
+        "1": "slice_pipe.template.dart",
         "4": "i4"
       },
       {
-        "1": "date_pipe.ng_deps.dart",
+        "1": "date_pipe.template.dart",
         "4": "i5"
       },
       {
-        "1": "number_pipe.ng_deps.dart",
+        "1": "number_pipe.template.dart",
         "4": "i6"
       }
     ]

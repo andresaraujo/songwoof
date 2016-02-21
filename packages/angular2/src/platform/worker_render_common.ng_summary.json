@@ -35,7 +35,7 @@
           "reflector",
           "APPLICATION_COMMON_PROVIDERS",
           "PLATFORM_COMMON_PROVIDERS",
-          "Renderer",
+          "RootRenderer",
           "PLATFORM_INITIALIZER",
           "APP_INITIALIZER"
         ],
@@ -97,8 +97,8 @@
       {
         "1": "package:angular2/src/platform/dom/dom_renderer.dart",
         "2": [
-          "DomRenderer",
-          "DomRenderer_"
+          "DomRootRenderer",
+          "DomRootRenderer_"
         ],
         "5": false
       },
@@ -187,6 +187,13 @@
         "5": false
       },
       {
+        "1": "package:angular2/src/router/browser_platform_location.dart",
+        "2": [
+          "BrowserPlatformLocation"
+        ],
+        "5": false
+      },
+      {
         "1": "package:angular2/src/web_workers/shared/service_message_broker.dart",
         "2": [
           "ServiceMessageBrokerFactory",
@@ -217,16 +224,9 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/web_workers/shared/render_proto_view_ref_store.dart",
+        "1": "package:angular2/src/web_workers/shared/render_store.dart",
         "2": [
-          "RenderProtoViewRefStore"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/web_workers/shared/render_view_with_fragments_store.dart",
-        "2": [
-          "RenderViewWithFragmentsStore"
+          "RenderStore"
         ],
         "5": false
       }
@@ -238,6 +238,12 @@
     "value": [
       "MessageBasedRenderer",
       "MessageBasedXHRImpl"
+    ]
+  },
+  "WORKER_RENDER_ROUTER": {
+    "kind": "alias",
+    "value": [
+      "BrowserPlatformLocation"
     ]
   }
 }

@@ -3,13 +3,19 @@
     "1": "angular2.src.compiler.template_compiler",
     "3": [
       {
+        "1": "dart:async",
+        "5": false
+      },
+      {
         "1": "package:angular2/src/facade/lang.dart",
         "2": [
           "IS_DART",
           "Type",
           "Json",
           "isBlank",
-          "stringify"
+          "isPresent",
+          "stringify",
+          "evalExpression"
         ],
         "5": false
       },
@@ -25,25 +31,15 @@
         "2": [
           "ListWrapper",
           "SetWrapper",
-          "MapWrapper"
+          "MapWrapper",
+          "StringMapWrapper"
         ],
         "5": false
       },
       {
         "1": "package:angular2/src/facade/async.dart",
         "2": [
-          "PromiseWrapper",
-          "Future"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/linker/template_commands.dart",
-        "2": [
-          "CompiledComponentTemplate",
-          "TemplateCmd",
-          "CompiledHostTemplate",
-          "BeginComponentCmd"
+          "PromiseWrapper"
         ],
         "5": false
       },
@@ -53,14 +49,29 @@
           "createHostComponentMeta",
           "CompileDirectiveMetadata",
           "CompileTypeMetadata",
-          "CompileTemplateMetadata"
+          "CompileTemplateMetadata",
+          "CompilePipeMetadata",
+          "CompileMetadataWithType"
         ],
         "5": false
       },
       {
         "1": "template_ast.dart",
         "2": [
-          "TemplateAst"
+          "TemplateAst",
+          "TemplateAstVisitor",
+          "NgContentAst",
+          "EmbeddedTemplateAst",
+          "ElementAst",
+          "VariableAst",
+          "BoundEventAst",
+          "BoundElementPropertyAst",
+          "AttrAst",
+          "BoundTextAst",
+          "TextAst",
+          "DirectiveAst",
+          "BoundDirectivePropertyAst",
+          "templateVisitAll"
         ],
         "5": false
       },
@@ -75,14 +86,16 @@
         "1": "source_module.dart",
         "2": [
           "SourceModule",
-          "moduleRef"
+          "moduleRef",
+          "SourceExpression"
         ],
         "5": false
       },
       {
         "1": "change_detector_compiler.dart",
         "2": [
-          "ChangeDetectionCompiler"
+          "ChangeDetectionCompiler",
+          "CHANGE_DETECTION_JIT_IMPORTS"
         ],
         "5": false
       },
@@ -94,16 +107,28 @@
         "5": false
       },
       {
-        "1": "command_compiler.dart",
+        "1": "view_compiler.dart",
         "2": [
-          "CommandCompiler"
+          "ViewCompiler",
+          "VIEW_JIT_IMPORTS"
+        ],
+        "5": false
+      },
+      {
+        "1": "proto_view_compiler.dart",
+        "2": [
+          "ProtoViewCompiler",
+          "APP_VIEW_MODULE_REF",
+          "CompileProtoView",
+          "PROTO_VIEW_JIT_IMPORTS"
         ],
         "5": false
       },
       {
         "1": "template_parser.dart",
         "2": [
-          "TemplateParser"
+          "TemplateParser",
+          "PipeCollector"
         ],
         "5": false
       },
@@ -122,9 +147,23 @@
         "5": false
       },
       {
-        "1": "command_compiler.dart",
+        "1": "package:angular2/src/core/linker/view.dart",
         "2": [
-          "TEMPLATE_COMMANDS_MODULE_REF"
+          "HostViewFactory"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/change_detection/change_detection.dart",
+        "2": [
+          "ChangeDetectorGenConfig"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/linker/resolved_metadata_cache.dart",
+        "2": [
+          "ResolvedMetadataCache"
         ],
         "5": false
       },
@@ -134,7 +173,9 @@
           "codeGenExportVariable",
           "escapeSingleQuoteString",
           "codeGenValueFn",
-          "MODULE_SUFFIX"
+          "MODULE_SUFFIX",
+          "addAll",
+          "Expression"
         ],
         "5": false
       }
@@ -170,12 +211,24 @@
             "4": "_styleCompiler"
           },
           {
-            "1": "CommandCompiler",
-            "4": "_commandCompiler"
-          },
-          {
             "1": "ChangeDetectionCompiler",
             "4": "_cdCompiler"
+          },
+          {
+            "1": "ProtoViewCompiler",
+            "4": "_protoViewCompiler"
+          },
+          {
+            "1": "ViewCompiler",
+            "4": "_viewCompiler"
+          },
+          {
+            "1": "ResolvedMetadataCache",
+            "4": "_resolvedMetadataCache"
+          },
+          {
+            "1": "ChangeDetectorGenConfig",
+            "4": "_genConfig"
           }
         ]
       }

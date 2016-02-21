@@ -12,15 +12,6 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/facade/browser.dart",
-        "2": [
-          "EventListener",
-          "History",
-          "Location"
-        ],
-        "5": false
-      },
-      {
         "1": "package:angular2/src/facade/lang.dart",
         "2": [
           "isBlank"
@@ -47,7 +38,8 @@
       {
         "1": "platform_location.dart",
         "2": [
-          "PlatformLocation"
+          "PlatformLocation",
+          "UrlChangeListener"
         ],
         "5": false
       }

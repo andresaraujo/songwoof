@@ -127,27 +127,27 @@
     "6": "ng_control_group.dart",
     "10": [
       {
-        "1": "package:angular2/core.ng_deps.dart",
+        "1": "package:angular2/core.template.dart",
         "4": "i0"
       },
       {
-        "1": "control_container.ng_deps.dart",
+        "1": "control_container.template.dart",
         "4": "i1"
       },
       {
-        "1": "shared.ng_deps.dart",
+        "1": "shared.template.dart",
         "4": "i2"
       },
       {
-        "1": "../model.ng_deps.dart",
+        "1": "../model.template.dart",
         "4": "i3"
       },
       {
-        "1": "form_interface.ng_deps.dart",
+        "1": "form_interface.template.dart",
         "4": "i4"
       },
       {
-        "1": "../validators.ng_deps.dart",
+        "1": "../validators.template.dart",
         "4": "i5"
       }
     ]
@@ -155,6 +155,7 @@
   "NgControlGroup": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "[ngControlGroup]",

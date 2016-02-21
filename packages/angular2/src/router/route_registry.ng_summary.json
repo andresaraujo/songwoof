@@ -3,6 +3,10 @@
     "1": "angular2.src.router.route_registry",
     "3": [
       {
+        "1": "dart:async",
+        "5": false
+      },
+      {
         "1": "package:angular2/src/facade/collection.dart",
         "2": [
           "ListWrapper",
@@ -15,7 +19,6 @@
       {
         "1": "package:angular2/src/facade/async.dart",
         "2": [
-          "Future",
           "PromiseWrapper"
         ],
         "5": false
@@ -30,6 +33,8 @@
           "isString",
           "isStringMap",
           "Type",
+          "StringWrapper",
+          "Math",
           "getTypeNameForDebugging"
         ],
         "5": false

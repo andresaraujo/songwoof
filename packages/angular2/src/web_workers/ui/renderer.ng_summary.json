@@ -20,27 +20,17 @@
         "1": "package:angular2/src/web_workers/shared/serializer.dart",
         "2": [
           "Serializer",
-          "PRIMITIVE"
+          "PRIMITIVE",
+          "RenderStoreObject"
         ],
         "5": false
       },
       {
         "1": "package:angular2/src/core/render/api.dart",
         "2": [
-          "RenderViewRef",
-          "RenderFragmentRef",
-          "RenderProtoViewRef",
+          "RootRenderer",
           "Renderer",
-          "RenderTemplateCmd",
-          "RenderComponentTemplate"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/web_workers/shared/api.dart",
-        "2": [
-          "WebWorkerElementRef",
-          "WebWorkerTemplateCmd"
+          "RenderComponentType"
         ],
         "5": false
       },
@@ -74,16 +64,9 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/web_workers/shared/render_proto_view_ref_store.dart",
+        "1": "package:angular2/src/web_workers/shared/render_store.dart",
         "2": [
-          "RenderProtoViewRefStore"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/web_workers/shared/render_view_with_fragments_store.dart",
-        "2": [
-          "RenderViewWithFragmentsStore"
+          "RenderStore"
         ],
         "5": false
       },
@@ -122,16 +105,12 @@
             "4": "_serializer"
           },
           {
-            "1": "RenderProtoViewRefStore",
-            "4": "_renderProtoViewRefStore"
+            "1": "RenderStore",
+            "4": "_renderStore"
           },
           {
-            "1": "RenderViewWithFragmentsStore",
-            "4": "_renderViewWithFragmentsStore"
-          },
-          {
-            "1": "Renderer",
-            "4": "_renderer"
+            "1": "RootRenderer",
+            "4": "_rootRenderer"
           }
         ]
       }

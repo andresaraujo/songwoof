@@ -46,6 +46,13 @@
         "5": false
       },
       {
+        "1": "package:angular2/src/core/linker/pipe_resolver.dart",
+        "2": [
+          "PipeResolver"
+        ],
+        "5": false
+      },
+      {
         "1": "package:angular2/src/core/linker/view_resolver.dart",
         "2": [
           "ViewResolver"
@@ -93,7 +100,8 @@
       {
         "1": "package:angular2/src/core/platform_directives_and_pipes.dart",
         "2": [
-          "PLATFORM_DIRECTIVES"
+          "PLATFORM_DIRECTIVES",
+          "PLATFORM_PIPES"
         ],
         "5": false
       },
@@ -131,6 +139,10 @@
             "4": "_directiveResolver"
           },
           {
+            "1": "PipeResolver",
+            "4": "_pipeResolver"
+          },
+          {
             "1": "ViewResolver",
             "4": "_viewResolver"
           },
@@ -142,6 +154,15 @@
               "const Inject(PLATFORM_DIRECTIVES)"
             ],
             "4": "_platformDirectives"
+          },
+          {
+            "1": "List",
+            "2": "<Type>",
+            "3": [
+              "const Optional()",
+              "const Inject(PLATFORM_PIPES)"
+            ],
+            "4": "_platformPipes"
           }
         ]
       }
@@ -149,56 +170,60 @@
     "6": "runtime_metadata.dart",
     "10": [
       {
-        "1": "package:angular2/src/core/di.ng_deps.dart",
+        "1": "package:angular2/src/core/di.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/facade/exceptions.ng_deps.dart",
+        "1": "package:angular2/src/facade/exceptions.template.dart",
         "4": "i1"
       },
       {
-        "1": "directive_metadata.ng_deps.dart",
+        "1": "directive_metadata.template.dart",
         "4": "i2"
       },
       {
-        "1": "package:angular2/src/core/metadata/directives.ng_deps.dart",
+        "1": "package:angular2/src/core/metadata/directives.template.dart",
         "4": "i3"
       },
       {
-        "1": "package:angular2/src/core/linker/directive_resolver.ng_deps.dart",
+        "1": "package:angular2/src/core/linker/directive_resolver.template.dart",
         "4": "i4"
       },
       {
-        "1": "package:angular2/src/core/linker/view_resolver.ng_deps.dart",
+        "1": "package:angular2/src/core/linker/pipe_resolver.template.dart",
         "4": "i5"
       },
       {
-        "1": "package:angular2/src/core/metadata/view.ng_deps.dart",
+        "1": "package:angular2/src/core/linker/view_resolver.template.dart",
         "4": "i6"
       },
       {
-        "1": "package:angular2/src/core/linker/directive_lifecycle_reflector.ng_deps.dart",
+        "1": "package:angular2/src/core/metadata/view.template.dart",
         "4": "i7"
       },
       {
-        "1": "package:angular2/src/core/linker/interfaces.ng_deps.dart",
+        "1": "package:angular2/src/core/linker/directive_lifecycle_reflector.template.dart",
         "4": "i8"
       },
       {
-        "1": "package:angular2/src/core/reflection/reflection.ng_deps.dart",
+        "1": "package:angular2/src/core/linker/interfaces.template.dart",
         "4": "i9"
       },
       {
-        "1": "package:angular2/src/core/platform_directives_and_pipes.ng_deps.dart",
+        "1": "package:angular2/src/core/reflection/reflection.template.dart",
         "4": "i10"
       },
       {
-        "1": "util.ng_deps.dart",
+        "1": "package:angular2/src/core/platform_directives_and_pipes.template.dart",
         "4": "i11"
       },
       {
-        "1": "package:angular2/src/compiler/url_resolver.ng_deps.dart",
+        "1": "util.template.dart",
         "4": "i12"
+      },
+      {
+        "1": "package:angular2/src/compiler/url_resolver.template.dart",
+        "4": "i13"
       }
     ]
   }

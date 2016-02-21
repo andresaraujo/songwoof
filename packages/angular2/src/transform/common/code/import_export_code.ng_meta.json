@@ -22,11 +22,11 @@
     "6": "import_export_code.dart",
     "10": [
       {
-        "1": "package:angular2/src/transform/common/mirror_matcher.ng_deps.dart",
+        "1": "package:angular2/src/transform/common/mirror_matcher.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/transform/common/model/import_export_model.pb.ng_deps.dart",
+        "1": "package:angular2/src/transform/common/model/import_export_model.pb.template.dart",
         "4": "i1"
       }
     ]

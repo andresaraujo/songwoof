@@ -66,9 +66,10 @@
       {
         "1": "linker/view_ref.dart",
         "2": [
-          "ViewRef",
+          "EmbeddedViewRef",
           "HostViewRef",
-          "ProtoViewRef"
+          "ViewRef",
+          "HostViewFactoryRef"
         ]
       },
       {
@@ -87,47 +88,47 @@
     "6": "linker.dart",
     "10": [
       {
-        "1": "linker/interfaces.ng_deps.dart",
+        "1": "linker/interfaces.template.dart",
         "4": "i0"
       },
       {
-        "1": "linker/directive_resolver.ng_deps.dart",
+        "1": "linker/directive_resolver.template.dart",
         "4": "i1"
       },
       {
-        "1": "linker/view_resolver.ng_deps.dart",
+        "1": "linker/view_resolver.template.dart",
         "4": "i2"
       },
       {
-        "1": "linker/compiler.ng_deps.dart",
+        "1": "linker/compiler.template.dart",
         "4": "i3"
       },
       {
-        "1": "linker/view_manager.ng_deps.dart",
+        "1": "linker/view_manager.template.dart",
         "4": "i4"
       },
       {
-        "1": "linker/query_list.ng_deps.dart",
+        "1": "linker/query_list.template.dart",
         "4": "i5"
       },
       {
-        "1": "linker/dynamic_component_loader.ng_deps.dart",
+        "1": "linker/dynamic_component_loader.template.dart",
         "4": "i6"
       },
       {
-        "1": "linker/element_ref.ng_deps.dart",
+        "1": "linker/element_ref.template.dart",
         "4": "i7"
       },
       {
-        "1": "linker/template_ref.ng_deps.dart",
+        "1": "linker/template_ref.template.dart",
         "4": "i8"
       },
       {
-        "1": "linker/view_ref.ng_deps.dart",
+        "1": "linker/view_ref.template.dart",
         "4": "i9"
       },
       {
-        "1": "linker/view_container_ref.ng_deps.dart",
+        "1": "linker/view_container_ref.template.dart",
         "4": "i10"
       }
     ]

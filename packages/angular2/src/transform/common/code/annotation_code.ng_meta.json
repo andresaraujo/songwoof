@@ -36,15 +36,15 @@
     "6": "annotation_code.dart",
     "10": [
       {
-        "1": "package:angular2/src/transform/common/annotation_matcher.ng_deps.dart",
+        "1": "package:angular2/src/transform/common/annotation_matcher.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/transform/common/model/annotation_model.pb.ng_deps.dart",
+        "1": "package:angular2/src/transform/common/model/annotation_model.pb.template.dart",
         "4": "i1"
       },
       {
-        "1": "constify.ng_deps.dart",
+        "1": "constify.template.dart",
         "4": "i2"
       }
     ]

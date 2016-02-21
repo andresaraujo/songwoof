@@ -27,11 +27,11 @@
     "6": "reflection.dart",
     "10": [
       {
-        "1": "reflector.ng_deps.dart",
+        "1": "reflector.template.dart",
         "4": "i0"
       },
       {
-        "1": "platform_reflection_capabilities.ng_deps.dart",
+        "1": "platform_reflection_capabilities.template.dart",
         "4": "i1"
       }
     ]

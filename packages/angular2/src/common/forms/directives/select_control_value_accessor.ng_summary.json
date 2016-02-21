@@ -63,7 +63,7 @@
               },
               {
                 "1": "host",
-                "2": "const {\"(change)\" : \"onChange(\\$event.target.value)\", \"(input)\" : \"onChange(\\$event.target.value)\", \"(blur)\" : \"onTouched()\"}"
+                "2": "const {\"(input)\" : \"onChange(\\$event.target.value)\", \"(blur)\" : \"onTouched()\"}"
               },
               {
                 "1": "bindings",
@@ -105,6 +105,7 @@
   "NgSelectOption": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "option",
@@ -127,6 +128,7 @@
   "SelectControlValueAccessor": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "select[ngControl],select[ngFormControl],select[ngModel]",
@@ -141,8 +143,7 @@
       "outputs": {},
       "hostListeners": {
         "input": "onChange($event.target.value)",
-        "blur": "onTouched()",
-        "change": "onChange($event.target.value)"
+        "blur": "onTouched()"
       },
       "hostProperties": {},
       "hostAttributes": {},

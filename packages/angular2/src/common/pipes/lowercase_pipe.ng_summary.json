@@ -43,7 +43,7 @@
             "4": false,
             "5": false,
             "6": false,
-            "7": false,
+            "7": true,
             "8": false
           },
           {
@@ -61,5 +61,18 @@
       }
     ],
     "6": "lowercase_pipe.dart"
+  },
+  "LowerCasePipe": {
+    "kind": "type",
+    "value": {
+      "class": "Pipe",
+      "type": {
+        "name": "LowerCasePipe",
+        "moduleUrl": "asset:angular2/lib/src/common/pipes/lowercase_pipe.dart",
+        "isHost": false
+      },
+      "name": "lowercase",
+      "pure": false
+    }
   }
 }

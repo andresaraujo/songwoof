@@ -23,11 +23,11 @@
     "6": "testability.dart",
     "10": [
       {
-        "1": "package:angular2/core.ng_deps.dart",
+        "1": "package:angular2/core.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/platform/common_dom.ng_deps.dart",
+        "1": "package:angular2/platform/common_dom.template.dart",
         "4": "i1"
       }
     ]

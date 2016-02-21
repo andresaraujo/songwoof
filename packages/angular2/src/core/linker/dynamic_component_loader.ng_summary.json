@@ -3,6 +3,10 @@
     "1": "angular2.src.core.linker.dynamic_component_loader",
     "3": [
       {
+        "1": "dart:async",
+        "5": false
+      },
+      {
         "1": "package:angular2/src/core/di.dart",
         "2": [
           "Key",
@@ -32,13 +36,6 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/facade/async.dart",
-        "2": [
-          "Future"
-        ],
-        "5": false
-      },
-      {
         "1": "package:angular2/src/core/linker/view_manager.dart",
         "2": [
           "AppViewManager"
@@ -48,14 +45,14 @@
       {
         "1": "element_ref.dart",
         "2": [
-          "ElementRef"
+          "ElementRef",
+          "ElementRef_"
         ],
         "5": false
       },
       {
         "1": "view_ref.dart",
         "2": [
-          "ViewRef",
           "HostViewRef"
         ],
         "5": false

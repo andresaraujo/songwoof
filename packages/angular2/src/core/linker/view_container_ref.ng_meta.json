@@ -32,13 +32,10 @@
         "5": false
       },
       {
-        "1": "view_manager.dart",
-        "4": "avmModule",
-        "5": false
-      },
-      {
-        "1": "view.dart",
-        "4": "viewModule",
+        "1": "element.dart",
+        "2": [
+          "AppElement"
+        ],
         "5": false
       },
       {
@@ -52,17 +49,20 @@
       {
         "1": "template_ref.dart",
         "2": [
-          "TemplateRef"
+          "TemplateRef",
+          "TemplateRef_"
         ],
         "5": false
       },
       {
         "1": "view_ref.dart",
         "2": [
-          "ViewRef",
+          "EmbeddedViewRef",
           "HostViewRef",
-          "ProtoViewRef",
-          "internalView"
+          "HostViewFactoryRef",
+          "HostViewFactoryRef_",
+          "ViewRef",
+          "ViewRef_"
         ],
         "5": false
       }
@@ -70,32 +70,28 @@
     "6": "view_container_ref.dart",
     "10": [
       {
-        "1": "package:angular2/src/facade/exceptions.ng_deps.dart",
+        "1": "package:angular2/src/facade/exceptions.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/core/di.ng_deps.dart",
+        "1": "package:angular2/src/core/di.template.dart",
         "4": "i1"
       },
       {
-        "1": "view_manager.ng_deps.dart",
+        "1": "element.template.dart",
         "4": "i2"
       },
       {
-        "1": "view.ng_deps.dart",
+        "1": "element_ref.template.dart",
         "4": "i3"
       },
       {
-        "1": "element_ref.ng_deps.dart",
+        "1": "template_ref.template.dart",
         "4": "i4"
       },
       {
-        "1": "template_ref.ng_deps.dart",
+        "1": "view_ref.template.dart",
         "4": "i5"
-      },
-      {
-        "1": "view_ref.ng_deps.dart",
-        "4": "i6"
       }
     ]
   }

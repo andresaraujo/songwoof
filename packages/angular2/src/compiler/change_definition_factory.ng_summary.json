@@ -5,7 +5,8 @@
       {
         "1": "package:angular2/src/facade/collection.dart",
         "2": [
-          "ListWrapper"
+          "ListWrapper",
+          "StringMapWrapper"
         ],
         "5": false
       },

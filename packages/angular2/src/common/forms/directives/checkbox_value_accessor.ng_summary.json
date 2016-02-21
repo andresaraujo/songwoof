@@ -38,7 +38,7 @@
                 "2": "const {\"(change)\" : \"onChange(\\$event.target.checked)\", \"(blur)\" : \"onTouched()\"}"
               },
               {
-                "1": "bindings",
+                "1": "providers",
                 "2": "const [CHECKBOX_VALUE_ACCESSOR]"
               }
             ],
@@ -69,6 +69,7 @@
   "CheckboxControlValueAccessor": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "input[type=checkbox][ngControl],input[type=checkbox][ngFormControl],input[type=checkbox][ngModel]",

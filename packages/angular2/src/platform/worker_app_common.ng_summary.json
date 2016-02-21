@@ -19,7 +19,7 @@
       {
         "1": "package:angular2/src/web_workers/worker/renderer.dart",
         "2": [
-          "WebWorkerRenderer"
+          "WebWorkerRootRenderer"
         ],
         "5": false
       },
@@ -35,7 +35,7 @@
       {
         "1": "package:angular2/src/core/render/api.dart",
         "2": [
-          "Renderer"
+          "RootRenderer"
         ],
         "5": false
       },
@@ -76,13 +76,6 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/compiler/compiler.dart",
-        "2": [
-          "COMPILER_PROVIDERS"
-        ],
-        "5": false
-      },
-      {
         "1": "package:angular2/src/web_workers/shared/serializer.dart",
         "2": [
           "Serializer"
@@ -104,23 +97,9 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/web_workers/shared/render_proto_view_ref_store.dart",
+        "1": "package:angular2/src/web_workers/shared/render_store.dart",
         "2": [
-          "RenderProtoViewRefStore"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/web_workers/shared/render_view_with_fragments_store.dart",
-        "2": [
-          "RenderViewWithFragmentsStore"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/web_workers/worker/event_dispatcher.dart",
-        "2": [
-          "WebWorkerEventDispatcher"
+          "RenderStore"
         ],
         "5": false
       }

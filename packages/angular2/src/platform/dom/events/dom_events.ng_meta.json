@@ -43,15 +43,15 @@
     "6": "dom_events.dart",
     "10": [
       {
-        "1": "package:angular2/src/platform/dom/dom_adapter.ng_deps.dart",
+        "1": "package:angular2/src/platform/dom/dom_adapter.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/core.ng_deps.dart",
+        "1": "package:angular2/core.template.dart",
         "4": "i1"
       },
       {
-        "1": "event_manager.ng_deps.dart",
+        "1": "event_manager.template.dart",
         "4": "i2"
       }
     ]

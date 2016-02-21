@@ -22,9 +22,9 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/facade/browser.dart",
+        "1": "platform_location.dart",
         "2": [
-          "EventListener"
+          "UrlChangeListener"
         ],
         "5": false
       },

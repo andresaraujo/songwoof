@@ -151,6 +151,7 @@
   "NgFormControl": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "[ngFormControl]",

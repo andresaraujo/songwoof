@@ -96,49 +96,71 @@
           "RecordType"
         ],
         "5": false
+      },
+      {
+        "1": "package:angular2/src/core/reflection/reflection.dart",
+        "2": [
+          "reflector"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/facade/async.dart",
+        "2": [
+          "ObservableWrapper"
+        ],
+        "5": false
       }
     ],
     "6": "dynamic_change_detector.dart",
     "10": [
       {
-        "1": "package:angular2/src/facade/exceptions.ng_deps.dart",
+        "1": "package:angular2/src/facade/exceptions.template.dart",
         "4": "i0"
       },
       {
-        "1": "abstract_change_detector.ng_deps.dart",
+        "1": "abstract_change_detector.template.dart",
         "4": "i1"
       },
       {
-        "1": "event_binding.ng_deps.dart",
+        "1": "event_binding.template.dart",
         "4": "i2"
       },
       {
-        "1": "binding_record.ng_deps.dart",
+        "1": "binding_record.template.dart",
         "4": "i3"
       },
       {
-        "1": "directive_record.ng_deps.dart",
+        "1": "directive_record.template.dart",
         "4": "i4"
       },
       {
-        "1": "parser/locals.ng_deps.dart",
+        "1": "parser/locals.template.dart",
         "4": "i5"
       },
       {
-        "1": "interfaces.ng_deps.dart",
+        "1": "interfaces.template.dart",
         "4": "i6"
       },
       {
-        "1": "change_detection_util.ng_deps.dart",
+        "1": "change_detection_util.template.dart",
         "4": "i7"
       },
       {
-        "1": "constants.ng_deps.dart",
+        "1": "constants.template.dart",
         "4": "i8"
       },
       {
-        "1": "proto_record.ng_deps.dart",
+        "1": "proto_record.template.dart",
         "4": "i9"
+      },
+      {
+        "1": "package:angular2/src/core/reflection/reflection.template.dart",
+        "4": "i10"
+      },
+      {
+        "1": "package:angular2/src/facade/async.template.dart",
+        "4": "i11"
       }
     ]
   }

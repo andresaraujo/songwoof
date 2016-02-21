@@ -44,27 +44,27 @@
     "6": "swoof_module.dart",
     "10": [
       {
-        "1": "package:angular2/angular2.ng_deps.dart",
+        "1": "package:angular2/angular2.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/router.ng_deps.dart",
+        "1": "package:angular2/router.template.dart",
         "4": "i1"
       },
       {
-        "1": "package:songwoof/common/soundcloud/soundcloud_config.ng_deps.dart",
+        "1": "package:songwoof/common/soundcloud/soundcloud_config.template.dart",
         "4": "i2"
       },
       {
-        "1": "package:songwoof/common/soundcloud/soundcloud_interop.ng_deps.dart",
+        "1": "package:songwoof/common/soundcloud/soundcloud_interop.template.dart",
         "4": "i3"
       },
       {
-        "1": "package:songwoof/common/models/user_data.ng_deps.dart",
+        "1": "package:songwoof/common/models/user_data.template.dart",
         "4": "i4"
       },
       {
-        "1": "swoof_app.ng_deps.dart",
+        "1": "swoof_app.template.dart",
         "4": "i5"
       }
     ]
@@ -72,6 +72,7 @@
   "SWoofApp": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": true,
       "dynamicLoadable": true,
       "selector": "songwoof-app",

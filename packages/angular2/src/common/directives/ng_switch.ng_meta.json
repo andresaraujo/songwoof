@@ -133,7 +133,7 @@
     "6": "ng_switch.dart",
     "10": [
       {
-        "1": "package:angular2/core.ng_deps.dart",
+        "1": "package:angular2/core.template.dart",
         "4": "i0"
       }
     ]
@@ -141,6 +141,7 @@
   "NgSwitch": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "[ngSwitch]",
@@ -165,6 +166,7 @@
   "NgSwitchWhen": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "[ngSwitchWhen]",
@@ -189,6 +191,7 @@
   "NgSwitchDefault": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "[ngSwitchDefault]",

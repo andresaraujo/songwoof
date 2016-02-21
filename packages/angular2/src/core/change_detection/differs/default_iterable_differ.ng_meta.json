@@ -14,8 +14,7 @@
         "2": [
           "isListLikeIterable",
           "iterateListLike",
-          "ListWrapper",
-          "MapWrapper"
+          "ListWrapper"
         ],
         "5": false
       },
@@ -42,7 +41,8 @@
         "1": "../differs/iterable_differs.dart",
         "2": [
           "IterableDiffer",
-          "IterableDifferFactory"
+          "IterableDifferFactory",
+          "TrackByFn"
         ],
         "5": false
       }
@@ -50,15 +50,15 @@
     "6": "default_iterable_differ.dart",
     "10": [
       {
-        "1": "package:angular2/src/facade/exceptions.ng_deps.dart",
+        "1": "package:angular2/src/facade/exceptions.template.dart",
         "4": "i0"
       },
       {
-        "1": "../change_detector_ref.ng_deps.dart",
+        "1": "../change_detector_ref.template.dart",
         "4": "i1"
       },
       {
-        "1": "../differs/iterable_differs.ng_deps.dart",
+        "1": "../differs/iterable_differs.template.dart",
         "4": "i2"
       }
     ]

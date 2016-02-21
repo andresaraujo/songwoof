@@ -57,7 +57,8 @@
       {
         "1": "directive_metadata.dart",
         "2": [
-          "CompileDirectiveMetadata"
+          "CompileDirectiveMetadata",
+          "CompilePipeMetadata"
         ],
         "5": false
       },
@@ -81,6 +82,14 @@
           "ParseSourceSpan",
           "ParseError",
           "ParseLocation"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/change_detection/parser/ast.dart",
+        "2": [
+          "RecursiveAstVisitor",
+          "BindingPipe"
         ],
         "5": false
       },

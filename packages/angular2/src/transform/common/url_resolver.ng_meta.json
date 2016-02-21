@@ -14,7 +14,7 @@
     "6": "url_resolver.dart",
     "10": [
       {
-        "1": "package:angular2/compiler.ng_deps.dart",
+        "1": "package:angular2/compiler.template.dart",
         "4": "i0"
       }
     ]

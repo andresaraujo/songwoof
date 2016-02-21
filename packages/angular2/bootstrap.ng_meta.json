@@ -18,7 +18,7 @@
     "6": "bootstrap.dart",
     "10": [
       {
-        "1": "package:angular2/platform/browser.ng_deps.dart",
+        "1": "package:angular2/platform/browser.template.dart",
         "4": "i0"
       }
     ]

@@ -38,7 +38,7 @@
                 "2": "const {\"(change)\" : \"onChange(\\$event.target.checked)\", \"(blur)\" : \"onTouched()\"}"
               },
               {
-                "1": "bindings",
+                "1": "providers",
                 "2": "const [CHECKBOX_VALUE_ACCESSOR]"
               }
             ],
@@ -67,11 +67,11 @@
     "6": "checkbox_value_accessor.dart",
     "10": [
       {
-        "1": "package:angular2/core.ng_deps.dart",
+        "1": "package:angular2/core.template.dart",
         "4": "i0"
       },
       {
-        "1": "control_value_accessor.ng_deps.dart",
+        "1": "control_value_accessor.template.dart",
         "4": "i1"
       }
     ]
@@ -79,6 +79,7 @@
   "CheckboxControlValueAccessor": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "input[type=checkbox][ngControl],input[type=checkbox][ngFormControl],input[type=checkbox][ngModel]",

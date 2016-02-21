@@ -38,15 +38,15 @@
     "6": "pipe_provider.dart",
     "10": [
       {
-        "1": "package:angular2/src/core/di/provider.ng_deps.dart",
+        "1": "package:angular2/src/core/di/provider.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/core/di.ng_deps.dart",
+        "1": "package:angular2/src/core/di.template.dart",
         "4": "i1"
       },
       {
-        "1": "../metadata/directives.ng_deps.dart",
+        "1": "../metadata/directives.template.dart",
         "4": "i2"
       }
     ]

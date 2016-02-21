@@ -30,11 +30,11 @@
     "6": "di.dart",
     "10": [
       {
-        "1": "package:angular2/src/core/di.ng_deps.dart",
+        "1": "package:angular2/src/core/di.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/core/di/metadata.ng_deps.dart",
+        "1": "package:angular2/src/core/di/metadata.template.dart",
         "4": "i1"
       }
     ]

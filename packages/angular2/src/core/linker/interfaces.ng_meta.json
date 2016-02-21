@@ -20,7 +20,7 @@
     "6": "interfaces.dart",
     "10": [
       {
-        "1": "package:angular2/src/core/change_detection/change_detection_util.ng_deps.dart",
+        "1": "package:angular2/src/core/change_detection/change_detection_util.template.dart",
         "4": "i0"
       }
     ]

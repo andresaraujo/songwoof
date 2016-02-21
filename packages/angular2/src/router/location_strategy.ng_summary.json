@@ -8,6 +8,13 @@
           "OpaqueToken"
         ],
         "5": false
+      },
+      {
+        "1": "platform_location.dart",
+        "2": [
+          "UrlChangeListener"
+        ],
+        "5": false
       }
     ],
     "6": "location_strategy.dart"

@@ -18,11 +18,11 @@
     "6": "route_lifecycle_reflector.dart",
     "10": [
       {
-        "1": "package:angular2/src/router/interfaces.ng_deps.dart",
+        "1": "package:angular2/src/router/interfaces.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/core/reflection/reflection.ng_deps.dart",
+        "1": "package:angular2/src/core/reflection/reflection.template.dart",
         "4": "i1"
       }
     ]

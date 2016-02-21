@@ -27,15 +27,15 @@
     "6": "ng_control.dart",
     "10": [
       {
-        "1": "control_value_accessor.ng_deps.dart",
+        "1": "control_value_accessor.template.dart",
         "4": "i0"
       },
       {
-        "1": "abstract_control_directive.ng_deps.dart",
+        "1": "abstract_control_directive.template.dart",
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/facade/exceptions.ng_deps.dart",
+        "1": "package:angular2/src/facade/exceptions.template.dart",
         "4": "i2"
       }
     ]

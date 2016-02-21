@@ -3,6 +3,12 @@
     "1": "angular2.core",
     "4": [
       {
+        "1": "./src/core/angular_entrypoint.dart",
+        "2": [
+          "AngularEntrypoint"
+        ]
+      },
+      {
         "1": "./src/core/metadata.dart"
       },
       {
@@ -54,11 +60,10 @@
         "1": "./src/core/linker.dart"
       },
       {
-        "1": "./src/core/debug/debug_element.dart",
+        "1": "./src/core/debug/debug_node.dart",
         "2": [
           "DebugElement",
-          "Scope",
-          "inspectElement",
+          "DebugNode",
           "asNativeElements"
         ]
       },
@@ -84,63 +89,63 @@
     "6": "core.dart",
     "10": [
       {
-        "1": "./src/core/metadata.ng_deps.dart",
+        "1": "./src/core/metadata.template.dart",
         "4": "i0"
       },
       {
-        "1": "./src/core/di.ng_deps.dart",
+        "1": "./src/core/di.template.dart",
         "4": "i1"
       },
       {
-        "1": "./src/facade/facade.ng_deps.dart",
+        "1": "./src/facade/facade.template.dart",
         "4": "i2"
       },
       {
-        "1": "./src/core/application_ref.ng_deps.dart",
+        "1": "./src/core/application_ref.template.dart",
         "4": "i3"
       },
       {
-        "1": "./src/core/application_tokens.ng_deps.dart",
+        "1": "./src/core/application_tokens.template.dart",
         "4": "i4"
       },
       {
-        "1": "./src/core/zone.ng_deps.dart",
+        "1": "./src/core/zone.template.dart",
         "4": "i5"
       },
       {
-        "1": "./src/core/render.ng_deps.dart",
+        "1": "./src/core/render.template.dart",
         "4": "i6"
       },
       {
-        "1": "./src/core/linker.ng_deps.dart",
+        "1": "./src/core/linker.template.dart",
         "4": "i7"
       },
       {
-        "1": "./src/core/debug/debug_element.ng_deps.dart",
+        "1": "./src/core/debug/debug_node.template.dart",
         "4": "i8"
       },
       {
-        "1": "./src/core/testability/testability.ng_deps.dart",
+        "1": "./src/core/testability/testability.template.dart",
         "4": "i9"
       },
       {
-        "1": "./src/core/change_detection.ng_deps.dart",
+        "1": "./src/core/change_detection.template.dart",
         "4": "i10"
       },
       {
-        "1": "./src/core/platform_directives_and_pipes.ng_deps.dart",
+        "1": "./src/core/platform_directives_and_pipes.template.dart",
         "4": "i11"
       },
       {
-        "1": "./src/core/platform_common_providers.ng_deps.dart",
+        "1": "./src/core/platform_common_providers.template.dart",
         "4": "i12"
       },
       {
-        "1": "./src/core/application_common_providers.ng_deps.dart",
+        "1": "./src/core/application_common_providers.template.dart",
         "4": "i13"
       },
       {
-        "1": "./src/core/reflection/reflection.ng_deps.dart",
+        "1": "./src/core/reflection/reflection.template.dart",
         "4": "i14"
       }
     ]

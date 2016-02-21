@@ -3,6 +3,12 @@
     "1": "angular2.core",
     "4": [
       {
+        "1": "./src/core/angular_entrypoint.dart",
+        "2": [
+          "AngularEntrypoint"
+        ]
+      },
+      {
         "1": "./src/core/metadata.dart"
       },
       {
@@ -54,11 +60,10 @@
         "1": "./src/core/linker.dart"
       },
       {
-        "1": "./src/core/debug/debug_element.dart",
+        "1": "./src/core/debug/debug_node.dart",
         "2": [
           "DebugElement",
-          "Scope",
-          "inspectElement",
+          "DebugNode",
           "asNativeElements"
         ]
       },

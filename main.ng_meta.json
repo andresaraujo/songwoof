@@ -18,15 +18,15 @@
     "6": "main.dart",
     "10": [
       {
-        "1": "package:angular2/bootstrap_static.ng_deps.dart",
+        "1": "package:angular2/bootstrap_static.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:songwoof/swoof_module.ng_deps.dart",
+        "1": "package:songwoof/swoof_module.template.dart",
         "4": "i1"
       },
       {
-        "1": "package:songwoof/common/soundcloud/soundcloud_config.ng_deps.dart",
+        "1": "package:songwoof/common/soundcloud/soundcloud_config.template.dart",
         "4": "i2"
       }
     ]

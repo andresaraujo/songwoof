@@ -15,6 +15,10 @@
         "5": false
       },
       {
+        "1": "package:barback/barback.dart",
+        "5": false
+      },
+      {
         "1": "package:angular2/src/transform/common/asset_reader.dart",
         "5": false
       },
@@ -29,29 +33,20 @@
       {
         "1": "package:angular2/src/transform/common/url_resolver.dart",
         "5": false
-      },
-      {
-        "1": "package:barback/barback.dart",
-        "5": false
-      },
-      {
-        "1": "package:quiver/iterables.dart",
-        "4": "it",
-        "5": false
       }
     ],
     "6": "rewriter.dart",
     "10": [
       {
-        "1": "package:angular2/src/transform/common/asset_reader.ng_deps.dart",
+        "1": "package:angular2/src/transform/common/asset_reader.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/transform/common/logging.ng_deps.dart",
+        "1": "package:angular2/src/transform/common/logging.template.dart",
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/transform/common/url_resolver.ng_deps.dart",
+        "1": "package:angular2/src/transform/common/url_resolver.template.dart",
         "4": "i2"
       }
     ]

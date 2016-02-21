@@ -10,7 +10,7 @@
     "6": "pipe_lifecycle_reflector.dart",
     "10": [
       {
-        "1": "package:angular2/src/core/linker/interfaces.ng_deps.dart",
+        "1": "package:angular2/src/core/linker/interfaces.template.dart",
         "4": "i0"
       }
     ]

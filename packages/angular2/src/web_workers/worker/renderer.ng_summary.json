@@ -6,14 +6,9 @@
         "1": "package:angular2/src/core/render/api.dart",
         "2": [
           "Renderer",
-          "RenderProtoViewRef",
-          "RenderViewRef",
-          "RenderElementRef",
-          "RenderEventDispatcher",
-          "RenderViewWithFragments",
-          "RenderFragmentRef",
-          "RenderTemplateCmd",
-          "RenderComponentTemplate"
+          "RootRenderer",
+          "RenderComponentType",
+          "RenderDebugInfo"
         ],
         "5": false
       },
@@ -31,7 +26,15 @@
         "1": "package:angular2/src/facade/lang.dart",
         "2": [
           "isPresent",
+          "isBlank",
           "print"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/facade/collection.dart",
+        "2": [
+          "ListWrapper"
         ],
         "5": false
       },
@@ -43,25 +46,9 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/web_workers/shared/render_proto_view_ref_store.dart",
+        "1": "package:angular2/src/web_workers/shared/render_store.dart",
         "2": [
-          "RenderProtoViewRefStore"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/web_workers/shared/render_view_with_fragments_store.dart",
-        "2": [
-          "RenderViewWithFragmentsStore",
-          "WebWorkerRenderViewRef"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/web_workers/shared/api.dart",
-        "2": [
-          "WebWorkerElementRef",
-          "WebWorkerTemplateCmd"
+          "RenderStore"
         ],
         "5": false
       },
@@ -73,16 +60,53 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/web_workers/worker/event_dispatcher.dart",
+        "1": "package:angular2/src/web_workers/shared/serializer.dart",
         "2": [
-          "WebWorkerEventDispatcher"
+          "Serializer",
+          "RenderStoreObject"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/web_workers/shared/messaging_api.dart",
+        "2": [
+          "EVENT_CHANNEL"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/web_workers/shared/message_bus.dart",
+        "2": [
+          "MessageBus"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/facade/async.dart",
+        "2": [
+          "EventEmitter",
+          "ObservableWrapper"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/metadata/view.dart",
+        "2": [
+          "ViewEncapsulation"
+        ],
+        "5": false
+      },
+      {
+        "1": "event_deserializer.dart",
+        "2": [
+          "deserializeGenericEvent"
         ],
         "5": false
       }
     ],
     "5": [
       {
-        "1": "WebWorkerRenderer",
+        "1": "WebWorkerRootRenderer",
         "4": [
           {
             "1": "Injectable",
@@ -99,20 +123,20 @@
             "4": "messageBrokerFactory"
           },
           {
-            "1": "RenderProtoViewRefStore",
-            "4": "_renderProtoViewRefStore"
+            "1": "MessageBus",
+            "4": "bus"
           },
           {
-            "1": "RenderViewWithFragmentsStore",
-            "4": "_renderViewStore"
+            "1": "Serializer",
+            "4": "_serializer"
           },
           {
-            "1": "WebWorkerEventDispatcher",
-            "4": "_eventDispatcher"
+            "1": "RenderStore",
+            "4": "_renderStore"
           }
         ],
         "6": [
-          "Renderer"
+          "RootRenderer"
         ]
       }
     ],

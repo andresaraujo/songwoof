@@ -68,9 +68,16 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/compiler/command_compiler.dart",
+        "1": "package:angular2/src/compiler/view_compiler.dart",
         "2": [
-          "CommandCompiler"
+          "ViewCompiler"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/compiler/proto_view_compiler.dart",
+        "2": [
+          "ProtoViewCompiler"
         ],
         "5": false
       },
@@ -175,84 +182,88 @@
     "6": "compiler.dart",
     "10": [
       {
-        "1": "runtime_compiler.ng_deps.dart",
+        "1": "runtime_compiler.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/core/di.ng_deps.dart",
+        "1": "package:angular2/src/core/di.template.dart",
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/compiler/template_parser.ng_deps.dart",
+        "1": "package:angular2/src/compiler/template_parser.template.dart",
         "4": "i2"
       },
       {
-        "1": "package:angular2/src/compiler/html_parser.ng_deps.dart",
+        "1": "package:angular2/src/compiler/html_parser.template.dart",
         "4": "i3"
       },
       {
-        "1": "package:angular2/src/compiler/template_normalizer.ng_deps.dart",
+        "1": "package:angular2/src/compiler/template_normalizer.template.dart",
         "4": "i4"
       },
       {
-        "1": "package:angular2/src/compiler/runtime_metadata.ng_deps.dart",
+        "1": "package:angular2/src/compiler/runtime_metadata.template.dart",
         "4": "i5"
       },
       {
-        "1": "package:angular2/src/compiler/change_detector_compiler.ng_deps.dart",
+        "1": "package:angular2/src/compiler/change_detector_compiler.template.dart",
         "4": "i6"
       },
       {
-        "1": "package:angular2/src/compiler/style_compiler.ng_deps.dart",
+        "1": "package:angular2/src/compiler/style_compiler.template.dart",
         "4": "i7"
       },
       {
-        "1": "package:angular2/src/compiler/command_compiler.ng_deps.dart",
+        "1": "package:angular2/src/compiler/view_compiler.template.dart",
         "4": "i8"
       },
       {
-        "1": "package:angular2/src/compiler/template_compiler.ng_deps.dart",
+        "1": "package:angular2/src/compiler/proto_view_compiler.template.dart",
         "4": "i9"
       },
       {
-        "1": "package:angular2/src/core/change_detection/change_detection.ng_deps.dart",
+        "1": "package:angular2/src/compiler/template_compiler.template.dart",
         "4": "i10"
       },
       {
-        "1": "package:angular2/src/core/linker/compiler.ng_deps.dart",
+        "1": "package:angular2/src/core/change_detection/change_detection.template.dart",
         "4": "i11"
       },
       {
-        "1": "package:angular2/src/compiler/runtime_compiler.ng_deps.dart",
+        "1": "package:angular2/src/core/linker/compiler.template.dart",
         "4": "i12"
       },
       {
-        "1": "package:angular2/src/compiler/schema/dom_element_schema_registry.ng_deps.dart",
+        "1": "package:angular2/src/compiler/runtime_compiler.template.dart",
         "4": "i13"
       },
       {
-        "1": "package:angular2/src/compiler/url_resolver.ng_deps.dart",
+        "1": "package:angular2/src/compiler/schema/dom_element_schema_registry.template.dart",
         "4": "i14"
       },
       {
-        "1": "template_compiler.ng_deps.dart",
+        "1": "package:angular2/src/compiler/url_resolver.template.dart",
         "4": "i15"
       },
       {
-        "1": "directive_metadata.ng_deps.dart",
+        "1": "template_compiler.template.dart",
         "4": "i16"
       },
       {
-        "1": "source_module.ng_deps.dart",
+        "1": "directive_metadata.template.dart",
         "4": "i17"
       },
       {
-        "1": "package:angular2/src/core/platform_directives_and_pipes.ng_deps.dart",
+        "1": "source_module.template.dart",
         "4": "i18"
       },
       {
-        "1": "package:angular2/src/compiler/template_ast.ng_deps.dart",
+        "1": "package:angular2/src/core/platform_directives_and_pipes.template.dart",
         "4": "i19"
+      },
+      {
+        "1": "package:angular2/src/compiler/template_ast.template.dart",
+        "4": "i20"
       }
     ]
   }

@@ -120,23 +120,23 @@
     "6": "parser.dart",
     "10": [
       {
-        "1": "package:angular2/src/core/di/decorators.ng_deps.dart",
+        "1": "package:angular2/src/core/di/decorators.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/facade/exceptions.ng_deps.dart",
+        "1": "package:angular2/src/facade/exceptions.template.dart",
         "4": "i1"
       },
       {
-        "1": "lexer.ng_deps.dart",
+        "1": "lexer.template.dart",
         "4": "i2"
       },
       {
-        "1": "package:angular2/src/core/reflection/reflection.ng_deps.dart",
+        "1": "package:angular2/src/core/reflection/reflection.template.dart",
         "4": "i3"
       },
       {
-        "1": "ast.ng_deps.dart",
+        "1": "ast.template.dart",
         "4": "i4"
       }
     ]

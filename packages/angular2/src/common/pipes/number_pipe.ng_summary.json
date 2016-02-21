@@ -84,7 +84,7 @@
             "4": false,
             "5": false,
             "6": false,
-            "7": false,
+            "7": true,
             "8": false
           },
           {
@@ -114,7 +114,7 @@
             "4": false,
             "5": false,
             "6": false,
-            "7": false,
+            "7": true,
             "8": false
           },
           {
@@ -144,7 +144,7 @@
             "4": false,
             "5": false,
             "6": false,
-            "7": false,
+            "7": true,
             "8": false
           },
           {
@@ -162,5 +162,44 @@
       }
     ],
     "6": "number_pipe.dart"
+  },
+  "DecimalPipe": {
+    "kind": "type",
+    "value": {
+      "class": "Pipe",
+      "type": {
+        "name": "DecimalPipe",
+        "moduleUrl": "asset:angular2/lib/src/common/pipes/number_pipe.dart",
+        "isHost": false
+      },
+      "name": "number",
+      "pure": false
+    }
+  },
+  "PercentPipe": {
+    "kind": "type",
+    "value": {
+      "class": "Pipe",
+      "type": {
+        "name": "PercentPipe",
+        "moduleUrl": "asset:angular2/lib/src/common/pipes/number_pipe.dart",
+        "isHost": false
+      },
+      "name": "percent",
+      "pure": false
+    }
+  },
+  "CurrencyPipe": {
+    "kind": "type",
+    "value": {
+      "class": "Pipe",
+      "type": {
+        "name": "CurrencyPipe",
+        "moduleUrl": "asset:angular2/lib/src/common/pipes/number_pipe.dart",
+        "isHost": false
+      },
+      "name": "currency",
+      "pure": false
+    }
   }
 }

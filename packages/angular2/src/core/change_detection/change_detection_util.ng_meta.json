@@ -9,7 +9,8 @@
           "isBlank",
           "Type",
           "StringWrapper",
-          "looseIdentical"
+          "looseIdentical",
+          "isPrimitive"
         ],
         "5": false
       },
@@ -25,7 +26,9 @@
         "2": [
           "ListWrapper",
           "MapWrapper",
-          "StringMapWrapper"
+          "StringMapWrapper",
+          "isListLikeIterable",
+          "areIterablesEqual"
         ],
         "5": false
       },
@@ -76,31 +79,31 @@
     "6": "change_detection_util.dart",
     "10": [
       {
-        "1": "package:angular2/src/facade/exceptions.ng_deps.dart",
+        "1": "package:angular2/src/facade/exceptions.template.dart",
         "4": "i0"
       },
       {
-        "1": "proto_record.ng_deps.dart",
+        "1": "proto_record.template.dart",
         "4": "i1"
       },
       {
-        "1": "constants.ng_deps.dart",
+        "1": "constants.template.dart",
         "4": "i2"
       },
       {
-        "1": "pipe_lifecycle_reflector.ng_deps.dart",
+        "1": "pipe_lifecycle_reflector.template.dart",
         "4": "i3"
       },
       {
-        "1": "binding_record.ng_deps.dart",
+        "1": "binding_record.template.dart",
         "4": "i4"
       },
       {
-        "1": "directive_record.ng_deps.dart",
+        "1": "directive_record.template.dart",
         "4": "i5"
       },
       {
-        "1": "pipes.ng_deps.dart",
+        "1": "pipes.template.dart",
         "4": "i6"
       }
     ]

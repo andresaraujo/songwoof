@@ -23,6 +23,10 @@
         "5": false
       },
       {
+        "1": "package:angular2/src/transform/common/code/source_module.dart",
+        "5": false
+      },
+      {
         "1": "package:angular2/src/transform/common/formatter.dart",
         "5": false
       },

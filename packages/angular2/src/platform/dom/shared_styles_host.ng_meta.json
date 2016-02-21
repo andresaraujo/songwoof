@@ -72,15 +72,15 @@
     "6": "shared_styles_host.dart",
     "10": [
       {
-        "1": "package:angular2/src/platform/dom/dom_adapter.ng_deps.dart",
+        "1": "package:angular2/src/platform/dom/dom_adapter.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/core/di.ng_deps.dart",
+        "1": "package:angular2/src/core/di.template.dart",
         "4": "i1"
       },
       {
-        "1": "dom_tokens.ng_deps.dart",
+        "1": "dom_tokens.template.dart",
         "4": "i2"
       }
     ]

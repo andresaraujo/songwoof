@@ -3,6 +3,10 @@
     "1": "angular2.src.router.route_recognizer",
     "3": [
       {
+        "1": "dart:async",
+        "5": false
+      },
+      {
         "1": "package:angular2/src/facade/lang.dart",
         "2": [
           "isPresent",
@@ -20,8 +24,7 @@
       {
         "1": "package:angular2/src/facade/promise.dart",
         "2": [
-          "PromiseWrapper",
-          "Future"
+          "PromiseWrapper"
         ],
         "5": false
       },
@@ -64,23 +67,23 @@
     "6": "route_recognizer.dart",
     "10": [
       {
-        "1": "package:angular2/src/facade/exceptions.ng_deps.dart",
+        "1": "package:angular2/src/facade/exceptions.template.dart",
         "4": "i0"
       },
       {
-        "1": "route_handler.ng_deps.dart",
+        "1": "route_handler.template.dart",
         "4": "i1"
       },
       {
-        "1": "url_parser.ng_deps.dart",
+        "1": "url_parser.template.dart",
         "4": "i2"
       },
       {
-        "1": "instruction.ng_deps.dart",
+        "1": "instruction.template.dart",
         "4": "i3"
       },
       {
-        "1": "path_recognizer.ng_deps.dart",
+        "1": "path_recognizer.template.dart",
         "4": "i4"
       }
     ]

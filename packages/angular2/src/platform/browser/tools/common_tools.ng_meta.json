@@ -43,15 +43,15 @@
     "6": "common_tools.dart",
     "10": [
       {
-        "1": "package:angular2/src/core/application_ref.ng_deps.dart",
+        "1": "package:angular2/src/core/application_ref.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/core/linker/dynamic_component_loader.ng_deps.dart",
+        "1": "package:angular2/src/core/linker/dynamic_component_loader.template.dart",
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/platform/dom/dom_adapter.ng_deps.dart",
+        "1": "package:angular2/src/platform/dom/dom_adapter.template.dart",
         "4": "i2"
       }
     ]

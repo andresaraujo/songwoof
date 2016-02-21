@@ -24,11 +24,11 @@
     "6": "tools.dart",
     "10": [
       {
-        "1": "package:angular2/src/core/linker/dynamic_component_loader.ng_deps.dart",
+        "1": "package:angular2/src/core/linker/dynamic_component_loader.template.dart",
         "4": "i0"
       },
       {
-        "1": "common_tools.ng_deps.dart",
+        "1": "common_tools.template.dart",
         "4": "i1"
       }
     ]

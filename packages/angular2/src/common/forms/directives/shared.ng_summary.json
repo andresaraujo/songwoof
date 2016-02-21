@@ -15,7 +15,8 @@
         "2": [
           "isBlank",
           "isPresent",
-          "looseIdentical"
+          "looseIdentical",
+          "hasConstructor"
         ],
         "5": false
       },
@@ -102,6 +103,13 @@
         "1": "select_control_value_accessor.dart",
         "2": [
           "SelectControlValueAccessor"
+        ],
+        "5": false
+      },
+      {
+        "1": "radio_control_value_accessor.dart",
+        "2": [
+          "RadioControlValueAccessor"
         ],
         "5": false
       },

@@ -25,6 +25,27 @@
         "5": false
       },
       {
+        "1": "package:angular2/src/core/change_detection/abstract_change_detector.dart",
+        "2": [
+          "AbstractChangeDetector"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/change_detection/change_detection_util.dart",
+        "2": [
+          "ChangeDetectionUtil"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/change_detection/constants.dart",
+        "2": [
+          "ChangeDetectorState"
+        ],
+        "5": false
+      },
+      {
         "1": "change_definition_factory.dart",
         "2": [
           "createChangeDetectorDefinitions"

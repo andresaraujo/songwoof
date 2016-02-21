@@ -20,11 +20,11 @@
     "6": "proto_record.dart",
     "10": [
       {
-        "1": "binding_record.ng_deps.dart",
+        "1": "binding_record.template.dart",
         "4": "i0"
       },
       {
-        "1": "directive_record.ng_deps.dart",
+        "1": "directive_record.template.dart",
         "4": "i1"
       }
     ]

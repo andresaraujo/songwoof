@@ -41,7 +41,7 @@
             "4": false,
             "5": false,
             "6": false,
-            "7": false,
+            "7": true,
             "8": false
           },
           {
@@ -61,9 +61,22 @@
     "6": "json_pipe.dart",
     "10": [
       {
-        "1": "package:angular2/core.ng_deps.dart",
+        "1": "package:angular2/core.template.dart",
         "4": "i0"
       }
     ]
+  },
+  "JsonPipe": {
+    "kind": "type",
+    "value": {
+      "class": "Pipe",
+      "type": {
+        "name": "JsonPipe",
+        "moduleUrl": "asset:angular2/lib/src/common/pipes/json_pipe.dart",
+        "isHost": false
+      },
+      "name": "json",
+      "pure": false
+    }
   }
 }

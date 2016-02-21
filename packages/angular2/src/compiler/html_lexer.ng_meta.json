@@ -43,7 +43,7 @@
     "6": "html_lexer.dart",
     "10": [
       {
-        "1": "html_tags.ng_deps.dart",
+        "1": "html_tags.template.dart",
         "4": "i0"
       }
     ]

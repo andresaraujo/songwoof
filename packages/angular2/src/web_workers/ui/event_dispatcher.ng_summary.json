@@ -3,17 +3,10 @@
     "1": "angular2.src.web_workers.ui.event_dispatcher",
     "3": [
       {
-        "1": "package:angular2/src/core/render/api.dart",
-        "2": [
-          "RenderViewRef",
-          "RenderEventDispatcher"
-        ],
-        "5": false
-      },
-      {
         "1": "package:angular2/src/web_workers/shared/serializer.dart",
         "2": [
-          "Serializer"
+          "Serializer",
+          "RenderStoreObject"
         ],
         "5": false
       },
@@ -23,7 +16,8 @@
           "serializeMouseEvent",
           "serializeKeyboardEvent",
           "serializeGenericEvent",
-          "serializeEventWithTarget"
+          "serializeEventWithTarget",
+          "serializeTransitionEvent"
         ],
         "5": false
       },

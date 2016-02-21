@@ -33,33 +33,7 @@
       {
         "1": "package:angular2/src/core/render/api.dart",
         "2": [
-          "RenderProtoViewRef",
-          "RenderViewRef",
-          "RenderFragmentRef",
-          "RenderElementRef",
-          "RenderTemplateCmd",
-          "RenderCommandVisitor",
-          "RenderTextCmd",
-          "RenderNgContentCmd",
-          "RenderBeginElementCmd",
-          "RenderBeginComponentCmd",
-          "RenderEmbeddedTemplateCmd",
-          "RenderComponentTemplate"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/web_workers/shared/api.dart",
-        "2": [
-          "WebWorkerElementRef",
-          "WebWorkerTemplateCmd",
-          "WebWorkerTextCmd",
-          "WebWorkerNgContentCmd",
-          "WebWorkerBeginElementCmd",
-          "WebWorkerEndElementCmd",
-          "WebWorkerBeginComponentCmd",
-          "WebWorkerEndComponentCmd",
-          "WebWorkerEmbeddedTemplateCmd"
+          "RenderComponentType"
         ],
         "5": false
       },
@@ -71,16 +45,9 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/web_workers/shared/render_proto_view_ref_store.dart",
+        "1": "package:angular2/src/web_workers/shared/render_store.dart",
         "2": [
-          "RenderProtoViewRefStore"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/web_workers/shared/render_view_with_fragments_store.dart",
-        "2": [
-          "RenderViewWithFragmentsStore"
+          "RenderStore"
         ],
         "5": false
       },
@@ -89,6 +56,13 @@
         "2": [
           "ViewEncapsulation",
           "VIEW_ENCAPSULATION_VALUES"
+        ],
+        "5": false
+      },
+      {
+        "1": "serialized_types.dart",
+        "2": [
+          "LocationType"
         ],
         "5": false
       }
@@ -108,12 +82,8 @@
         ],
         "5": [
           {
-            "1": "RenderProtoViewRefStore",
-            "4": "_protoViewStore"
-          },
-          {
-            "1": "RenderViewWithFragmentsStore",
-            "4": "_renderViewStore"
+            "1": "RenderStore",
+            "4": "_renderStore"
           }
         ]
       }

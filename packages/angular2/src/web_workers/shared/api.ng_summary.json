@@ -8,21 +8,6 @@
           "OpaqueToken"
         ],
         "5": false
-      },
-      {
-        "1": "package:angular2/src/core/render/api.dart",
-        "2": [
-          "RenderElementRef",
-          "RenderViewRef",
-          "RenderTemplateCmd",
-          "RenderTextCmd",
-          "RenderNgContentCmd",
-          "RenderBeginElementCmd",
-          "RenderBeginComponentCmd",
-          "RenderEmbeddedTemplateCmd",
-          "RenderCommandVisitor"
-        ],
-        "5": false
       }
     ],
     "6": "api.dart"

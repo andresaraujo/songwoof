@@ -73,20 +73,16 @@
     "6": "xhr_impl.dart",
     "10": [
       {
-        "1": "package:angular2/src/core/di.ng_deps.dart",
+        "1": "package:angular2/src/core/di.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/web_workers/shared/serializer.ng_deps.dart",
+        "1": "package:angular2/src/web_workers/shared/serializer.template.dart",
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/compiler/xhr.ng_deps.dart",
+        "1": "package:angular2/src/web_workers/shared/service_message_broker.template.dart",
         "4": "i2"
-      },
-      {
-        "1": "package:angular2/src/web_workers/shared/service_message_broker.ng_deps.dart",
-        "4": "i3"
       }
     ]
   }

@@ -57,7 +57,7 @@
     "6": "ng_if.dart",
     "10": [
       {
-        "1": "package:angular2/core.ng_deps.dart",
+        "1": "package:angular2/core.template.dart",
         "4": "i0"
       }
     ]
@@ -65,6 +65,7 @@
   "NgIf": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "[ngIf]",

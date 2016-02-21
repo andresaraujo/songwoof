@@ -14,8 +14,7 @@
         "2": [
           "isListLikeIterable",
           "iterateListLike",
-          "ListWrapper",
-          "MapWrapper"
+          "ListWrapper"
         ],
         "5": false
       },
@@ -42,7 +41,8 @@
         "1": "../differs/iterable_differs.dart",
         "2": [
           "IterableDiffer",
-          "IterableDifferFactory"
+          "IterableDifferFactory",
+          "TrackByFn"
         ],
         "5": false
       }

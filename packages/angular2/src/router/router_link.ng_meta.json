@@ -80,19 +80,19 @@
     "6": "router_link.dart",
     "10": [
       {
-        "1": "package:angular2/core.ng_deps.dart",
+        "1": "package:angular2/core.template.dart",
         "4": "i0"
       },
       {
-        "1": "router.ng_deps.dart",
+        "1": "router.template.dart",
         "4": "i1"
       },
       {
-        "1": "location.ng_deps.dart",
+        "1": "location.template.dart",
         "4": "i2"
       },
       {
-        "1": "instruction.ng_deps.dart",
+        "1": "instruction.template.dart",
         "4": "i3"
       }
     ]
@@ -100,6 +100,7 @@
   "RouterLink": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "[routerLink]",

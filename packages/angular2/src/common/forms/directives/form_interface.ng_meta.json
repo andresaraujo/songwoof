@@ -28,15 +28,15 @@
     "6": "form_interface.dart",
     "10": [
       {
-        "1": "ng_control.ng_deps.dart",
+        "1": "ng_control.template.dart",
         "4": "i0"
       },
       {
-        "1": "ng_control_group.ng_deps.dart",
+        "1": "ng_control_group.template.dart",
         "4": "i1"
       },
       {
-        "1": "../model.ng_deps.dart",
+        "1": "../model.template.dart",
         "4": "i2"
       }
     ]

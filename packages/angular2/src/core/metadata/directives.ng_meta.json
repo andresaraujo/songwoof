@@ -35,15 +35,15 @@
     "6": "directives.dart",
     "10": [
       {
-        "1": "package:angular2/src/core/di/metadata.ng_deps.dart",
+        "1": "package:angular2/src/core/di/metadata.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/core/change_detection.ng_deps.dart",
+        "1": "package:angular2/src/core/change_detection.template.dart",
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/core/metadata/view.ng_deps.dart",
+        "1": "package:angular2/src/core/metadata/view.template.dart",
         "4": "i2"
       }
     ]

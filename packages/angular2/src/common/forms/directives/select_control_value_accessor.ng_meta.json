@@ -63,7 +63,7 @@
               },
               {
                 "1": "host",
-                "2": "const {\"(change)\" : \"onChange(\\$event.target.value)\", \"(input)\" : \"onChange(\\$event.target.value)\", \"(blur)\" : \"onTouched()\"}"
+                "2": "const {\"(input)\" : \"onChange(\\$event.target.value)\", \"(blur)\" : \"onTouched()\"}"
               },
               {
                 "1": "bindings",
@@ -103,15 +103,15 @@
     "6": "select_control_value_accessor.dart",
     "10": [
       {
-        "1": "package:angular2/core.ng_deps.dart",
+        "1": "package:angular2/core.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/facade/async.ng_deps.dart",
+        "1": "package:angular2/src/facade/async.template.dart",
         "4": "i1"
       },
       {
-        "1": "control_value_accessor.ng_deps.dart",
+        "1": "control_value_accessor.template.dart",
         "4": "i2"
       }
     ]
@@ -119,6 +119,7 @@
   "NgSelectOption": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "option",
@@ -141,6 +142,7 @@
   "SelectControlValueAccessor": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "select[ngControl],select[ngFormControl],select[ngModel]",
@@ -155,8 +157,7 @@
       "outputs": {},
       "hostListeners": {
         "input": "onChange($event.target.value)",
-        "blur": "onTouched()",
-        "change": "onChange($event.target.value)"
+        "blur": "onTouched()"
       },
       "hostProperties": {},
       "hostAttributes": {},

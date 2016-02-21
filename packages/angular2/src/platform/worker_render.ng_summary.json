@@ -5,7 +5,7 @@
       {
         "1": "package:angular2/src/platform/worker_render_common.dart",
         "2": [
-          "WORKER_RENDER_APP_COMMON",
+          "WORKER_RENDER_APPLICATION_COMMON",
           "WORKER_RENDER_MESSAGING_PROVIDERS",
           "WORKER_SCRIPT",
           "initializeGenericWorkerRenderer"

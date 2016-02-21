@@ -85,19 +85,19 @@
     "6": "html_parser.dart",
     "10": [
       {
-        "1": "html_ast.ng_deps.dart",
+        "1": "html_ast.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/core/di.ng_deps.dart",
+        "1": "package:angular2/src/core/di.template.dart",
         "4": "i1"
       },
       {
-        "1": "html_lexer.ng_deps.dart",
+        "1": "html_lexer.template.dart",
         "4": "i2"
       },
       {
-        "1": "html_tags.ng_deps.dart",
+        "1": "html_tags.template.dart",
         "4": "i3"
       }
     ]

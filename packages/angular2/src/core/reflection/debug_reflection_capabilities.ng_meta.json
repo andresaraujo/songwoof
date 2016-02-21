@@ -28,7 +28,7 @@
     "6": "debug_reflection_capabilities.dart",
     "10": [
       {
-        "1": "reflection_capabilities.ng_deps.dart",
+        "1": "reflection_capabilities.template.dart",
         "4": "i0"
       }
     ]

@@ -74,6 +74,7 @@
   "LoginComponent": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": true,
       "dynamicLoadable": true,
       "selector": "swoof-login",
@@ -92,7 +93,7 @@
       "lifecycleHooks": [],
       "template": {
         "encapsulation": 2,
-        "template": "<p>Discover Soundcloud Music</p>\n\n<div class=\"v-container\">\n    <a href=\"javascript:void(0)\" (click)=\"login('github')\">Sign in with Github</a>\n</div>",
+        "template": "<p>Discover Soundcloud Music</p>\n\n<div class=\"v-container\">\n    <a href=\"javascript:void(0)\" (click)=\"login('github')\">Sign in with Github</a>\n    <a href=\"javascript:void(0)\" (click)=\"login('twitter')\">Sign in with Twitter</a>\n</div>",
         "templateUrl": "asset:songwoof/lib/login/login.html",
         "styles": [],
         "styleUrls": [],

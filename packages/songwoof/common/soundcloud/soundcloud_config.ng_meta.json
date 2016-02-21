@@ -31,7 +31,7 @@
     "6": "soundcloud_config.dart",
     "10": [
       {
-        "1": "package:angular2/angular2.ng_deps.dart",
+        "1": "package:angular2/angular2.template.dart",
         "4": "i0"
       }
     ]

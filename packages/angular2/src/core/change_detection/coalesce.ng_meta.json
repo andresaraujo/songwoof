@@ -31,7 +31,7 @@
     "6": "coalesce.dart",
     "10": [
       {
-        "1": "proto_record.ng_deps.dart",
+        "1": "proto_record.template.dart",
         "4": "i0"
       }
     ]

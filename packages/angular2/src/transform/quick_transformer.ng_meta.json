@@ -44,27 +44,27 @@
     "6": "quick_transformer.dart",
     "10": [
       {
-        "1": "common/formatter.ng_deps.dart",
+        "1": "common/formatter.template.dart",
         "4": "i0"
       },
       {
-        "1": "common/options.ng_deps.dart",
+        "1": "common/options.template.dart",
         "4": "i1"
       },
       {
-        "1": "common/options_reader.ng_deps.dart",
+        "1": "common/options_reader.template.dart",
         "4": "i2"
       },
       {
-        "1": "deferred_rewriter/transformer.ng_deps.dart",
+        "1": "deferred_rewriter/transformer.template.dart",
         "4": "i3"
       },
       {
-        "1": "inliner_for_test/transformer.ng_deps.dart",
+        "1": "inliner_for_test/transformer.template.dart",
         "4": "i4"
       },
       {
-        "1": "reflection_remover/transformer.ng_deps.dart",
+        "1": "reflection_remover/transformer.template.dart",
         "4": "i5"
       }
     ]

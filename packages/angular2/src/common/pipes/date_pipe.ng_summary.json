@@ -67,7 +67,7 @@
             "4": false,
             "5": false,
             "6": false,
-            "7": false,
+            "7": true,
             "8": false
           },
           {
@@ -85,5 +85,18 @@
       }
     ],
     "6": "date_pipe.dart"
+  },
+  "DatePipe": {
+    "kind": "type",
+    "value": {
+      "class": "Pipe",
+      "type": {
+        "name": "DatePipe",
+        "moduleUrl": "asset:angular2/lib/src/common/pipes/date_pipe.dart",
+        "isHost": false
+      },
+      "name": "date",
+      "pure": true
+    }
   }
 }

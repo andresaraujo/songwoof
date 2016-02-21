@@ -3,22 +3,10 @@
     "1": "angular2.src.core.linker.view_ref",
     "3": [
       {
-        "1": "package:angular2/src/facade/lang.dart",
-        "2": [
-          "isPresent"
-        ],
-        "5": false
-      },
-      {
         "1": "package:angular2/src/facade/exceptions.dart",
         "2": [
           "unimplemented"
         ],
-        "5": false
-      },
-      {
-        "1": "view.dart",
-        "4": "viewModule",
         "5": false
       },
       {
@@ -29,10 +17,10 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/core/render/api.dart",
+        "1": "view.dart",
         "2": [
-          "RenderViewRef",
-          "RenderFragmentRef"
+          "AppView",
+          "HostViewFactory"
         ],
         "5": false
       }

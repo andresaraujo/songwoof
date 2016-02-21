@@ -15,22 +15,6 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/transform/common/async_string_writer.dart",
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/transform/common/logging.dart",
-        "5": false
-      },
-      {
-        "1": "package:code_transformers/assets.dart",
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/transform/common/asset_reader.dart",
-        "5": false
-      },
-      {
         "1": "package:barback/barback.dart",
         "2": [
           "AssetId"
@@ -44,6 +28,22 @@
       {
         "1": "package:path/path.dart",
         "4": "path",
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/transform/common/asset_reader.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/transform/common/async_string_writer.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/transform/common/logging.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/transform/common/url_resolver.dart",
         "5": false
       }
     ],

@@ -23,13 +23,6 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/core/di/injector.dart",
-        "2": [
-          "Injector"
-        ],
-        "5": false
-      },
-      {
         "1": "package:angular2/src/facade/collection.dart",
         "2": [
           "StringMapWrapper"
@@ -74,29 +67,21 @@
     "6": "testing_internal.dart",
     "10": [
       {
-        "1": "package:angular2/src/core/reflection/reflection.ng_deps.dart",
+        "1": "package:angular2/src/core/reflection/reflection.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/core/di/provider.ng_deps.dart",
+        "1": "package:angular2/src/core/di/provider.template.dart",
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/core/di/injector.ng_deps.dart",
+        "1": "test_injector.template.dart",
         "4": "i2"
       },
       {
-        "1": "test_injector.ng_deps.dart",
+        "1": "matchers.template.dart",
         "4": "i3"
-      },
-      {
-        "1": "matchers.ng_deps.dart",
-        "4": "i4"
       }
     ]
-  },
-  "_testBindings": {
-    "kind": "alias",
-    "value": []
   }
 }

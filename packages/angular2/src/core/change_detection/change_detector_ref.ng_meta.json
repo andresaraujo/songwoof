@@ -20,11 +20,11 @@
     "6": "change_detector_ref.dart",
     "10": [
       {
-        "1": "interfaces.ng_deps.dart",
+        "1": "interfaces.template.dart",
         "4": "i0"
       },
       {
-        "1": "constants.ng_deps.dart",
+        "1": "constants.template.dart",
         "4": "i1"
       }
     ]

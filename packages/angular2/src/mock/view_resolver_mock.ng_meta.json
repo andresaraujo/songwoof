@@ -69,19 +69,19 @@
     "6": "view_resolver_mock.dart",
     "10": [
       {
-        "1": "package:angular2/src/core/di.ng_deps.dart",
+        "1": "package:angular2/src/core/di.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/facade/exceptions.ng_deps.dart",
+        "1": "package:angular2/src/facade/exceptions.template.dart",
         "4": "i1"
       },
       {
-        "1": "../core/metadata.ng_deps.dart",
+        "1": "../core/metadata.template.dart",
         "4": "i2"
       },
       {
-        "1": "package:angular2/src/core/linker/view_resolver.ng_deps.dart",
+        "1": "package:angular2/src/core/linker/view_resolver.template.dart",
         "4": "i3"
       }
     ]

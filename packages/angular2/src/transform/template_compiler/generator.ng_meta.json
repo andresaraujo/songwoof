@@ -11,8 +11,7 @@
         "5": false
       },
       {
-        "1": "package:path/path.dart",
-        "4": "path",
+        "1": "package:angular2/src/compiler/source_module.dart",
         "5": false
       },
       {
@@ -32,19 +31,11 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/transform/common/code/source_module.dart",
-        "5": false
-      },
-      {
         "1": "package:angular2/src/transform/common/logging.dart",
         "5": false
       },
       {
         "1": "package:angular2/src/transform/common/model/annotation_model.pb.dart",
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/transform/common/model/import_export_model.pb.dart",
         "5": false
       },
       {
@@ -81,56 +72,52 @@
     "6": "generator.dart",
     "10": [
       {
-        "1": "package:angular2/src/core/change_detection/interfaces.ng_deps.dart",
+        "1": "package:angular2/src/compiler/source_module.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/core/reflection/reflection.ng_deps.dart",
+        "1": "package:angular2/src/core/change_detection/interfaces.template.dart",
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/transform/common/asset_reader.ng_deps.dart",
+        "1": "package:angular2/src/core/reflection/reflection.template.dart",
         "4": "i2"
       },
       {
-        "1": "package:angular2/src/transform/common/code/source_module.ng_deps.dart",
+        "1": "package:angular2/src/transform/common/asset_reader.template.dart",
         "4": "i3"
       },
       {
-        "1": "package:angular2/src/transform/common/logging.ng_deps.dart",
+        "1": "package:angular2/src/transform/common/logging.template.dart",
         "4": "i4"
       },
       {
-        "1": "package:angular2/src/transform/common/model/annotation_model.pb.ng_deps.dart",
+        "1": "package:angular2/src/transform/common/model/annotation_model.pb.template.dart",
         "4": "i5"
       },
       {
-        "1": "package:angular2/src/transform/common/model/import_export_model.pb.ng_deps.dart",
+        "1": "package:angular2/src/transform/common/model/ng_deps_model.pb.template.dart",
         "4": "i6"
       },
       {
-        "1": "package:angular2/src/transform/common/model/ng_deps_model.pb.ng_deps.dart",
+        "1": "package:angular2/src/transform/common/ng_compiler.template.dart",
         "4": "i7"
       },
       {
-        "1": "package:angular2/src/transform/common/ng_compiler.ng_deps.dart",
+        "1": "package:angular2/src/transform/common/zone.template.dart",
         "4": "i8"
       },
       {
-        "1": "package:angular2/src/transform/common/zone.ng_deps.dart",
+        "1": "reflection/processor.template.dart",
         "4": "i9"
       },
       {
-        "1": "reflection/processor.ng_deps.dart",
+        "1": "reflection/reflection_capabilities.template.dart",
         "4": "i10"
       },
       {
-        "1": "reflection/reflection_capabilities.ng_deps.dart",
+        "1": "compile_data_creator.template.dart",
         "4": "i11"
-      },
-      {
-        "1": "compile_data_creator.ng_deps.dart",
-        "4": "i12"
       }
     ]
   }

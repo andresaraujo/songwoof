@@ -29,7 +29,7 @@
           "platform",
           "ExceptionHandler",
           "Reflector",
-          "Renderer",
+          "RootRenderer",
           "reflector",
           "APPLICATION_COMMON_PROVIDERS",
           "PLATFORM_COMMON_PROVIDERS"
@@ -90,8 +90,8 @@
       {
         "1": "package:angular2/src/platform/dom/dom_renderer.dart",
         "2": [
-          "DomRenderer",
-          "DomRenderer_"
+          "DomRootRenderer",
+          "DomRootRenderer_"
         ],
         "5": false
       },
@@ -151,6 +151,13 @@
           "EVENT_MANAGER_PLUGINS"
         ],
         "5": false
+      },
+      {
+        "1": "package:angular2/platform/common_dom.dart",
+        "2": [
+          "ELEMENT_PROBE_PROVIDERS"
+        ],
+        "5": false
       }
     ],
     "4": [
@@ -169,9 +176,8 @@
       {
         "1": "package:angular2/platform/common_dom.dart",
         "2": [
-          "DebugElementViewListener",
           "ELEMENT_PROBE_PROVIDERS",
-          "ELEMENT_PROBE_BINDINGS",
+          "ELEMENT_PROBE_PROVIDERS_PROD_MODE",
           "inspectNativeElement",
           "By"
         ]

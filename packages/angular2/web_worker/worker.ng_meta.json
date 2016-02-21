@@ -27,34 +27,152 @@
     "6": "worker.dart",
     "10": [
       {
-        "1": "../common.ng_deps.dart",
+        "1": "../common.template.dart",
         "4": "i0"
       },
       {
-        "1": "../core.ng_deps.dart",
+        "1": "../core.template.dart",
         "4": "i1"
       },
       {
-        "1": "../platform/worker_app.ng_deps.dart",
+        "1": "../platform/worker_app.template.dart",
         "4": "i2"
       },
       {
-        "1": "../compiler.ng_deps.dart",
+        "1": "../compiler.template.dart",
         "4": "i3"
       },
       {
-        "1": "../instrumentation.ng_deps.dart",
+        "1": "../instrumentation.template.dart",
         "4": "i4"
       },
       {
-        "1": "package:angular2/src/platform/worker_app.ng_deps.dart",
+        "1": "package:angular2/src/platform/worker_app.template.dart",
         "4": "i5"
       }
     ]
   },
+  "AsyncPipe": {
+    "kind": "type",
+    "value": {
+      "class": "Pipe",
+      "type": {
+        "name": "AsyncPipe",
+        "moduleUrl": "asset:angular2/lib/src/common/pipes/async_pipe.dart",
+        "isHost": false
+      },
+      "name": "async",
+      "pure": false
+    }
+  },
+  "DatePipe": {
+    "kind": "type",
+    "value": {
+      "class": "Pipe",
+      "type": {
+        "name": "DatePipe",
+        "moduleUrl": "asset:angular2/lib/src/common/pipes/date_pipe.dart",
+        "isHost": false
+      },
+      "name": "date",
+      "pure": true
+    }
+  },
+  "JsonPipe": {
+    "kind": "type",
+    "value": {
+      "class": "Pipe",
+      "type": {
+        "name": "JsonPipe",
+        "moduleUrl": "asset:angular2/lib/src/common/pipes/json_pipe.dart",
+        "isHost": false
+      },
+      "name": "json",
+      "pure": false
+    }
+  },
+  "SlicePipe": {
+    "kind": "type",
+    "value": {
+      "class": "Pipe",
+      "type": {
+        "name": "SlicePipe",
+        "moduleUrl": "asset:angular2/lib/src/common/pipes/slice_pipe.dart",
+        "isHost": false
+      },
+      "name": "slice",
+      "pure": false
+    }
+  },
+  "LowerCasePipe": {
+    "kind": "type",
+    "value": {
+      "class": "Pipe",
+      "type": {
+        "name": "LowerCasePipe",
+        "moduleUrl": "asset:angular2/lib/src/common/pipes/lowercase_pipe.dart",
+        "isHost": false
+      },
+      "name": "lowercase",
+      "pure": false
+    }
+  },
+  "DecimalPipe": {
+    "kind": "type",
+    "value": {
+      "class": "Pipe",
+      "type": {
+        "name": "DecimalPipe",
+        "moduleUrl": "asset:angular2/lib/src/common/pipes/number_pipe.dart",
+        "isHost": false
+      },
+      "name": "number",
+      "pure": false
+    }
+  },
+  "PercentPipe": {
+    "kind": "type",
+    "value": {
+      "class": "Pipe",
+      "type": {
+        "name": "PercentPipe",
+        "moduleUrl": "asset:angular2/lib/src/common/pipes/number_pipe.dart",
+        "isHost": false
+      },
+      "name": "percent",
+      "pure": false
+    }
+  },
+  "CurrencyPipe": {
+    "kind": "type",
+    "value": {
+      "class": "Pipe",
+      "type": {
+        "name": "CurrencyPipe",
+        "moduleUrl": "asset:angular2/lib/src/common/pipes/number_pipe.dart",
+        "isHost": false
+      },
+      "name": "currency",
+      "pure": false
+    }
+  },
+  "UpperCasePipe": {
+    "kind": "type",
+    "value": {
+      "class": "Pipe",
+      "type": {
+        "name": "UpperCasePipe",
+        "moduleUrl": "asset:angular2/lib/src/common/pipes/uppercase_pipe.dart",
+        "isHost": false
+      },
+      "name": "uppercase",
+      "pure": false
+    }
+  },
   "NgClass": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "[ngClass]",
@@ -83,6 +201,7 @@
   "NgFor": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "[ngFor][ngForOf]",
@@ -94,6 +213,7 @@
       },
       "changeDetection": 5,
       "inputs": {
+        "ngForTrackBy": "ngForTrackBy",
         "ngForOf": "ngForOf",
         "ngForTemplate": "ngForTemplate"
       },
@@ -110,6 +230,7 @@
   "NgIf": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "[ngIf]",
@@ -134,6 +255,7 @@
   "NgStyle": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "[ngStyle]",
@@ -160,6 +282,7 @@
   "NgSwitch": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "[ngSwitch]",
@@ -184,6 +307,7 @@
   "NgSwitchWhen": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "[ngSwitchWhen]",
@@ -208,6 +332,7 @@
   "NgSwitchDefault": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "[ngSwitchDefault]",
@@ -230,6 +355,7 @@
   "NgControlName": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "[ngControl]",
@@ -260,6 +386,7 @@
   "NgFormControl": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "[ngFormControl]",
@@ -289,6 +416,7 @@
   "NgModel": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "[ngModel]:not([ngControl]):not([ngFormControl])",
@@ -317,6 +445,7 @@
   "NgControlGroup": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "[ngControlGroup]",
@@ -344,6 +473,7 @@
   "NgFormModel": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "[ngFormModel]",
@@ -374,6 +504,7 @@
   "NgForm": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "form:not([ngNoForm]):not([ngFormModel]),ngForm,[ngForm]",
@@ -400,6 +531,7 @@
   "DefaultValueAccessor": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "input:not([type=checkbox])[ngControl],textarea[ngControl],input:not([type=checkbox])[ngFormControl],textarea[ngFormControl],input:not([type=checkbox])[ngModel],textarea[ngModel],[ngDefaultControl]",
@@ -425,6 +557,7 @@
   "NgControlStatus": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "[ngControl],[ngModel],[ngFormControl]",
@@ -454,6 +587,7 @@
   "CheckboxControlValueAccessor": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "input[type=checkbox][ngControl],input[type=checkbox][ngFormControl],input[type=checkbox][ngModel]",
@@ -479,6 +613,7 @@
   "NgSelectOption": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "option",
@@ -501,6 +636,7 @@
   "SelectControlValueAccessor": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "select[ngControl],select[ngFormControl],select[ngModel]",
@@ -515,8 +651,7 @@
       "outputs": {},
       "hostListeners": {
         "input": "onChange($event.target.value)",
-        "blur": "onTouched()",
-        "change": "onChange($event.target.value)"
+        "blur": "onTouched()"
       },
       "hostProperties": {},
       "hostAttributes": {},
@@ -527,6 +662,7 @@
   "RequiredValidator": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "[required][ngControl],[required][ngFormControl],[required][ngModel]",
@@ -549,6 +685,7 @@
   "MinLengthValidator": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "[minlength][ngControl],[minlength][ngFormControl],[minlength][ngModel]",
@@ -571,6 +708,7 @@
   "MaxLengthValidator": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "[maxlength][ngControl],[maxlength][ngFormControl],[maxlength][ngModel]",
@@ -590,9 +728,41 @@
       "template": null
     }
   },
+  "RadioControlValueAccessor": {
+    "kind": "type",
+    "value": {
+      "class": "Directive",
+      "isComponent": false,
+      "dynamicLoadable": true,
+      "selector": "input[type=radio][ngControl],input[type=radio][ngFormControl],input[type=radio][ngModel]",
+      "exportAs": null,
+      "type": {
+        "name": "RadioControlValueAccessor",
+        "moduleUrl": "asset:angular2/lib/src/common/forms/directives/radio_control_value_accessor.dart",
+        "isHost": false
+      },
+      "changeDetection": 5,
+      "inputs": {
+        "name": "name"
+      },
+      "outputs": {},
+      "hostListeners": {
+        "blur": "onTouched()",
+        "change": "onChange()"
+      },
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [
+        1,
+        0
+      ],
+      "template": null
+    }
+  },
   "NumberValueAccessor": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "input[type=number][ngControl],input[type=number][ngFormControl],input[type=number][ngModel]",
@@ -658,7 +828,8 @@
   "FORM_PROVIDERS": {
     "kind": "alias",
     "value": [
-      "FormBuilder"
+      "FormBuilder",
+      "RadioControlRegistry"
     ]
   },
   "FORM_DIRECTIVES": {
@@ -675,6 +846,7 @@
       "NumberValueAccessor",
       "CheckboxControlValueAccessor",
       "SelectControlValueAccessor",
+      "RadioControlValueAccessor",
       "NgControlStatus",
       "RequiredValidator",
       "MinLengthValidator",

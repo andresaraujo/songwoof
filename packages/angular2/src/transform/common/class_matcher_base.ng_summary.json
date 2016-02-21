@@ -14,10 +14,6 @@
         "5": false
       },
       {
-        "1": "package:code_transformers/assets.dart",
-        "5": false
-      },
-      {
         "1": "package:path/path.dart",
         "4": "path",
         "5": false
@@ -27,6 +23,10 @@
         "2": [
           "log"
         ],
+        "5": false
+      },
+      {
+        "1": "url_resolver.dart",
         "5": false
       }
     ],

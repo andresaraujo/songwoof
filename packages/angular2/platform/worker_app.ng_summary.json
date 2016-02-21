@@ -47,6 +47,12 @@
       },
       {
         "1": "package:angular2/src/web_workers/shared/message_bus.dart"
+      },
+      {
+        "1": "package:angular2/src/web_workers/worker/router_providers.dart",
+        "2": [
+          "WORKER_APP_ROUTER"
+        ]
       }
     ],
     "6": "worker_app.dart"

@@ -47,7 +47,7 @@
         "1": "package:angular2/src/platform/dom/debug/by.dart"
       },
       {
-        "1": "package:angular2/src/platform/dom/debug/debug_element_view_listener.dart"
+        "1": "package:angular2/src/platform/dom/debug/ng_probe.dart"
       }
     ],
     "6": "common_dom.dart"

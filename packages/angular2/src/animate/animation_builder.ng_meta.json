@@ -48,15 +48,15 @@
     "6": "animation_builder.dart",
     "10": [
       {
-        "1": "package:angular2/src/core/di.ng_deps.dart",
+        "1": "package:angular2/src/core/di.template.dart",
         "4": "i0"
       },
       {
-        "1": "css_animation_builder.ng_deps.dart",
+        "1": "css_animation_builder.template.dart",
         "4": "i1"
       },
       {
-        "1": "browser_details.ng_deps.dart",
+        "1": "browser_details.template.dart",
         "4": "i2"
       }
     ]

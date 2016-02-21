@@ -1,0 +1,166 @@
+{
+  "ngDeps": {
+    "1": "angular2.src.common.forms.directives.radio_control_value_accessor",
+    "3": [
+      {
+        "1": "package:angular2/core.dart",
+        "2": [
+          "Directive",
+          "ElementRef",
+          "Renderer",
+          "Self",
+          "Provider",
+          "Attribute",
+          "Input",
+          "OnInit",
+          "OnDestroy",
+          "Injector",
+          "Injectable"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/common/forms/directives/control_value_accessor.dart",
+        "2": [
+          "NG_VALUE_ACCESSOR",
+          "ControlValueAccessor"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/common/forms/directives/ng_control.dart",
+        "2": [
+          "NgControl"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/facade/lang.dart",
+        "2": [
+          "looseIdentical",
+          "isPresent"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/facade/collection.dart",
+        "2": [
+          "ListWrapper"
+        ],
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "RadioControlRegistry",
+        "4": [
+          {
+            "1": "Injectable",
+            "4": false,
+            "5": false,
+            "6": false,
+            "7": true,
+            "8": false
+          }
+        ]
+      },
+      {
+        "1": "RadioControlValueAccessor",
+        "4": [
+          {
+            "1": "Directive",
+            "3": [
+              {
+                "1": "selector",
+                "2": "\"input[type=radio][ngControl],input[type=radio][ngFormControl],input[type=radio][ngModel]\""
+              },
+              {
+                "1": "host",
+                "2": "const {\"(change)\" : \"onChange()\", \"(blur)\" : \"onTouched()\"}"
+              },
+              {
+                "1": "providers",
+                "2": "const [RADIO_VALUE_ACCESSOR]"
+              }
+            ],
+            "4": false,
+            "5": true,
+            "6": false,
+            "7": true,
+            "8": false
+          }
+        ],
+        "5": [
+          {
+            "1": "Renderer",
+            "4": "_renderer"
+          },
+          {
+            "1": "ElementRef",
+            "4": "_elementRef"
+          },
+          {
+            "1": "RadioControlRegistry",
+            "4": "_registry"
+          },
+          {
+            "1": "Injector",
+            "4": "_injector"
+          }
+        ],
+        "6": [
+          "ControlValueAccessor",
+          "OnDestroy",
+          "OnInit"
+        ],
+        "7": [
+          {
+            "1": "name",
+            "2": [
+              {
+                "1": "Input",
+                "4": false,
+                "5": false,
+                "6": false,
+                "7": false,
+                "8": false
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "6": "radio_control_value_accessor.dart"
+  },
+  "RadioControlValueAccessor": {
+    "kind": "type",
+    "value": {
+      "class": "Directive",
+      "isComponent": false,
+      "dynamicLoadable": true,
+      "selector": "input[type=radio][ngControl],input[type=radio][ngFormControl],input[type=radio][ngModel]",
+      "exportAs": null,
+      "type": {
+        "name": "RadioControlValueAccessor",
+        "moduleUrl": "asset:angular2/lib/src/common/forms/directives/radio_control_value_accessor.dart",
+        "isHost": false
+      },
+      "changeDetection": 5,
+      "inputs": {
+        "name": "name"
+      },
+      "outputs": {},
+      "hostListeners": {
+        "blur": "onTouched()",
+        "change": "onChange()"
+      },
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [
+        1,
+        0
+      ],
+      "template": null
+    }
+  }
+}

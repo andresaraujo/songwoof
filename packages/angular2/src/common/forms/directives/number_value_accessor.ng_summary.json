@@ -77,6 +77,7 @@
   "NumberValueAccessor": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "input[type=number][ngControl],input[type=number][ngFormControl],input[type=number][ngModel]",

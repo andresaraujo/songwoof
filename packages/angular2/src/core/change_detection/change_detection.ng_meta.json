@@ -6,7 +6,8 @@
         "1": "differs/iterable_differs.dart",
         "2": [
           "IterableDiffers",
-          "IterableDifferFactory"
+          "IterableDifferFactory",
+          "TrackByFn"
         ],
         "5": false
       },
@@ -139,7 +140,8 @@
         "2": [
           "IterableDiffers",
           "IterableDiffer",
-          "IterableDifferFactory"
+          "IterableDifferFactory",
+          "TrackByFn"
         ]
       },
       {
@@ -167,75 +169,75 @@
     "6": "change_detection.dart",
     "10": [
       {
-        "1": "differs/iterable_differs.ng_deps.dart",
+        "1": "differs/iterable_differs.template.dart",
         "4": "i0"
       },
       {
-        "1": "differs/default_iterable_differ.ng_deps.dart",
+        "1": "differs/default_iterable_differ.template.dart",
         "4": "i1"
       },
       {
-        "1": "differs/keyvalue_differs.ng_deps.dart",
+        "1": "differs/keyvalue_differs.template.dart",
         "4": "i2"
       },
       {
-        "1": "differs/default_keyvalue_differ.ng_deps.dart",
+        "1": "differs/default_keyvalue_differ.template.dart",
         "4": "i3"
       },
       {
-        "1": "parser/ast.ng_deps.dart",
+        "1": "parser/ast.template.dart",
         "4": "i4"
       },
       {
-        "1": "parser/lexer.ng_deps.dart",
+        "1": "parser/lexer.template.dart",
         "4": "i5"
       },
       {
-        "1": "parser/parser.ng_deps.dart",
+        "1": "parser/parser.template.dart",
         "4": "i6"
       },
       {
-        "1": "parser/locals.ng_deps.dart",
+        "1": "parser/locals.template.dart",
         "4": "i7"
       },
       {
-        "1": "exceptions.ng_deps.dart",
+        "1": "exceptions.template.dart",
         "4": "i8"
       },
       {
-        "1": "interfaces.ng_deps.dart",
+        "1": "interfaces.template.dart",
         "4": "i9"
       },
       {
-        "1": "constants.ng_deps.dart",
+        "1": "constants.template.dart",
         "4": "i10"
       },
       {
-        "1": "proto_change_detector.ng_deps.dart",
+        "1": "proto_change_detector.template.dart",
         "4": "i11"
       },
       {
-        "1": "jit_proto_change_detector.ng_deps.dart",
+        "1": "jit_proto_change_detector.template.dart",
         "4": "i12"
       },
       {
-        "1": "binding_record.ng_deps.dart",
+        "1": "binding_record.template.dart",
         "4": "i13"
       },
       {
-        "1": "directive_record.ng_deps.dart",
+        "1": "directive_record.template.dart",
         "4": "i14"
       },
       {
-        "1": "dynamic_change_detector.ng_deps.dart",
+        "1": "dynamic_change_detector.template.dart",
         "4": "i15"
       },
       {
-        "1": "change_detector_ref.ng_deps.dart",
+        "1": "change_detector_ref.template.dart",
         "4": "i16"
       },
       {
-        "1": "change_detection_util.ng_deps.dart",
+        "1": "change_detection_util.template.dart",
         "4": "i17"
       }
     ]

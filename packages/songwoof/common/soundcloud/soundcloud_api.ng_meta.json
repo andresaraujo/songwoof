@@ -65,11 +65,11 @@
     "6": "soundcloud_api.dart",
     "10": [
       {
-        "1": "package:angular2/angular2.ng_deps.dart",
+        "1": "package:angular2/angular2.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:songwoof/common/soundcloud/soundcloud_config.ng_deps.dart",
+        "1": "package:songwoof/common/soundcloud/soundcloud_config.template.dart",
         "4": "i1"
       }
     ]

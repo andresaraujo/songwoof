@@ -21,15 +21,15 @@
     "6": "route_config_nomalizer.dart",
     "10": [
       {
-        "1": "route_config_decorator.ng_deps.dart",
+        "1": "route_config_decorator.template.dart",
         "4": "i0"
       },
       {
-        "1": "route_registry.ng_deps.dart",
+        "1": "route_registry.template.dart",
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/facade/exceptions.ng_deps.dart",
+        "1": "package:angular2/src/facade/exceptions.template.dart",
         "4": "i2"
       }
     ]

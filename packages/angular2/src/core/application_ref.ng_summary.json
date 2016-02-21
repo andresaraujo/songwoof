@@ -3,6 +3,10 @@
     "1": "angular2.src.core.application_ref",
     "3": [
       {
+        "1": "dart:async",
+        "5": false
+      },
+      {
         "1": "package:angular2/src/core/zone/ng_zone.dart",
         "2": [
           "NgZone"
@@ -45,7 +49,6 @@
       {
         "1": "package:angular2/src/facade/async.dart",
         "2": [
-          "Future",
           "PromiseWrapper",
           "PromiseCompleter",
           "ObservableWrapper"
@@ -86,13 +89,6 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/core/linker/view_ref.dart",
-        "2": [
-          "internalView"
-        ],
-        "5": false
-      },
-      {
         "1": "package:angular2/src/core/console.dart",
         "2": [
           "Console"
@@ -119,6 +115,13 @@
         "1": "package:angular2/src/facade/lang.dart",
         "2": [
           "lockMode"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/linker/element_ref.dart",
+        "2": [
+          "ElementRef_"
         ],
         "5": false
       }

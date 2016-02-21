@@ -28,11 +28,11 @@
     "6": "template_preparser.dart",
     "10": [
       {
-        "1": "html_ast.ng_deps.dart",
+        "1": "html_ast.template.dart",
         "4": "i0"
       },
       {
-        "1": "html_tags.ng_deps.dart",
+        "1": "html_tags.template.dart",
         "4": "i1"
       }
     ]

@@ -41,11 +41,11 @@
     "6": "browser_adapter.dart",
     "10": [
       {
-        "1": "package:angular2/platform/common_dom.ng_deps.dart",
+        "1": "package:angular2/platform/common_dom.template.dart",
         "4": "i0"
       },
       {
-        "1": "generic_browser_adapter.ng_deps.dart",
+        "1": "generic_browser_adapter.template.dart",
         "4": "i1"
       }
     ]

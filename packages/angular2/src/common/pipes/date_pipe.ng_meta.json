@@ -67,7 +67,7 @@
             "4": false,
             "5": false,
             "6": false,
-            "7": false,
+            "7": true,
             "8": false
           },
           {
@@ -87,17 +87,30 @@
     "6": "date_pipe.dart",
     "10": [
       {
-        "1": "package:angular2/src/facade/intl.ng_deps.dart",
+        "1": "package:angular2/src/facade/intl.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/core.ng_deps.dart",
+        "1": "package:angular2/core.template.dart",
         "4": "i1"
       },
       {
-        "1": "invalid_pipe_argument_exception.ng_deps.dart",
+        "1": "invalid_pipe_argument_exception.template.dart",
         "4": "i2"
       }
     ]
+  },
+  "DatePipe": {
+    "kind": "type",
+    "value": {
+      "class": "Pipe",
+      "type": {
+        "name": "DatePipe",
+        "moduleUrl": "asset:angular2/lib/src/common/pipes/date_pipe.dart",
+        "isHost": false
+      },
+      "name": "date",
+      "pure": true
+    }
   }
 }

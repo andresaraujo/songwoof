@@ -69,27 +69,27 @@
     "6": "codegen_logic_util.dart",
     "10": [
       {
-        "1": "codegen_name_util.ng_deps.dart",
+        "1": "codegen_name_util.template.dart",
         "4": "i0"
       },
       {
-        "1": "proto_record.ng_deps.dart",
+        "1": "proto_record.template.dart",
         "4": "i1"
       },
       {
-        "1": "binding_record.ng_deps.dart",
+        "1": "binding_record.template.dart",
         "4": "i2"
       },
       {
-        "1": "directive_record.ng_deps.dart",
+        "1": "directive_record.template.dart",
         "4": "i3"
       },
       {
-        "1": "constants.ng_deps.dart",
+        "1": "constants.template.dart",
         "4": "i4"
       },
       {
-        "1": "package:angular2/src/facade/exceptions.ng_deps.dart",
+        "1": "package:angular2/src/facade/exceptions.template.dart",
         "4": "i5"
       }
     ]

@@ -72,19 +72,19 @@
     "6": "login.dart",
     "10": [
       {
-        "1": "package:angular2/angular2.ng_deps.dart",
+        "1": "package:angular2/angular2.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/router.ng_deps.dart",
+        "1": "package:angular2/router.template.dart",
         "4": "i1"
       },
       {
-        "1": "package:songwoof/common/models/user_data.ng_deps.dart",
+        "1": "package:songwoof/common/models/user_data.template.dart",
         "4": "i2"
       },
       {
-        "1": "package:songwoof/common/services/user_service.ng_deps.dart",
+        "1": "package:songwoof/common/services/user_service.template.dart",
         "4": "i3"
       }
     ]
@@ -92,6 +92,7 @@
   "LoginComponent": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": true,
       "dynamicLoadable": true,
       "selector": "swoof-login",
@@ -110,7 +111,7 @@
       "lifecycleHooks": [],
       "template": {
         "encapsulation": 2,
-        "template": "<p>Discover Soundcloud Music</p>\n\n<div class=\"v-container\">\n    <a href=\"javascript:void(0)\" (click)=\"login('github')\">Sign in with Github</a>\n</div>",
+        "template": "<p>Discover Soundcloud Music</p>\n\n<div class=\"v-container\">\n    <a href=\"javascript:void(0)\" (click)=\"login('github')\">Sign in with Github</a>\n    <a href=\"javascript:void(0)\" (click)=\"login('twitter')\">Sign in with Twitter</a>\n</div>",
         "templateUrl": "asset:songwoof/lib/login/login.html",
         "styles": [],
         "styleUrls": [],

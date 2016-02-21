@@ -67,19 +67,19 @@
     "6": "legacy_template.dart",
     "10": [
       {
-        "1": "package:angular2/src/core/di.ng_deps.dart",
+        "1": "package:angular2/src/core/di.template.dart",
         "4": "i0"
       },
       {
-        "1": "html_ast.ng_deps.dart",
+        "1": "html_ast.template.dart",
         "4": "i1"
       },
       {
-        "1": "html_parser.ng_deps.dart",
+        "1": "html_parser.template.dart",
         "4": "i2"
       },
       {
-        "1": "util.ng_deps.dart",
+        "1": "util.template.dart",
         "4": "i3"
       }
     ]

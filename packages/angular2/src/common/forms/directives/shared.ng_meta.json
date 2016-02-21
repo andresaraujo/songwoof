@@ -15,7 +15,8 @@
         "2": [
           "isBlank",
           "isPresent",
-          "looseIdentical"
+          "looseIdentical",
+          "hasConstructor"
         ],
         "5": false
       },
@@ -106,6 +107,13 @@
         "5": false
       },
       {
+        "1": "radio_control_value_accessor.dart",
+        "2": [
+          "RadioControlValueAccessor"
+        ],
+        "5": false
+      },
+      {
         "1": "normalize_validator.dart",
         "2": [
           "normalizeValidator"
@@ -116,56 +124,60 @@
     "6": "shared.dart",
     "10": [
       {
-        "1": "package:angular2/src/facade/exceptions.ng_deps.dart",
+        "1": "package:angular2/src/facade/exceptions.template.dart",
         "4": "i0"
       },
       {
-        "1": "control_container.ng_deps.dart",
+        "1": "control_container.template.dart",
         "4": "i1"
       },
       {
-        "1": "ng_control.ng_deps.dart",
+        "1": "ng_control.template.dart",
         "4": "i2"
       },
       {
-        "1": "abstract_control_directive.ng_deps.dart",
+        "1": "abstract_control_directive.template.dart",
         "4": "i3"
       },
       {
-        "1": "ng_control_group.ng_deps.dart",
+        "1": "ng_control_group.template.dart",
         "4": "i4"
       },
       {
-        "1": "../model.ng_deps.dart",
+        "1": "../model.template.dart",
         "4": "i5"
       },
       {
-        "1": "../validators.ng_deps.dart",
+        "1": "../validators.template.dart",
         "4": "i6"
       },
       {
-        "1": "control_value_accessor.ng_deps.dart",
+        "1": "control_value_accessor.template.dart",
         "4": "i7"
       },
       {
-        "1": "default_value_accessor.ng_deps.dart",
+        "1": "default_value_accessor.template.dart",
         "4": "i8"
       },
       {
-        "1": "number_value_accessor.ng_deps.dart",
+        "1": "number_value_accessor.template.dart",
         "4": "i9"
       },
       {
-        "1": "checkbox_value_accessor.ng_deps.dart",
+        "1": "checkbox_value_accessor.template.dart",
         "4": "i10"
       },
       {
-        "1": "select_control_value_accessor.ng_deps.dart",
+        "1": "select_control_value_accessor.template.dart",
         "4": "i11"
       },
       {
-        "1": "normalize_validator.ng_deps.dart",
+        "1": "radio_control_value_accessor.template.dart",
         "4": "i12"
+      },
+      {
+        "1": "normalize_validator.template.dart",
+        "4": "i13"
       }
     ]
   }

@@ -15,16 +15,12 @@
     "6": "compiler.dart",
     "10": [
       {
-        "1": "src/compiler/url_resolver.ng_deps.dart",
+        "1": "src/compiler/url_resolver.template.dart",
         "4": "i0"
       },
       {
-        "1": "src/compiler/xhr.ng_deps.dart",
+        "1": "src/compiler/compiler.template.dart",
         "4": "i1"
-      },
-      {
-        "1": "src/compiler/compiler.ng_deps.dart",
-        "4": "i2"
       }
     ]
   }

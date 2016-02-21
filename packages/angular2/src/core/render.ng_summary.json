@@ -5,22 +5,9 @@
       {
         "1": "render/api.dart",
         "2": [
-          "RenderEventDispatcher",
+          "RootRenderer",
           "Renderer",
-          "RenderElementRef",
-          "RenderViewRef",
-          "RenderProtoViewRef",
-          "RenderFragmentRef",
-          "RenderViewWithFragments",
-          "RenderTemplateCmd",
-          "RenderCommandVisitor",
-          "RenderTextCmd",
-          "RenderNgContentCmd",
-          "RenderBeginElementCmd",
-          "RenderBeginComponentCmd",
-          "RenderEmbeddedTemplateCmd",
-          "RenderBeginCmd",
-          "RenderComponentTemplate"
+          "RenderComponentType"
         ]
       }
     ],

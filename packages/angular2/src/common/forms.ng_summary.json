@@ -1,6 +1,29 @@
 {
   "ngDeps": {
     "1": "angular2.src.common.forms",
+    "3": [
+      {
+        "1": "forms/form_builder.dart",
+        "2": [
+          "FormBuilder"
+        ],
+        "5": false
+      },
+      {
+        "1": "forms/directives/radio_control_value_accessor.dart",
+        "2": [
+          "RadioControlRegistry"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/facade/lang.dart",
+        "2": [
+          "Type"
+        ],
+        "5": false
+      }
+    ],
     "4": [
       {
         "1": "forms/model.dart",
@@ -106,7 +129,8 @@
       {
         "1": "forms/directives.dart",
         "2": [
-          "FORM_DIRECTIVES"
+          "FORM_DIRECTIVES",
+          "RadioButtonState"
         ]
       },
       {
@@ -129,12 +153,17 @@
       {
         "1": "forms/form_builder.dart",
         "2": [
-          "FormBuilder",
-          "FORM_PROVIDERS",
-          "FORM_BINDINGS"
+          "FormBuilder"
         ]
       }
     ],
     "6": "forms.dart"
+  },
+  "FORM_PROVIDERS": {
+    "kind": "alias",
+    "value": [
+      "FormBuilder",
+      "RadioControlRegistry"
+    ]
   }
 }

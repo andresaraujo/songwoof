@@ -26,11 +26,11 @@
     "6": "queries_code.dart",
     "10": [
       {
-        "1": "package:angular2/src/transform/common/annotation_matcher.ng_deps.dart",
+        "1": "package:angular2/src/transform/common/annotation_matcher.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/transform/common/naive_eval.ng_deps.dart",
+        "1": "package:angular2/src/transform/common/naive_eval.template.dart",
         "4": "i1"
       }
     ]

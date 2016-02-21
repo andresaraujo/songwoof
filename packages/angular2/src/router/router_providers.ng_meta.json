@@ -1,0 +1,50 @@
+{
+  "ngDeps": {
+    "1": "angular2.src.router.router_providers",
+    "3": [
+      {
+        "1": "package:angular2/router.dart",
+        "2": [
+          "ROUTER_PROVIDERS_COMMON"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/core.dart",
+        "2": [
+          "Provider"
+        ],
+        "5": false
+      },
+      {
+        "1": "browser_platform_location.dart",
+        "2": [
+          "BrowserPlatformLocation"
+        ],
+        "5": false
+      },
+      {
+        "1": "platform_location.dart",
+        "2": [
+          "PlatformLocation"
+        ],
+        "5": false
+      }
+    ],
+    "6": "router_providers.dart",
+    "10": [
+      {
+        "1": "package:angular2/router.template.dart",
+        "4": "i0"
+      },
+      {
+        "1": "package:angular2/core.template.dart",
+        "4": "i1"
+      },
+      {
+        "1": "browser_platform_location.template.dart",
+        "4": "i2"
+      }
+    ]
+  }
+}

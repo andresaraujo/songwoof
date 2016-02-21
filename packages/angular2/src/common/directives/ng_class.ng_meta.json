@@ -87,7 +87,7 @@
     "6": "ng_class.dart",
     "10": [
       {
-        "1": "package:angular2/core.ng_deps.dart",
+        "1": "package:angular2/core.template.dart",
         "4": "i0"
       }
     ]
@@ -95,6 +95,7 @@
   "NgClass": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "[ngClass]",

@@ -46,6 +46,13 @@
         "5": false
       },
       {
+        "1": "package:angular2/src/core/linker/pipe_resolver.dart",
+        "2": [
+          "PipeResolver"
+        ],
+        "5": false
+      },
+      {
         "1": "package:angular2/src/core/linker/view_resolver.dart",
         "2": [
           "ViewResolver"
@@ -93,7 +100,8 @@
       {
         "1": "package:angular2/src/core/platform_directives_and_pipes.dart",
         "2": [
-          "PLATFORM_DIRECTIVES"
+          "PLATFORM_DIRECTIVES",
+          "PLATFORM_PIPES"
         ],
         "5": false
       },
@@ -131,6 +139,10 @@
             "4": "_directiveResolver"
           },
           {
+            "1": "PipeResolver",
+            "4": "_pipeResolver"
+          },
+          {
             "1": "ViewResolver",
             "4": "_viewResolver"
           },
@@ -142,6 +154,15 @@
               "const Inject(PLATFORM_DIRECTIVES)"
             ],
             "4": "_platformDirectives"
+          },
+          {
+            "1": "List",
+            "2": "<Type>",
+            "3": [
+              "const Optional()",
+              "const Inject(PLATFORM_PIPES)"
+            ],
+            "4": "_platformPipes"
           }
         ]
       }

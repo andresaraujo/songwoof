@@ -26,7 +26,8 @@
           "Json",
           "RegExpWrapper",
           "stringify",
-          "StringWrapper"
+          "StringWrapper",
+          "isArray"
         ],
         "5": false
       },
@@ -46,26 +47,12 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/core/profile/profile.dart",
-        "2": [
-          "WtfScopeFn",
-          "wtfLeave",
-          "wtfCreateScope"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/core.dart",
+        "1": "package:angular2/src/core/render/api.dart",
         "2": [
           "Renderer",
-          "RenderProtoViewRef",
-          "RenderViewRef",
-          "RenderElementRef",
-          "RenderFragmentRef",
-          "RenderViewWithFragments",
-          "RenderTemplateCmd",
-          "RenderEventDispatcher",
-          "RenderComponentTemplate"
+          "RootRenderer",
+          "RenderComponentType",
+          "RenderDebugInfo"
         ],
         "5": false
       },
@@ -80,24 +67,6 @@
         "1": "dom_tokens.dart",
         "2": [
           "DOCUMENT"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/render/view_factory.dart",
-        "2": [
-          "createRenderView",
-          "NodeFactory",
-          "encapsulateStyles"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/render/view.dart",
-        "2": [
-          "DefaultRenderView",
-          "DefaultRenderFragmentRef",
-          "DefaultProtoViewRef"
         ],
         "5": false
       },
@@ -125,7 +94,7 @@
     ],
     "5": [
       {
-        "1": "DomRenderer_",
+        "1": "DomRootRenderer_",
         "4": [
           {
             "1": "Injectable",
@@ -138,22 +107,23 @@
         ],
         "5": [
           {
+            "1": "dynamic",
+            "3": [
+              "const Inject(DOCUMENT)"
+            ],
+            "4": "_document"
+          },
+          {
             "1": "EventManager",
             "4": "_eventManager"
           },
           {
             "1": "DomSharedStylesHost",
-            "4": "_domSharedStylesHost"
+            "4": "sharedStylesHost"
           },
           {
             "1": "AnimationBuilder",
-            "4": "_animate"
-          },
-          {
-            "3": [
-              "const Inject(DOCUMENT)"
-            ],
-            "4": "document"
+            "4": "animate"
           }
         ]
       }

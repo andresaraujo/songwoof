@@ -75,11 +75,11 @@
     "6": "number_value_accessor.dart",
     "10": [
       {
-        "1": "package:angular2/core.ng_deps.dart",
+        "1": "package:angular2/core.template.dart",
         "4": "i0"
       },
       {
-        "1": "control_value_accessor.ng_deps.dart",
+        "1": "control_value_accessor.template.dart",
         "4": "i1"
       }
     ]
@@ -87,6 +87,7 @@
   "NumberValueAccessor": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "input[type=number][ngControl],input[type=number][ngFormControl],input[type=number][ngModel]",

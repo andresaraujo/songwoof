@@ -3,6 +3,10 @@
     "1": "angular2.src.router.component_recognizer",
     "3": [
       {
+        "1": "dart:async",
+        "5": false
+      },
+      {
         "1": "package:angular2/src/facade/lang.dart",
         "2": [
           "isBlank",
@@ -31,7 +35,6 @@
       {
         "1": "package:angular2/src/facade/async.dart",
         "2": [
-          "Future",
           "PromiseWrapper"
         ],
         "5": false
@@ -42,7 +45,8 @@
           "AbstractRecognizer",
           "RouteRecognizer",
           "RedirectRecognizer",
-          "RouteMatch"
+          "RouteMatch",
+          "PathMatch"
         ],
         "5": false
       },
@@ -89,35 +93,35 @@
     "6": "component_recognizer.dart",
     "10": [
       {
-        "1": "package:angular2/src/facade/exceptions.ng_deps.dart",
+        "1": "package:angular2/src/facade/exceptions.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/facade/async.ng_deps.dart",
+        "1": "package:angular2/src/facade/async.template.dart",
         "4": "i1"
       },
       {
-        "1": "route_recognizer.ng_deps.dart",
+        "1": "route_recognizer.template.dart",
         "4": "i2"
       },
       {
-        "1": "route_config_impl.ng_deps.dart",
+        "1": "route_config_impl.template.dart",
         "4": "i3"
       },
       {
-        "1": "async_route_handler.ng_deps.dart",
+        "1": "async_route_handler.template.dart",
         "4": "i4"
       },
       {
-        "1": "sync_route_handler.ng_deps.dart",
+        "1": "sync_route_handler.template.dart",
         "4": "i5"
       },
       {
-        "1": "url_parser.ng_deps.dart",
+        "1": "url_parser.template.dart",
         "4": "i6"
       },
       {
-        "1": "instruction.ng_deps.dart",
+        "1": "instruction.template.dart",
         "4": "i7"
       }
     ]

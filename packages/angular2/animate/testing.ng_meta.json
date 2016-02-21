@@ -9,7 +9,7 @@
     "6": "testing.dart",
     "10": [
       {
-        "1": "package:angular2/src/mock/animation_builder_mock.ng_deps.dart",
+        "1": "package:angular2/src/mock/animation_builder_mock.template.dart",
         "4": "i0"
       }
     ]

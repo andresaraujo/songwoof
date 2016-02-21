@@ -6,7 +6,8 @@
         "1": "package:angular2/src/facade/lang.dart",
         "2": [
           "isBlank",
-          "isPresent"
+          "isPresent",
+          "isString"
         ],
         "5": false
       },

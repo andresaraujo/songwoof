@@ -104,34 +104,151 @@
     "6": "pipes.dart",
     "10": [
       {
-        "1": "pipes/async_pipe.ng_deps.dart",
+        "1": "pipes/async_pipe.template.dart",
         "4": "i0"
       },
       {
-        "1": "pipes/uppercase_pipe.ng_deps.dart",
+        "1": "pipes/uppercase_pipe.template.dart",
         "4": "i1"
       },
       {
-        "1": "pipes/lowercase_pipe.ng_deps.dart",
+        "1": "pipes/lowercase_pipe.template.dart",
         "4": "i2"
       },
       {
-        "1": "pipes/json_pipe.ng_deps.dart",
+        "1": "pipes/json_pipe.template.dart",
         "4": "i3"
       },
       {
-        "1": "pipes/slice_pipe.ng_deps.dart",
+        "1": "pipes/slice_pipe.template.dart",
         "4": "i4"
       },
       {
-        "1": "pipes/date_pipe.ng_deps.dart",
+        "1": "pipes/date_pipe.template.dart",
         "4": "i5"
       },
       {
-        "1": "pipes/number_pipe.ng_deps.dart",
+        "1": "pipes/number_pipe.template.dart",
         "4": "i6"
       }
     ]
+  },
+  "AsyncPipe": {
+    "kind": "type",
+    "value": {
+      "class": "Pipe",
+      "type": {
+        "name": "AsyncPipe",
+        "moduleUrl": "asset:angular2/lib/src/common/pipes/async_pipe.dart",
+        "isHost": false
+      },
+      "name": "async",
+      "pure": false
+    }
+  },
+  "DatePipe": {
+    "kind": "type",
+    "value": {
+      "class": "Pipe",
+      "type": {
+        "name": "DatePipe",
+        "moduleUrl": "asset:angular2/lib/src/common/pipes/date_pipe.dart",
+        "isHost": false
+      },
+      "name": "date",
+      "pure": true
+    }
+  },
+  "JsonPipe": {
+    "kind": "type",
+    "value": {
+      "class": "Pipe",
+      "type": {
+        "name": "JsonPipe",
+        "moduleUrl": "asset:angular2/lib/src/common/pipes/json_pipe.dart",
+        "isHost": false
+      },
+      "name": "json",
+      "pure": false
+    }
+  },
+  "SlicePipe": {
+    "kind": "type",
+    "value": {
+      "class": "Pipe",
+      "type": {
+        "name": "SlicePipe",
+        "moduleUrl": "asset:angular2/lib/src/common/pipes/slice_pipe.dart",
+        "isHost": false
+      },
+      "name": "slice",
+      "pure": false
+    }
+  },
+  "LowerCasePipe": {
+    "kind": "type",
+    "value": {
+      "class": "Pipe",
+      "type": {
+        "name": "LowerCasePipe",
+        "moduleUrl": "asset:angular2/lib/src/common/pipes/lowercase_pipe.dart",
+        "isHost": false
+      },
+      "name": "lowercase",
+      "pure": false
+    }
+  },
+  "DecimalPipe": {
+    "kind": "type",
+    "value": {
+      "class": "Pipe",
+      "type": {
+        "name": "DecimalPipe",
+        "moduleUrl": "asset:angular2/lib/src/common/pipes/number_pipe.dart",
+        "isHost": false
+      },
+      "name": "number",
+      "pure": false
+    }
+  },
+  "PercentPipe": {
+    "kind": "type",
+    "value": {
+      "class": "Pipe",
+      "type": {
+        "name": "PercentPipe",
+        "moduleUrl": "asset:angular2/lib/src/common/pipes/number_pipe.dart",
+        "isHost": false
+      },
+      "name": "percent",
+      "pure": false
+    }
+  },
+  "CurrencyPipe": {
+    "kind": "type",
+    "value": {
+      "class": "Pipe",
+      "type": {
+        "name": "CurrencyPipe",
+        "moduleUrl": "asset:angular2/lib/src/common/pipes/number_pipe.dart",
+        "isHost": false
+      },
+      "name": "currency",
+      "pure": false
+    }
+  },
+  "UpperCasePipe": {
+    "kind": "type",
+    "value": {
+      "class": "Pipe",
+      "type": {
+        "name": "UpperCasePipe",
+        "moduleUrl": "asset:angular2/lib/src/common/pipes/uppercase_pipe.dart",
+        "isHost": false
+      },
+      "name": "uppercase",
+      "pure": false
+    }
   },
   "COMMON_PIPES": {
     "kind": "alias",

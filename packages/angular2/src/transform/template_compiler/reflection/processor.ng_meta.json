@@ -14,11 +14,11 @@
     "6": "processor.dart",
     "10": [
       {
-        "1": "package:angular2/src/compiler/directive_metadata.ng_deps.dart",
+        "1": "package:angular2/src/compiler/directive_metadata.template.dart",
         "4": "i0"
       },
       {
-        "1": "model.ng_deps.dart",
+        "1": "model.template.dart",
         "4": "i1"
       }
     ]

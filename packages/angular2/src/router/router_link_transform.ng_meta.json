@@ -75,23 +75,23 @@
     "6": "router_link_transform.dart",
     "10": [
       {
-        "1": "package:angular2/compiler.ng_deps.dart",
+        "1": "package:angular2/compiler.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/core/change_detection/parser/ast.ng_deps.dart",
+        "1": "package:angular2/src/core/change_detection/parser/ast.template.dart",
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/facade/exceptions.ng_deps.dart",
+        "1": "package:angular2/src/facade/exceptions.template.dart",
         "4": "i2"
       },
       {
-        "1": "package:angular2/core.ng_deps.dart",
+        "1": "package:angular2/core.template.dart",
         "4": "i3"
       },
       {
-        "1": "package:angular2/src/core/change_detection/parser/parser.ng_deps.dart",
+        "1": "package:angular2/src/core/change_detection/parser/parser.template.dart",
         "4": "i4"
       }
     ]

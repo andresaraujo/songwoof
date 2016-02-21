@@ -34,27 +34,27 @@
     "6": "worker_app.dart",
     "10": [
       {
-        "1": "package:angular2/src/core/zone/ng_zone.ng_deps.dart",
+        "1": "package:angular2/src/core/zone/ng_zone.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/platform/server/webworker_adapter.ng_deps.dart",
+        "1": "package:angular2/src/platform/server/webworker_adapter.template.dart",
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/platform/worker_app_common.ng_deps.dart",
+        "1": "package:angular2/src/platform/worker_app_common.template.dart",
         "4": "i2"
       },
       {
-        "1": "package:angular2/core.ng_deps.dart",
+        "1": "package:angular2/core.template.dart",
         "4": "i3"
       },
       {
-        "1": "package:angular2/src/web_workers/shared/isolate_message_bus.ng_deps.dart",
+        "1": "package:angular2/src/web_workers/shared/isolate_message_bus.template.dart",
         "4": "i4"
       },
       {
-        "1": "package:angular2/src/web_workers/shared/message_bus.ng_deps.dart",
+        "1": "package:angular2/src/web_workers/shared/message_bus.template.dart",
         "4": "i5"
       }
     ]

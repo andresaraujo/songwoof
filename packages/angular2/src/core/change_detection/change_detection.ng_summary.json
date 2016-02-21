@@ -6,7 +6,8 @@
         "1": "differs/iterable_differs.dart",
         "2": [
           "IterableDiffers",
-          "IterableDifferFactory"
+          "IterableDifferFactory",
+          "TrackByFn"
         ],
         "5": false
       },
@@ -139,7 +140,8 @@
         "2": [
           "IterableDiffers",
           "IterableDiffer",
-          "IterableDifferFactory"
+          "IterableDifferFactory",
+          "TrackByFn"
         ]
       },
       {

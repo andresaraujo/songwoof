@@ -34,7 +34,7 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/transform/common/directive_metadata_reader.dart",
+        "1": "package:angular2/src/transform/common/type_metadata_reader.dart",
         "5": false
       },
       {

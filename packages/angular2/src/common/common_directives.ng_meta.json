@@ -27,11 +27,11 @@
     "6": "common_directives.dart",
     "10": [
       {
-        "1": "forms.ng_deps.dart",
+        "1": "forms.template.dart",
         "4": "i0"
       },
       {
-        "1": "directives.ng_deps.dart",
+        "1": "directives.template.dart",
         "4": "i1"
       }
     ]

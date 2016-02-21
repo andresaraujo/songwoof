@@ -27,11 +27,11 @@
     "6": "abstract_control_directive.dart",
     "10": [
       {
-        "1": "../model.ng_deps.dart",
+        "1": "../model.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/facade/exceptions.ng_deps.dart",
+        "1": "package:angular2/src/facade/exceptions.template.dart",
         "4": "i1"
       }
     ]

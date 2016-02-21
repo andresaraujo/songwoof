@@ -3,9 +3,12 @@
     "1": "angular2.src.platform.browser.ruler",
     "3": [
       {
+        "1": "dart:async",
+        "5": false
+      },
+      {
         "1": "package:angular2/src/facade/async.dart",
         "2": [
-          "Future",
           "PromiseWrapper"
         ],
         "5": false
@@ -28,15 +31,15 @@
     "6": "ruler.dart",
     "10": [
       {
-        "1": "package:angular2/src/facade/async.ng_deps.dart",
+        "1": "package:angular2/src/facade/async.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/platform/dom/dom_adapter.ng_deps.dart",
+        "1": "package:angular2/src/platform/dom/dom_adapter.template.dart",
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/core/linker/element_ref.ng_deps.dart",
+        "1": "package:angular2/src/core/linker/element_ref.template.dart",
         "4": "i2"
       }
     ]

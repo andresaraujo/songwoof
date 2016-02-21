@@ -3,16 +3,20 @@
     "1": "angular2.src.testing.test_component_builder",
     "3": [
       {
+        "1": "dart:async",
+        "5": false
+      },
+      {
         "1": "package:angular2/core.dart",
         "2": [
           "ComponentRef",
-          "DebugElement",
           "DirectiveResolver",
           "DynamicComponentLoader",
           "Injector",
           "Injectable",
           "ViewMetadata",
-          "ViewRef",
+          "ElementRef",
+          "EmbeddedViewRef",
           "ViewResolver",
           "provide"
         ],
@@ -28,13 +32,6 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/facade/async.dart",
-        "2": [
-          "Future"
-        ],
-        "5": false
-      },
-      {
         "1": "package:angular2/src/facade/collection.dart",
         "2": [
           "ListWrapper",
@@ -43,16 +40,16 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/core/linker/view.dart",
+        "1": "package:angular2/src/core/linker/view_ref.dart",
         "2": [
-          "AppView"
+          "ViewRef_"
         ],
         "5": false
       },
       {
-        "1": "package:angular2/src/core/linker/view_ref.dart",
+        "1": "package:angular2/src/core/linker/view.dart",
         "2": [
-          "internalView"
+          "AppView"
         ],
         "5": false
       },
@@ -78,9 +75,11 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/core/debug/debug_element.dart",
+        "1": "package:angular2/src/core/debug/debug_node.dart",
         "2": [
-          "DebugElement_"
+          "DebugNode",
+          "DebugElement",
+          "getDebugNode"
         ],
         "5": false
       }
@@ -109,36 +108,32 @@
     "6": "test_component_builder.dart",
     "10": [
       {
-        "1": "package:angular2/core.ng_deps.dart",
+        "1": "package:angular2/core.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/facade/async.ng_deps.dart",
+        "1": "package:angular2/src/core/linker/view_ref.template.dart",
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/core/linker/view.ng_deps.dart",
+        "1": "package:angular2/src/core/linker/view.template.dart",
         "4": "i2"
       },
       {
-        "1": "package:angular2/src/core/linker/view_ref.ng_deps.dart",
+        "1": "utils.template.dart",
         "4": "i3"
       },
       {
-        "1": "utils.ng_deps.dart",
+        "1": "package:angular2/src/platform/dom/dom_tokens.template.dart",
         "4": "i4"
       },
       {
-        "1": "package:angular2/src/platform/dom/dom_tokens.ng_deps.dart",
+        "1": "package:angular2/src/platform/dom/dom_adapter.template.dart",
         "4": "i5"
       },
       {
-        "1": "package:angular2/src/platform/dom/dom_adapter.ng_deps.dart",
+        "1": "package:angular2/src/core/debug/debug_node.template.dart",
         "4": "i6"
-      },
-      {
-        "1": "package:angular2/src/core/debug/debug_element.ng_deps.dart",
-        "4": "i7"
       }
     ]
   }

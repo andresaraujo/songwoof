@@ -50,15 +50,15 @@
     "6": "location.dart",
     "10": [
       {
-        "1": "location_strategy.ng_deps.dart",
+        "1": "location_strategy.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/facade/async.ng_deps.dart",
+        "1": "package:angular2/src/facade/async.template.dart",
         "4": "i1"
       },
       {
-        "1": "package:angular2/core.ng_deps.dart",
+        "1": "package:angular2/core.template.dart",
         "4": "i2"
       }
     ]

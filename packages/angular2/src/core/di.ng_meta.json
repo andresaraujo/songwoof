@@ -74,27 +74,27 @@
     "6": "di.dart",
     "10": [
       {
-        "1": "di/metadata.ng_deps.dart",
+        "1": "di/metadata.template.dart",
         "4": "i0"
       },
       {
-        "1": "di/decorators.ng_deps.dart",
+        "1": "di/decorators.template.dart",
         "4": "i1"
       },
       {
-        "1": "di/injector.ng_deps.dart",
+        "1": "di/injector.template.dart",
         "4": "i2"
       },
       {
-        "1": "di/provider.ng_deps.dart",
+        "1": "di/provider.template.dart",
         "4": "i3"
       },
       {
-        "1": "di/key.ng_deps.dart",
+        "1": "di/key.template.dart",
         "4": "i4"
       },
       {
-        "1": "di/exceptions.ng_deps.dart",
+        "1": "di/exceptions.template.dart",
         "4": "i5"
       }
     ]

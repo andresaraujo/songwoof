@@ -20,11 +20,11 @@
     "6": "control_container.dart",
     "10": [
       {
-        "1": "form_interface.ng_deps.dart",
+        "1": "form_interface.template.dart",
         "4": "i0"
       },
       {
-        "1": "abstract_control_directive.ng_deps.dart",
+        "1": "abstract_control_directive.template.dart",
         "4": "i1"
       }
     ]

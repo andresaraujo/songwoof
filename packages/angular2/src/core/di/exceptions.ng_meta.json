@@ -44,15 +44,15 @@
     "6": "exceptions.dart",
     "10": [
       {
-        "1": "package:angular2/src/facade/exceptions.ng_deps.dart",
+        "1": "package:angular2/src/facade/exceptions.template.dart",
         "4": "i0"
       },
       {
-        "1": "key.ng_deps.dart",
+        "1": "key.template.dart",
         "4": "i1"
       },
       {
-        "1": "injector.ng_deps.dart",
+        "1": "injector.template.dart",
         "4": "i2"
       }
     ]

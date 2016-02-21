@@ -159,6 +159,7 @@
   "NgFormModel": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "[ngFormModel]",

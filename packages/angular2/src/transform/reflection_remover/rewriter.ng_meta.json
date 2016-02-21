@@ -39,19 +39,19 @@
     "6": "rewriter.dart",
     "10": [
       {
-        "1": "package:angular2/src/transform/common/logging.ng_deps.dart",
+        "1": "package:angular2/src/transform/common/logging.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/transform/common/mirror_matcher.ng_deps.dart",
+        "1": "package:angular2/src/transform/common/mirror_matcher.template.dart",
         "4": "i1"
       },
       {
-        "1": "codegen.ng_deps.dart",
+        "1": "codegen.template.dart",
         "4": "i2"
       },
       {
-        "1": "entrypoint_matcher.ng_deps.dart",
+        "1": "entrypoint_matcher.template.dart",
         "4": "i3"
       }
     ]

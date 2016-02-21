@@ -1,0 +1,68 @@
+{
+  "ngDeps": {
+    "1": "angular2.src.router.router_providers_common",
+    "3": [
+      {
+        "1": "package:angular2/src/router/location_strategy.dart",
+        "2": [
+          "LocationStrategy"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/router/path_location_strategy.dart",
+        "2": [
+          "PathLocationStrategy"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/router/router.dart",
+        "2": [
+          "Router",
+          "RootRouter"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/router/route_registry.dart",
+        "2": [
+          "RouteRegistry",
+          "ROUTER_PRIMARY_COMPONENT"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/router/location.dart",
+        "2": [
+          "Location"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/facade/lang.dart",
+        "2": [
+          "Type"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/core.dart",
+        "2": [
+          "ApplicationRef",
+          "OpaqueToken",
+          "Provider"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/facade/exceptions.dart",
+        "2": [
+          "BaseException"
+        ],
+        "5": false
+      }
+    ],
+    "6": "router_providers_common.dart"
+  }
+}

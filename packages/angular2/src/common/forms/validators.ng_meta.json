@@ -6,7 +6,8 @@
         "1": "package:angular2/src/facade/lang.dart",
         "2": [
           "isBlank",
-          "isPresent"
+          "isPresent",
+          "isString"
         ],
         "5": false
       },
@@ -48,15 +49,15 @@
     "6": "validators.dart",
     "10": [
       {
-        "1": "package:angular2/src/facade/async.ng_deps.dart",
+        "1": "package:angular2/src/facade/async.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/core.ng_deps.dart",
+        "1": "package:angular2/core.template.dart",
         "4": "i1"
       },
       {
-        "1": "model.ng_deps.dart",
+        "1": "model.template.dart",
         "4": "i2"
       }
     ]

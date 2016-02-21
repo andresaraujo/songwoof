@@ -79,23 +79,23 @@
     "6": "provider.dart",
     "10": [
       {
-        "1": "package:angular2/src/facade/exceptions.ng_deps.dart",
+        "1": "package:angular2/src/facade/exceptions.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/core/reflection/reflection.ng_deps.dart",
+        "1": "package:angular2/src/core/reflection/reflection.template.dart",
         "4": "i1"
       },
       {
-        "1": "key.ng_deps.dart",
+        "1": "key.template.dart",
         "4": "i2"
       },
       {
-        "1": "metadata.ng_deps.dart",
+        "1": "metadata.template.dart",
         "4": "i3"
       },
       {
-        "1": "exceptions.ng_deps.dart",
+        "1": "exceptions.template.dart",
         "4": "i4"
       }
     ]

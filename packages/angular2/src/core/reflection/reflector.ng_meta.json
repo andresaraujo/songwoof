@@ -67,11 +67,11 @@
     "6": "reflector.dart",
     "10": [
       {
-        "1": "package:angular2/src/facade/exceptions.ng_deps.dart",
+        "1": "package:angular2/src/facade/exceptions.template.dart",
         "4": "i0"
       },
       {
-        "1": "platform_reflection_capabilities.ng_deps.dart",
+        "1": "platform_reflection_capabilities.template.dart",
         "4": "i1"
       }
     ]

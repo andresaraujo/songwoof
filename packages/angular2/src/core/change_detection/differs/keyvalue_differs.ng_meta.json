@@ -67,15 +67,15 @@
     "6": "keyvalue_differs.dart",
     "10": [
       {
-        "1": "package:angular2/src/facade/exceptions.ng_deps.dart",
+        "1": "package:angular2/src/facade/exceptions.template.dart",
         "4": "i0"
       },
       {
-        "1": "../change_detector_ref.ng_deps.dart",
+        "1": "../change_detector_ref.template.dart",
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/core/di.ng_deps.dart",
+        "1": "package:angular2/src/core/di.template.dart",
         "4": "i2"
       }
     ]

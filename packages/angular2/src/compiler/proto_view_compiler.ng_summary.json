@@ -1,0 +1,134 @@
+{
+  "ngDeps": {
+    "1": "angular2.src.compiler.proto_view_compiler",
+    "3": [
+      {
+        "1": "package:angular2/src/facade/lang.dart",
+        "2": [
+          "isPresent",
+          "isBlank",
+          "Type",
+          "isString",
+          "StringWrapper",
+          "IS_DART"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/facade/collection.dart",
+        "2": [
+          "SetWrapper",
+          "StringMapWrapper",
+          "ListWrapper",
+          "MapWrapper"
+        ],
+        "5": false
+      },
+      {
+        "1": "template_ast.dart",
+        "2": [
+          "TemplateAst",
+          "TemplateAstVisitor",
+          "NgContentAst",
+          "EmbeddedTemplateAst",
+          "ElementAst",
+          "VariableAst",
+          "BoundEventAst",
+          "BoundElementPropertyAst",
+          "AttrAst",
+          "BoundTextAst",
+          "TextAst",
+          "DirectiveAst",
+          "BoundDirectivePropertyAst",
+          "templateVisitAll"
+        ],
+        "5": false
+      },
+      {
+        "1": "directive_metadata.dart",
+        "2": [
+          "CompileTypeMetadata",
+          "CompileDirectiveMetadata",
+          "CompilePipeMetadata"
+        ],
+        "5": false
+      },
+      {
+        "1": "source_module.dart",
+        "2": [
+          "SourceExpressions",
+          "SourceExpression",
+          "moduleRef"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/linker/view.dart",
+        "2": [
+          "AppProtoView",
+          "AppView"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/linker/view_type.dart",
+        "2": [
+          "ViewType"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/linker/element.dart",
+        "2": [
+          "AppProtoElement",
+          "AppElement"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/linker/resolved_metadata_cache.dart",
+        "2": [
+          "ResolvedMetadataCache"
+        ],
+        "5": false
+      },
+      {
+        "1": "util.dart",
+        "2": [
+          "escapeSingleQuoteString",
+          "codeGenConstConstructorCall",
+          "codeGenValueFn",
+          "codeGenFnHeader",
+          "MODULE_SUFFIX",
+          "codeGenStringMap",
+          "Expression",
+          "Statement"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/di.dart",
+        "2": [
+          "Injectable"
+        ],
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "ProtoViewCompiler",
+        "4": [
+          {
+            "1": "Injectable",
+            "4": false,
+            "5": false,
+            "6": false,
+            "7": true,
+            "8": false
+          }
+        ]
+      }
+    ],
+    "6": "proto_view_compiler.dart"
+  }
+}

@@ -123,39 +123,39 @@
     "6": "discover.dart",
     "10": [
       {
-        "1": "package:angular2/angular2.ng_deps.dart",
+        "1": "package:angular2/angular2.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/router.ng_deps.dart",
+        "1": "package:angular2/router.template.dart",
         "4": "i1"
       },
       {
-        "1": "package:songwoof/common/services/user_service.ng_deps.dart",
+        "1": "package:songwoof/common/services/user_service.template.dart",
         "4": "i2"
       },
       {
-        "1": "package:songwoof/common/components/playlist/playlist.ng_deps.dart",
+        "1": "package:songwoof/common/components/playlist/playlist.template.dart",
         "4": "i3"
       },
       {
-        "1": "package:songwoof/common/components/cover/cover.ng_deps.dart",
+        "1": "package:songwoof/common/components/cover/cover.template.dart",
         "4": "i4"
       },
       {
-        "1": "package:songwoof/common/components/md_icon/md_icon.ng_deps.dart",
+        "1": "package:songwoof/common/components/md_icon/md_icon.template.dart",
         "4": "i5"
       },
       {
-        "1": "package:songwoof/common/components/player/player.ng_deps.dart",
+        "1": "package:songwoof/common/components/player/player.template.dart",
         "4": "i6"
       },
       {
-        "1": "package:songwoof/common/models/user_data.ng_deps.dart",
+        "1": "package:songwoof/common/models/user_data.template.dart",
         "4": "i7"
       },
       {
-        "1": "package:songwoof/common/soundcloud/soundcloud_api.ng_deps.dart",
+        "1": "package:songwoof/common/soundcloud/soundcloud_api.template.dart",
         "4": "i8"
       }
     ]
@@ -163,6 +163,7 @@
   "DiscoverComponent": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": true,
       "dynamicLoadable": true,
       "selector": "swoof-discover",

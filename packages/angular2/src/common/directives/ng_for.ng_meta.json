@@ -12,7 +12,8 @@
           "IterableDiffers",
           "ViewContainerRef",
           "TemplateRef",
-          "ViewRef"
+          "EmbeddedViewRef",
+          "TrackByFn"
         ],
         "5": false
       },
@@ -38,7 +39,7 @@
               },
               {
                 "1": "inputs",
-                "2": "const [\"ngForOf\", \"ngForTemplate\"]"
+                "2": "const [\"ngForTrackBy\", \"ngForOf\", \"ngForTemplate\"]"
               }
             ],
             "4": false,
@@ -74,7 +75,7 @@
     "6": "ng_for.dart",
     "10": [
       {
-        "1": "package:angular2/core.ng_deps.dart",
+        "1": "package:angular2/core.template.dart",
         "4": "i0"
       }
     ]
@@ -82,6 +83,7 @@
   "NgFor": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "[ngFor][ngForOf]",
@@ -93,6 +95,7 @@
       },
       "changeDetection": 5,
       "inputs": {
+        "ngForTrackBy": "ngForTrackBy",
         "ngForOf": "ngForOf",
         "ngForTemplate": "ngForTemplate"
       },

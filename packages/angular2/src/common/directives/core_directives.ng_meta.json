@@ -50,23 +50,23 @@
     "6": "core_directives.dart",
     "10": [
       {
-        "1": "ng_class.ng_deps.dart",
+        "1": "ng_class.template.dart",
         "4": "i0"
       },
       {
-        "1": "ng_for.ng_deps.dart",
+        "1": "ng_for.template.dart",
         "4": "i1"
       },
       {
-        "1": "ng_if.ng_deps.dart",
+        "1": "ng_if.template.dart",
         "4": "i2"
       },
       {
-        "1": "ng_style.ng_deps.dart",
+        "1": "ng_style.template.dart",
         "4": "i3"
       },
       {
-        "1": "ng_switch.ng_deps.dart",
+        "1": "ng_switch.template.dart",
         "4": "i4"
       }
     ]

@@ -63,7 +63,7 @@
             "4": false,
             "5": false,
             "6": false,
-            "7": false,
+            "7": true,
             "8": false
           },
           {
@@ -83,17 +83,30 @@
     "6": "slice_pipe.dart",
     "10": [
       {
-        "1": "package:angular2/src/facade/exceptions.ng_deps.dart",
+        "1": "package:angular2/src/facade/exceptions.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/core.ng_deps.dart",
+        "1": "package:angular2/core.template.dart",
         "4": "i1"
       },
       {
-        "1": "invalid_pipe_argument_exception.ng_deps.dart",
+        "1": "invalid_pipe_argument_exception.template.dart",
         "4": "i2"
       }
     ]
+  },
+  "SlicePipe": {
+    "kind": "type",
+    "value": {
+      "class": "Pipe",
+      "type": {
+        "name": "SlicePipe",
+        "moduleUrl": "asset:angular2/lib/src/common/pipes/slice_pipe.dart",
+        "isHost": false
+      },
+      "name": "slice",
+      "pure": false
+    }
   }
 }

@@ -63,15 +63,15 @@
     "6": "directive_resolver_mock.dart",
     "10": [
       {
-        "1": "package:angular2/src/core/di.ng_deps.dart",
+        "1": "package:angular2/src/core/di.template.dart",
         "4": "i0"
       },
       {
-        "1": "../core/metadata.ng_deps.dart",
+        "1": "../core/metadata.template.dart",
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/core/linker/directive_resolver.ng_deps.dart",
+        "1": "package:angular2/src/core/linker/directive_resolver.template.dart",
         "4": "i2"
       }
     ]

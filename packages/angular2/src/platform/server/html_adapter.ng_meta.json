@@ -18,11 +18,11 @@
     "6": "html_adapter.dart",
     "10": [
       {
-        "1": "abstract_html_adapter.ng_deps.dart",
+        "1": "abstract_html_adapter.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/platform/common_dom.ng_deps.dart",
+        "1": "package:angular2/platform/common_dom.template.dart",
         "4": "i1"
       }
     ]

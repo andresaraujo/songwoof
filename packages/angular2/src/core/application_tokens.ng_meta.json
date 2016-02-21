@@ -22,7 +22,7 @@
     "6": "application_tokens.dart",
     "10": [
       {
-        "1": "package:angular2/src/core/di.ng_deps.dart",
+        "1": "package:angular2/src/core/di.template.dart",
         "4": "i0"
       }
     ]

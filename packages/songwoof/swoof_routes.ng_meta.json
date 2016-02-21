@@ -26,23 +26,23 @@
     "6": "swoof_routes.dart",
     "10": [
       {
-        "1": "package:angular2/router.ng_deps.dart",
+        "1": "package:angular2/router.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:songwoof/discover/discover.ng_deps.dart",
+        "1": "package:songwoof/discover/discover.template.dart",
         "4": "i1"
       },
       {
-        "1": "package:songwoof/login/login.ng_deps.dart",
+        "1": "package:songwoof/login/login.template.dart",
         "4": "i2"
       },
       {
-        "1": "package:songwoof/home/home.ng_deps.dart",
+        "1": "package:songwoof/home/home.template.dart",
         "4": "i3"
       },
       {
-        "1": "package:songwoof/favorites/favorites.ng_deps.dart",
+        "1": "package:songwoof/favorites/favorites.template.dart",
         "4": "i4"
       }
     ]

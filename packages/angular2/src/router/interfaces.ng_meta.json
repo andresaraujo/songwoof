@@ -20,7 +20,7 @@
     "6": "interfaces.dart",
     "10": [
       {
-        "1": "instruction.ng_deps.dart",
+        "1": "instruction.template.dart",
         "4": "i0"
       }
     ]
