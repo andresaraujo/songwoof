@@ -13,7 +13,7 @@ import 'package:songwoof/swoof_routes.dart';
     providers: const [UserService])
 @RouteConfig(SWOOF_ROUTES)
 class SWoofApp {
-  bool isDarkTheme = false;
+  bool isDarkTheme = true;
   String currentRoute;
   final UserData userData;
 
