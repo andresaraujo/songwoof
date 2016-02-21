@@ -15654,7 +15654,7 @@ this.fy=y[x].y.a1(z.b)},
 T:function(a){if(a);this.fy=$.al},
 $asU:I.aQ}}],["songwoof.common.components.player","",,M,{"^":"",ju:{"^":"b;a,b,hl:c@,js:d<,jo:e<,jp:f<,h7:r<",
 gdX:function(a){return this.b},
-sdX:function(a,b){if(this.c!=null)this.le(b)},
+sdX:function(a,b){if(this.c!=null&&!J.m(b,this.b))this.le(b)},
 tM:function(){var z,y
 z=this.b
 y=this.e.a
@@ -16282,7 +16282,7 @@ if(J.T(u,J.F(v.f)))v.e=J.di(v.f,u)
 else ;return P.aB(null,0,y,null)
 case 1:return P.aB(w,1,y)}})
 return P.aB(null,$async$fC,y,null)},
-mS:[function(a){},"$1","gh7",2,0,145,86,[]],
+mS:[function(a){this.e=a},"$1","gh7",2,0,145,86,[]],
 bm:function(){var z=0,y=new P.dq(),x=1,w,v=this,u
 var $async$bm=P.dP(function(a,b){if(a===1){w=b
 z=x}while(true)switch(z){case 0:z=2
