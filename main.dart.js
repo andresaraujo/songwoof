@@ -15652,25 +15652,24 @@ x=z.a
 if(x>=y.length)return H.d(y,x)
 this.fy=y[x].y.a1(z.b)},
 T:function(a){if(a);this.fy=$.al},
-$asU:I.aQ}}],["songwoof.common.components.player","",,M,{"^":"",ju:{"^":"b;a,b,c,hl:d@,js:e<,jo:f<,jp:r<,h7:x<",
+$asU:I.aQ}}],["songwoof.common.components.player","",,M,{"^":"",ju:{"^":"b;a,b,hl:c@,js:d<,jo:e<,jp:f<,h7:r<",
 gdX:function(a){return this.b},
-sdX:function(a,b){if(this.d!=null&&this.c){this.le(b)
-this.c=!1}},
+sdX:function(a,b){if(this.c!=null)this.le(b)},
 tM:function(){var z,y
 z=this.b
-y=this.f.a
+y=this.e.a
 if(!y.gab())H.r(y.ae())
 y.a2(z)
 this.ld()},
 tU:function(){var z,y
 z=this.b
-y=this.r.a
+y=this.f.a
 if(!y.gab())H.r(y.ae())
 y.a2(z)},
 fW:function(){return this.a.fW()},
 vu:function(){var z,y,x
 z=this.a
-y=this.e
+y=this.d
 x=J.l(z)
 if(z.fW()){x.b3(z)
 z=y.a
@@ -15679,20 +15678,20 @@ z.a2(!0)}else{x.jA(z,this.b)
 z=y.a
 if(!z.gab())H.r(z.ae())
 z.a2(!1)}},
-qh:function(){var z=J.A(J.la(this.d,this.b),1)
-if(J.T(z,J.F(this.d)))return J.di(this.d,z)
+qh:function(){var z=J.A(J.la(this.c,this.b),1)
+if(J.T(z,J.F(this.c)))return J.di(this.c,z)
 return},
 vX:[function(a){this.ld()},"$1","gqS",2,0,15,2,[]],
 le:function(a){var z,y
 z=a==null?this.qh():a
 if(z!=null){this.b=z
-y=this.x.a
+y=this.r.a
 if(!y.gab())H.r(y.ae())
 y.a2(z)
 J.ld(this.a,z)}},
 ld:function(){return this.le(null)},
 bl:function(){J.lk(this.a)},
-mS:function(a){return this.x.$1(a)}}}],["songwoof.common.components.player.template.dart","",,Q,{"^":"",
+mS:function(a){return this.r.$1(a)}}}],["songwoof.common.components.player.template.dart","",,Q,{"^":"",
 N9:function(){var z,y
 if($.rR)return
 $.rR=!0
@@ -15759,7 +15758,7 @@ Q.xm(y,b,u,w.d,null,null,null)
 w.ai([u],[v],[],[u])
 return w},"$7","Mc",14,0,4],
 OM:{"^":"a:141;",
-$1:[function(a){var z=new M.ju(a,null,!0,null,L.aN(!0,P.aw),L.aN(!0,Q.br),L.aN(!0,Q.br),L.aN(!0,Q.br))
+$1:[function(a){var z=new M.ju(a,null,null,L.aN(!0,P.aw),L.aN(!0,Q.br),L.aN(!0,Q.br),L.aN(!0,Q.br))
 J.xR(a).b9(z.gqS())
 return z},null,null,2,0,null,176,[],"call"]},
 OO:{"^":"a:0;",
@@ -16283,7 +16282,7 @@ if(J.T(u,J.F(v.f)))v.e=J.di(v.f,u)
 else ;return P.aB(null,0,y,null)
 case 1:return P.aB(w,1,y)}})
 return P.aB(null,$async$fC,y,null)},
-mS:[function(a){this.e=a},"$1","gh7",2,0,145,86,[]],
+mS:[function(a){},"$1","gh7",2,0,145,86,[]],
 bm:function(){var z=0,y=new P.dq(),x=1,w,v=this,u
 var $async$bm=P.dP(function(a,b){if(a===1){w=b
 z=x}while(true)switch(z){case 0:z=2
