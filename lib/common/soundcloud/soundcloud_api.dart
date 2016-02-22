@@ -17,11 +17,15 @@ class SoundCloudApi {
 
   SoundCloudApi(this._config, this._http);
 
-  Future<List<Track>> tracks({String tags, int limit: 100}) {
+  Future<List<Track>> tracks({String tags, int limit: 100, String from}) {
     var params = {'client_id': _config.CLIENT_ID};
 
     params['limit'] = '$limit';
-    params['tags'] = tags ?? 'ambient';
+    params['tags'] = tags ?? '';
+
+    if(from != null) {
+      params['created_at[from]'] = '$from 00:00:00';
+    }
     //params['license'] = 'cc-by';
 
     Uri uri = new Uri(

@@ -39,6 +39,7 @@ class DiscoverComponent implements OnInit, OnActivate {
   DiscoverComponent(this._api, this._userService, this._router, this._userData,
       RouteParams params) {
     _params['tags'] = params.get('tags');
+    _params['from'] = params.get('from');
   }
 
   void onTrackSelected(track) {
@@ -68,7 +69,7 @@ class DiscoverComponent implements OnInit, OnActivate {
 
   @override
   ngOnInit() async {
-    trackList = await _api.tracks(tags: _params['tags']);
+    trackList = await _api.tracks(tags: _params['tags'], from: _params['from']);
     currentTrack = trackList[0];
   }
 
