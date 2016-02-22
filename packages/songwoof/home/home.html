@@ -4,6 +4,11 @@
     <swoof-tag *ngfor="#tag of tags" [title]="tag" [active]="isTagActive(tag)" (click)="addTag(tag)"></swoof-tag>
 </div>
 
+<div style="padding-bottom: 10px;">
+    <swoof-tag *ngfor="#fromTag of fromTags" [title]="fromTag['title']" [active]="isFromTagActive(fromTag)" (click)="setFromFilter(fromTag)">
+    </swoof-tag>
+</div>
+
 <div class="discover-btn">
     <a href="javascript:void(0)" (click)="discover()">Discover</a>
 </div></body></html>
