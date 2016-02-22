@@ -21,8 +21,7 @@ It includes:
 `pub serve`
 #### open http://localhost:8080/
 
-## [Live Demo](https://andresaraujo.github.io/songwoof)
-
+## [Live Demo](http://songwoof.co)
 
 ###To do:
 
