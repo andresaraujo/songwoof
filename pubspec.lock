@@ -12,13 +12,13 @@ packages:
       name: angular2
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.0.0-beta.7"
+    version: "2.0.0-beta.14"
   angular2_testing:
     description:
       name: angular2_testing
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.0.0-beta.7"
+    version: "2.0.0-beta.14"
   args:
     description:
       name: args
@@ -37,12 +37,24 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.15.2+7"
+  boolean_selector:
+    description:
+      name: boolean_selector
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.0"
   browser:
     description:
       name: browser
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.10.0+2"
+  build:
+    description:
+      name: build
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.0.1+1"
   charcode:
     description:
       name: charcode
@@ -234,7 +246,7 @@ packages:
       name: shelf_web_socket
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.1.0"
+    version: "0.2.0"
   smoke:
     description:
       name: smoke
@@ -282,7 +294,7 @@ packages:
       name: test
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.12.10+2"
+    version: "0.12.13"
   utf:
     description:
       name: utf
@@ -295,6 +307,12 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.9.7"
+  web_socket_channel:
+    description:
+      name: web_socket_channel
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.0"
   when:
     description:
       name: when
@@ -313,4 +331,4 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.1.8"
-sdk: ">=1.14.0 <1.16.0"
+sdk: ">=1.14.0 <1.17.0"

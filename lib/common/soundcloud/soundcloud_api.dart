@@ -23,7 +23,7 @@ class SoundCloudApi {
     params['limit'] = '$limit';
     params['tags'] = tags ?? '';
 
-    if(from != null) {
+    if (from != null) {
       params['created_at[from]'] = '$from 00:00:00';
     }
     //params['license'] = 'cc-by';
@@ -41,6 +41,6 @@ List<Map<String, String>> _toJson(Response response) {
 
 List<Track> _toModels(List<Map<String, dynamic>> tracks) {
   var list = tracks.map((t) => new Track.fromMap(t)).toList();
-  list.shuffle();
+  //list.shuffle();
   return list;
 }

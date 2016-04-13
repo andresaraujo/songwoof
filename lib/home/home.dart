@@ -49,7 +49,7 @@ class HomeComponent implements OnActivate {
   void discover() {
     Map params = {'tags': filterTags.join(',')};
 
-    if(fromFilter['value'] != null) {
+    if (fromFilter['value'] != null) {
       params['from'] = _formatter.format(fromFilter['value']);
     }
 
@@ -97,7 +97,7 @@ const DEFAULT_TAGS = const [
   'relax',
   'undertale',
   'jazz',
-  'rock',
+  'hard rock',
   'sleep',
   'calm',
   'hip_hop',
