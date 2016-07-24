@@ -1,11 +1,11 @@
 <div class="heading">Select a mood or genre</div>
 
 <div style="padding-bottom: 10px;">
-    <swoof-tag *ngFor="#tag of tags" [title]="tag" [active]="isTagActive(tag)" (click)="addTag(tag)"></swoof-tag>
+    <swoof-tag *ngFor="let tag of tags" [title]="tag" [active]="isTagActive(tag)" (click)="addTag(tag)"></swoof-tag>
 </div>
 
 <div style="padding-bottom: 10px;">
-    <swoof-tag *ngFor="#fromTag of fromTags"
+    <swoof-tag *ngFor="let fromTag of fromTags"
                [title]="fromTag['title']"
                [active]="isFromTagActive(fromTag)"
                (click)="setFromFilter(fromTag)">

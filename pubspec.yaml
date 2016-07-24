@@ -8,7 +8,7 @@ environment:
   sdk: '>=1.0.0 <2.0.0'
 
 dependencies:
-  angular2: '>=2.0.0-beta.14 <3.0.0'
+  angular2: '>=2.0.0-beta.18 <3.0.0'
   http: '^0.11.3'
   js: '^0.6.0'
   firebase: '^0.6.5'
@@ -17,9 +17,12 @@ dependencies:
 
 dev_dependencies:
   test: '^0.12.6'
-  angular2_testing: any
+  #angular2_testing: any
 
 transformers:
 - angular2:
     entry_points: web/main.dart
+    resolved_identifiers:
+      BrowserClient: 'package:http/browser_client.dart'
+      Firebase: 'package:firebase/firebase.dart'
 - dart_to_js_script_rewriter

@@ -3,7 +3,7 @@
         <span><b>{{current?.title}}</b> by {{current?.username}}</span>
     </div>
     <div>
-        <li *ngFor="#track of tracks; #i = index" [hidden]="isHidden(i)">
+        <li *ngFor="let track of tracks; let i = index" [hidden]="isHidden(i)">
             <a href="javascript:void(0)" (click)="trackSelected(track)">{{track.title}}</a>
         </li>
     </div>

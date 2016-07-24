@@ -1,3 +1,4 @@
+@JS()
 library songwoof.common.soundcloud.soundcloud_interop;
 
 //todo: Move to its own package

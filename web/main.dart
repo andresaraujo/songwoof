@@ -1,4 +1,4 @@
-import 'package:angular2/bootstrap.dart';
+import 'package:angular2/platform/browser.dart';
 import 'package:songwoof/swoof_module.dart';
 import 'package:songwoof/common/soundcloud/soundcloud_config.dart';
 

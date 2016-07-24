@@ -4,6 +4,7 @@ import 'dart:html' as html;
 
 import 'package:angular2/angular2.dart';
 import 'package:angular2/router.dart';
+import 'package:angular2/platform/common.dart';
 import 'package:http/browser_client.dart';
 import 'package:firebase/firebase.dart';
 
