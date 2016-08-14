@@ -6,7 +6,7 @@ import 'package:angular2/angular2.dart';
 import 'package:angular2/router.dart';
 import 'package:angular2/platform/common.dart';
 import 'package:http/browser_client.dart';
-import 'package:firebase/firebase.dart';
+import 'package:firebase3/firebase.dart' as firebase;
 
 import 'package:songwoof/common/soundcloud/soundcloud_config.dart';
 import 'package:songwoof/common/soundcloud/soundcloud_interop.dart';
@@ -22,11 +22,18 @@ class SWoofModule {
   get providers {
     UserData userData = new UserData();
 
-    Firebase firebase = new Firebase('https://songwoof.firebaseio.com/');
-    firebase.onAuth().listen((authJson) {
-      if (authJson != null) {
-        userData.uid = authJson['uid'];
-        userData.displayName = authJson[authJson['provider']]['displayName'];
+    firebase.initializeApp(
+        apiKey: "AIzaSyBG5CkMSYLU_OYwO6seCMcC5YyjF0aIfUE",
+        authDomain: "songwoof.firebaseapp.com",
+        databaseURL: "https://songwoof.firebaseio.com",
+        storageBucket: "songwoof.appspot.com");
+
+    firebase.Database rootRef = firebase.database();
+    firebase.Auth auth = firebase.auth();
+    auth.onAuthStateChanged.listen((result) {
+      if (result.user != null) {
+        userData.uid = result.user.uid;
+        userData.displayName = result.user.providerData.first.displayName;
       }
     });
     return [
@@ -37,8 +44,19 @@ class SWoofModule {
       provide(SoundCloudConfig, useValue: soundCloudConfig),
       provide(SoundCloudAudio,
           useValue: new SoundCloudAudio(soundCloudConfig.CLIENT_ID)),
-      provide(Firebase, useValue: firebase),
+      provide(SongwoofDb, useValue: rootRef),
+      provide(SongwoofAuth, useValue: auth),
       provide(UserData, useValue: userData)
     ];
   }
 }
+
+@Injectable()
+class SongwoofAuth extends firebase.Auth {
+  SongwoofAuth.fromJsObject(jsObject) : super.fromJsObject(jsObject);}
+
+@Injectable()
+class SongwoofDb extends firebase.Database {
+  SongwoofDb.fromJsObject(jsObject) : super.fromJsObject(jsObject);}
+
+

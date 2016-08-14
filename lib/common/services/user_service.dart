@@ -1,20 +1,22 @@
 import 'dart:async';
 import 'package:angular2/angular2.dart';
-import 'package:firebase/firebase.dart';
+import 'package:firebase3/firebase.dart' as firebase;
 
 import 'package:songwoof/common/models/user_data.dart';
 import 'package:songwoof/common/models/track.dart';
+import 'package:songwoof/swoof_module.dart';
 
 @Injectable()
 class UserService {
-  final Firebase _firebase;
+  final SongwoofDb _db;
+  final SongwoofAuth _auth;
   final UserData _userData;
-  UserService(this._firebase, this._userData);
+  UserService(this._db, this._userData, this._auth);
 
   Future<Null> addToFavorites(Track track) {
     var c = new Completer();
     if (_userData.uid != null) {
-      _favsRef().push(value: track.toMap(), onComplete: (v) => c.complete());
+      _favsRef().push(track.toMap()).future.then((v) => c.complete());
     } else {
       c.completeError('Cant\'t add to favs: User is not logged in');
     }
@@ -26,31 +28,32 @@ class UserService {
     return _favsRef().once('value').then(_transtormToModels);
   }
 
-  List<Track> _transtormToModels(DataSnapshot ds) {
-    return (ds.val() as Map).keys.map((k) {
-      var v = ds.val()[k];
+  List<Track> _transtormToModels(firebase.QueryEvent event) {
+    return (event.snapshot.val() as Map).keys.map((k) {
+      var v = event.snapshot.val()[k];
       v['fb_key'] = k;
       return new Track.fromMap(v);
     }).toList();
   }
 
-  Future<Map> login(String provider) async {
-    return _firebase.authWithOAuthPopup(provider).then((authJson) {
-      if (authJson != null) {
-        _userData.uid = authJson['uid'];
-        _userData.displayName = authJson[provider]['displayName'];
-        return authJson;
+  Future<firebase.User> login(String providerName) async {
+    var provider = providerName == 'twitter' ? new firebase.TwitterAuthProvider() : new firebase.GithubAuthProvider();
+    return _auth.signInWithPopup(provider).then((result) {
+      if (result != null) {
+        _userData.uid = result.user.uid;
+        _userData.displayName = result.user.providerData.first.displayName;
+        return result.user;
       }
     });
   }
 
   void logout() {
-    _firebase.unauth();
+    _auth.signOut();
     _userData.uid = null;
     _userData.displayName = '';
   }
 
-  Firebase _usersRef() => _firebase.child('users');
-  Firebase _userRef() => _usersRef().child(_userData.uid);
-  Firebase _favsRef() => _userRef().child('favs');
+  firebase.DatabaseReference _usersRef() => _db.ref('users');
+  firebase.DatabaseReference _userRef() => _usersRef().child(_userData.uid);
+  firebase.DatabaseReference _favsRef() => _userRef().child('favs');
 }
