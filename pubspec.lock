@@ -12,7 +12,7 @@ packages:
       name: angular2
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.0.0-beta.19"
+    version: "2.0.0-beta.20"
   args:
     description:
       name: args
