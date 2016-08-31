@@ -11,7 +11,7 @@
             <div class="mdl-cell mdl-cell--12-col">
                 <span class="mdl-cell--1-offset"></span>
                 <button class="mdl-button mdl-js-button mdl-button--icon" style="width: 64px; height: 64px" (click)="togglePlay()">
-                    <i class="material-icons" style="font-size: 32px; width: 32px; transform: translate(-16px,-12px);">pause</i>
+                    <i class="material-icons" style="font-size: 32px; width: 32px; transform: translate(-16px,-12px);">{{isPlaying() ? 'pause' : 'play_arrow'}}</i>
                 </button>
                 <button class="mdl-button mdl-js-button mdl-button--icon" (click)="dismiss()">
                     <i class="material-icons">skip_next</i>
