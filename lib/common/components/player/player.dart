@@ -36,7 +36,6 @@ class SwoofPlayerComponent implements OnDestroy {
   }
 
   void dismiss() {
-    print('woot?');
     onDismiss.add(track);
     _playNext();
   }
