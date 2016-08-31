@@ -39,7 +39,7 @@ class SWoofModule {
     return [
       ROUTER_PROVIDERS,
       provide(APP_BASE_HREF, useValue: html.window.location.pathname),
-      provide(LocationStrategy, useClass: HashLocationStrategy),
+      //provide(LocationStrategy, useClass: HashLocationStrategy),
       provide(BrowserClient, useValue: new BrowserClient()),
       provide(SoundCloudConfig, useValue: soundCloudConfig),
       provide(SoundCloudAudio,

@@ -75,7 +75,7 @@ class HomeComponent implements OnActivate {
   @override
   routerOnActivate(ComponentInstruction next, ComponentInstruction prev) {
     if (!_userData.isAuthenticated()) {
-      //_router.navigate(['Login']);
+      _router.navigate(['Login']);
     }
   }
 }
