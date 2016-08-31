@@ -11,6 +11,7 @@ It includes:
 - Component events
 - It also includes example of Dart interop with Javascript.
 - Authentication and backend with Firebase
+- UI using Material Design lite
 
 
 ## Usage
@@ -25,12 +26,13 @@ It includes:
 
 ###To do:
 
-- Add Pipes
-- Rework styles, add animations
+- Clean inline styling ugh
+- Redo faving tracks
 - Add more tests
 - Add Spotify backend
 - Add component to show current play time
 - Complete Readme
 - Improve discovery of songs
+- Migrate to firebase histing
 
 Vinyl Css is based on [this codepen by pipozoft](http://codepen.io/pipozoft/pen/wLyvs)

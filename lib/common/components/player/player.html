@@ -1,11 +1,22 @@
-<div class="v-container">
-    <cover
-            [coverUrl]="track?.artworkUrl"
-            (click)="togglePlay()"
-            [rotate]="isPlaying()"></cover>
-
-    <div class="h-container">
-        <md-icon (onClick)="dismiss()">close</md-icon>
-        <md-icon (onClick)="favorite()">favorite</md-icon>
+<div class="mdl-grid mdl-grid--no-spacing">
+    <div class="mdl-cell mdl-cell--12-col">
+        <cover
+                [coverUrl]="track?.artworkUrl"
+                (click)="togglePlay()"
+                [rotate]="isPlaying()">
+        </cover>
+    </div>
+    <div class="mdl-cell mdl-cell--12-col">
+        <div class="mdl-grid">
+            <div class="mdl-cell mdl-cell--12-col">
+                <span class="mdl-cell--1-offset"></span>
+                <button class="mdl-button mdl-js-button mdl-button--icon" style="width: 64px; height: 64px" (click)="togglePlay()">
+                    <i class="material-icons" style="font-size: 32px; width: 32px; transform: translate(-16px,-12px);">pause</i>
+                </button>
+                <button class="mdl-button mdl-js-button mdl-button--icon" (click)="dismiss()">
+                    <i class="material-icons">skip_next</i>
+                </button>
+            </div>
+        </div>
     </div>
 </div>

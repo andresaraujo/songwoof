@@ -1,17 +1,26 @@
-<div class="heading">Select a mood or genre</div>
+<div class="mdl-grid">
+    <h3 class="title mdl-cell mdl-cell--12-col">Select a mood or genre</h3>
 
-<div style="padding-bottom: 10px;">
-    <swoof-tag *ngFor="let tag of tags" [title]="tag" [active]="isTagActive(tag)" (click)="addTag(tag)"></swoof-tag>
-</div>
+    <div style="padding-bottom: 10px;" class="mdl-cell mdl-cell--12-col">
+        <div class=" mdl-cell" style="margin-left: auto; margin-right: auto;">
+            <swoof-tag *ngFor="let tag of tags" [title]="tag" [active]="isTagActive(tag)" (click)="addTag(tag)"></swoof-tag>
+        </div>
+    </div>
 
-<div style="padding-bottom: 10px;">
-    <swoof-tag *ngFor="let fromTag of fromTags"
-               [title]="fromTag['title']"
-               [active]="isFromTagActive(fromTag)"
-               (click)="setFromFilter(fromTag)">
-    </swoof-tag>
-</div>
+    <div style="padding-bottom: 10px;" class="mdl-cell mdl-cell--12-col">
+        <div class=" mdl-cell" style="margin-left: auto; margin-right: auto;">
+            <swoof-tag *ngFor="let fromTag of fromTags"
+                       [title]="fromTag['title']"
+                       [active]="isFromTagActive(fromTag)"
+                       (click)="setFromFilter(fromTag)">
+            </swoof-tag>
+        </div>
+    </div>
 
-<div class="discover-btn">
-    <a href="javascript:void(0)" (click)="discover()">Discover</a>
+    <div class="mdl-cell--12-col">
+        <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent mdl-js-ripple-effect mdl-cell"
+                (click)="discover()">
+            <span>Discover</span>
+        </button>
+    </div>
 </div>
