@@ -22,17 +22,15 @@ It includes:
 `pub serve`
 #### open http://localhost:8080/
 
-## [Live Demo](http://songwoof.co)
+## [Live Demo](https://songwoof.co)
 
 ###To do:
 
 - Clean inline styling ugh
 - Redo faving tracks
-- Add more tests
+- Redo test when new testing package is available
 - Add Spotify backend
 - Add component to show current play time
-- Complete Readme
 - Improve discovery of songs
-- Migrate to firebase histing
 
 Vinyl Css is based on [this codepen by pipozoft](http://codepen.io/pipozoft/pen/wLyvs)
