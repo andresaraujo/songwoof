@@ -11,7 +11,9 @@ class UserService {
   final SongwoofDb _db;
   final SongwoofAuth _auth;
   final UserData _userData;
-  UserService(this._db, this._userData, this._auth);
+  UserService(this._db, this._userData, this._auth) {
+    _auth.onAuthStateChanged.listen((event) => _loadUserData(event.user));
+  }
 
   Future<Null> addToFavorites(Track track) {
     var c = new Completer();
@@ -40,8 +42,7 @@ class UserService {
     var provider = providerName == 'twitter' ? new firebase.TwitterAuthProvider() : new firebase.GithubAuthProvider();
     return _auth.signInWithPopup(provider).then((firebase.UserCredential result) {
       if (result != null) {
-        _userData.uid = result.user.uid;
-        _userData.displayName = result.user.providerData.first.displayName;
+        _loadUserData(result.user);
         return result.user;
       }
     });
@@ -51,6 +52,14 @@ class UserService {
     _auth.signOut();
     _userData.uid = null;
     _userData.displayName = '';
+  }
+
+  _loadUserData(firebase.User user) {
+    if (user != null) {
+      _userData.uid = user.uid;
+      _userData.displayName = user.providerData.first.displayName;
+      return user;
+    }
   }
 
   firebase.DatabaseReference _usersRef() => _db.ref('users');
