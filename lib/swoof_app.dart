@@ -2,6 +2,7 @@ library songwoof.app;
 
 import 'package:angular2/angular2.dart';
 import 'package:angular2/router.dart';
+import 'package:songwoof/common/directives/mdldrawer_close.dart';
 import 'package:songwoof/common/models/user_data.dart';
 import 'package:songwoof/common/services/user_service.dart';
 import 'package:songwoof/swoof_routes.dart';
@@ -9,7 +10,7 @@ import 'package:songwoof/swoof_routes.dart';
 @Component(
     selector: 'songwoof-app',
     templateUrl: 'swoof_app.html',
-    directives: const [ROUTER_DIRECTIVES, NgClass, NgStyle],
+    directives: const [ROUTER_DIRECTIVES, NgClass, NgStyle, MdlDrawerClose],
     providers: const [UserService])
 @RouteConfig(SWOOF_ROUTES)
 class SWoofApp {

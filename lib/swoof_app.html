@@ -21,7 +21,7 @@
                 <div class="mdl-layout-spacer"></div>
 
                 <nav class="mdl-navigation mdl-layout--large-screen-only">
-                    {{userData.displayName}}
+                    <span>{{userData.displayName}}</span>
                     <button class="mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect" id="more-button">
                         <i class="material-icons">face-profile</i>
                     </button>
@@ -39,15 +39,18 @@
                 <span>Songwoof</span>
             </span>
             <nav class="mdl-navigation">
-                <a class="mdl-navigation__link" [routerLink]="['/Home']">Discover</a>
-                <a class="mdl-navigation__link mdl-menu__item--full-bleed-divider" [routerLink]="['/Favorites']">Favorites</a>
+                <a class="mdl-navigation__link"
+                   [routerLink]="['/Home']" mdldrawer-close>Discover</a>
+                <a class="mdl-navigation__link mdl-menu__item--full-bleed-divider"
+                   [routerLink]="['/Favorites']" mdldrawer-close>Favorites</a>
                 <div class="mdl-navigation__link mdl-menu__item--full-bleed-divider">
                     <span>Dark theme</span>
                     <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="switch-2">
                         <input type="checkbox" id="switch-2" class="mdl-switch__input" [checked]="isDarkTheme" (change)="toggleTheme()">
                     </label>
                 </div>
-                <a class="mdl-navigation__link" href="javascript:void(0)" (click)="logout()">Logout</a>
+                <a class="mdl-navigation__link" href="javascript:void(0)"
+                   (click)="logout()" mdldrawer-close>Logout</a>
                 <a class="mdl-navigation__link" target="_blank" href="https://twitter.com/amarokaz">Source</a>
                 <a class="mdl-navigation__link" target="_blank" href="https://github.com/andresaraujo/songwoof">Twitter @amarokaz</a>
             </nav>
