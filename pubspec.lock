@@ -6,7 +6,7 @@ packages:
       name: analyzer
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.27.4"
+    version: "0.27.6"
   angular2:
     description:
       name: angular2
@@ -66,13 +66,13 @@ packages:
       name: code_transformers
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.4.2+2"
+    version: "0.4.2+3"
   collection:
     description:
       name: collection
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.9.0"
+    version: "1.9.1"
   convert:
     description:
       name: convert
@@ -96,7 +96,7 @@ packages:
       name: dart_style
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.2.9"
+    version: "0.2.9+1"
   dart_to_js_script_rewriter:
     description:
       name: dart_to_js_script_rewriter
@@ -106,10 +106,10 @@ packages:
   firebase3:
     description:
       ref: HEAD
-      resolved-ref: "7dc08310546b5ac06dfdcfc1843751a5d832a517"
+      resolved-ref: "1aab73d2645d246df0849f5c8e587b857c226fd5"
       url: "git://github.com/Janamou/firebase3-dart.git"
     source: git
-    version: "0.2.0-dev"
+    version: "0.2.1-dev"
   fixnum:
     description:
       name: fixnum
@@ -157,19 +157,19 @@ packages:
       name: intl
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.13.0"
+    version: "0.13.1"
   isolate:
     description:
       name: isolate
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.2.2"
+    version: "0.2.3"
   js:
     description:
       name: js
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.6.0"
+    version: "0.6.1"
   logging:
     description:
       name: logging
@@ -205,7 +205,7 @@ packages:
       name: package_resolver
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.0.1"
+    version: "1.0.2"
   path:
     description:
       name: path
@@ -235,7 +235,7 @@ packages:
       name: protobuf
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.5.2"
+    version: "0.5.3"
   pub_semver:
     description:
       name: pub_semver
@@ -247,7 +247,7 @@ packages:
       name: shelf
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.6.5+2"
+    version: "0.6.5+3"
   shelf_packages_handler:
     description:
       name: shelf_packages_handler
@@ -277,7 +277,7 @@ packages:
       name: source_map_stack_trace
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.1.2"
+    version: "1.1.3"
   source_maps:
     description:
       name: source_maps
@@ -313,7 +313,7 @@ packages:
       name: test
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.12.15+3"
+    version: "0.12.15+6"
   typed_data:
     description:
       name: typed_data
@@ -357,4 +357,4 @@ packages:
     source: hosted
     version: "2.1.10"
 sdks:
-  dart: ">=1.17.0 <2.0.0"
+  dart: ">=1.19.0-dev.0.0 <2.0.0"

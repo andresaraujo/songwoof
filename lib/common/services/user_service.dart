@@ -38,7 +38,7 @@ class UserService {
 
   Future<firebase.User> login(String providerName) async {
     var provider = providerName == 'twitter' ? new firebase.TwitterAuthProvider() : new firebase.GithubAuthProvider();
-    return _auth.signInWithPopup(provider).then((result) {
+    return _auth.signInWithPopup(provider).then((firebase.UserCredential result) {
       if (result != null) {
         _userData.uid = result.user.uid;
         _userData.displayName = result.user.providerData.first.displayName;

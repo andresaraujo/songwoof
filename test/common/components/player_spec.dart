@@ -1,6 +1,6 @@
 // Because Angular is using dart:html, we need these tests to run on an actual
 // browser. This means that it should be run with `-p dartium` or `-p chrome`.
-@TestOn('browser')
+/*@TestOn('browser')
 import 'package:angular2/angular2.dart'
     show
     Component,
@@ -192,4 +192,4 @@ void cleanPlayerState() {
   pauseCalled = false;
   stopCalled = false;
   isPlayingCalled = false;
-}
+}*/

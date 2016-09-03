@@ -1,5 +1,6 @@
 library songwoof.module;
 
+import 'dart:async';
 import 'dart:html' as html;
 
 import 'package:angular2/angular2.dart';
@@ -19,7 +20,7 @@ class SWoofModule {
 
   SWoofModule(this.soundCloudConfig);
 
-  get providers {
+  Future<dynamic> get providers async {
     UserData userData = new UserData();
 
     firebase.initializeApp(
@@ -30,12 +31,14 @@ class SWoofModule {
 
     firebase.Database rootRef = firebase.database();
     firebase.Auth auth = firebase.auth();
-    auth.onAuthStateChanged.listen((result) {
-      if (result.user != null) {
-        userData.uid = result.user.uid;
-        userData.displayName = result.user.providerData.first.displayName;
-      }
-    });
+
+    firebase.AuthEvent authEvent = await auth.onAuthStateChanged.first;
+
+    if (authEvent?.user != null) {
+      userData.uid = authEvent.user.uid;
+      userData.displayName = authEvent.user.providerData.first.displayName;
+    }
+
     return [
       ROUTER_PROVIDERS,
       provide(APP_BASE_HREF, useValue: html.window.location.pathname),
