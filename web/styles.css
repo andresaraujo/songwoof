@@ -237,6 +237,10 @@ a:link, a:visited {
     color: #fff;
 }
 
+.swoof .sign-in-buttons button {
+    margin: 8px;
+}
+
 /*============*/
 
 .bounce {
