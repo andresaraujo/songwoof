@@ -2,14 +2,13 @@ library songwoof.common.components.player;
 
 import 'package:angular2/angular2.dart';
 import 'package:songwoof/common/components/cover/cover.dart';
-import 'package:songwoof/common/components/md_icon/md_icon.dart';
 import 'package:songwoof/common/models/track.dart';
 import 'package:songwoof/common/soundcloud/soundcloud_player.dart';
 
 @Component(
     selector: 'swoof-player',
     templateUrl: 'player.html',
-    directives: const [CoverComponent, MdIconComponent],
+    directives: const [CoverComponent],
     providers: const [SoundCloudPlayer])
 class SwoofPlayerComponent implements OnDestroy {
   final SoundCloudPlayer _scPlayer;

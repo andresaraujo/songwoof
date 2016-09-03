@@ -6,7 +6,6 @@ import 'package:angular2/router.dart';
 import 'package:songwoof/common/services/user_service.dart';
 import 'package:songwoof/common/components/playlist/playlist.dart';
 import 'package:songwoof/common/components/cover/cover.dart';
-import 'package:songwoof/common/components/md_icon/md_icon.dart';
 import 'package:songwoof/common/components/player/player.dart';
 import 'package:songwoof/common/models/user_data.dart';
 import 'package:songwoof/common/models/track.dart';
@@ -18,8 +17,7 @@ import 'package:songwoof/common/soundcloud/soundcloud_api.dart';
     directives: const [
       SwoofPlayerComponent,
       PlaylistComponent,
-      CoverComponent,
-      MdIconComponent
+      CoverComponent
     ],
     providers: const [
       SoundCloudApi,
