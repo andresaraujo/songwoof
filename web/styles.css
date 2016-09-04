@@ -18,10 +18,6 @@ body {
     flex-direction: column;
 }
 
-main {
-    flex: 1 0 auto;
-}
-
 a:link, a:visited {
     text-decoration: none;
 }
