@@ -1,4 +1,4 @@
-<div class="mdl-grid mdl-grid--no-spacing">
+<div class="mdl-grid mdl-grid--no-spacing sw-player">
     <div class="mdl-cell mdl-cell--12-col">
         <cover
                 [coverUrl]="track?.artworkUrl"
@@ -8,10 +8,11 @@
     </div>
     <div class="mdl-cell mdl-cell--12-col">
         <div class="mdl-grid">
-            <div class="mdl-cell mdl-cell--12-col">
-                <span class="mdl-cell--1-offset"></span>
-                <button class="mdl-button mdl-js-button mdl-button--icon" style="width: 64px; height: 64px" (click)="togglePlay()">
-                    <i class="material-icons" style="font-size: 32px; width: 32px; transform: translate(-16px,-12px);">{{isPlaying() ? 'pause' : 'play_arrow'}}</i>
+            <div class="mdl-cell mdl-cell--12-col sw-player-actions">
+                <span class="sw-player-actions__offset"></span>
+                <button class="mdl-button mdl-js-button mdl-button--icon sw-player-actions__primary"
+                        (click)="togglePlay()">
+                    <i class="material-icons">{{isPlaying() ? 'pause' : 'play_arrow'}}</i>
                 </button>
                 <button class="mdl-button mdl-js-button mdl-button--icon" (click)="dismiss()">
                     <i class="material-icons">skip_next</i>

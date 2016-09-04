@@ -13,17 +13,18 @@
                         (onFavorite)="addToUserFavorites($event)">
                 </swoof-player>
             </div>
-            <div class="mdl-cell mdl-cell--12-col mdl-cell--10-col-tablet mdl-cell--12-col-phone"
-                 style="text-align: left; margin-top: -45px; margin-left: auto; margin-right: auto">
-                <ul [hidden]="currentTrack == null">
-                    <li class="mdl-list__item mdl-list__item--two-line">
-                        <span class="mdl-list__item-primary-content">
-                          <img class="mdl-list__item-avatar" style="width: 40px; height: 40px" [src]="currentTrack?.artworkUrl"/>
-                          <span>{{currentTrack?.title}}</span>
-                          <span class="mdl-list__item-sub-title">by {{currentTrack?.username}}</span>
-                        </span>
-                    </li>
-                </ul>
+            <div class="mdl-cell mdl-cell--12-col mdl-cell--10-col-tablet mdl-cell--12-col-phone">
+                <div class="sw-playlist-container" style="margin-top: -45px;">
+                    <ul [hidden]="currentTrack == null">
+                        <li class="mdl-list__item mdl-list__item--two-line">
+                            <span class="mdl-list__item-primary-content">
+                              <img class="mdl-list__item-avatar" [src]="currentTrack?.artworkUrl"/>
+                              <span>{{currentTrack?.title}}</span>
+                              <span class="mdl-list__item-sub-title">by {{currentTrack?.username}}</span>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
 

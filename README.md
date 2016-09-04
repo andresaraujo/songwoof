@@ -26,7 +26,6 @@ It includes:
 
 ###To do:
 
-- Clean inline styling ugh
 - Redo faving tracks
 - Redo test when new testing package is available
 - Add Spotify backend

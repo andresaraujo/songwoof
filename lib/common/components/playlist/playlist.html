@@ -1,12 +1,12 @@
-<div class="playlistx" style="width: 650px; text-align: left; margin-left: auto; margin-right: auto">
-    <h6 style="margin-left: 48px">Up next</h6>
+<div class="sw-playlist-container">
+    <h6 class="sw-playlist-container__title">Up next</h6>
     <ul>
         <li class="mdl-list__item  mdl-list__item--two-line"
             *ngFor="let track of tracks; let i = index"
             [hidden]="isHidden(i)"
             (click)="trackSelected(track)">
             <span class="mdl-list__item-primary-content">
-              <img class="mdl-list__item-avatar" style="width: 40px; height: 40px" [src]="track?.artworkUrl"/>
+              <img class="mdl-list__item-avatar" [src]="track?.artworkUrl"/>
               <span>{{track?.title}}</span>
               <span class="mdl-list__item-sub-title">by {{track?.username}}</span>
             </span>
