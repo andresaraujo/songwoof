@@ -7,7 +7,7 @@
             (click)="trackSelected(track)">
             <span class="mdl-list__item-primary-content">
               <img class="mdl-list__item-avatar" [src]="track?.artworkUrl"/>
-              <span>{{track?.title}}</span>
+              <div class="sw-playlist-container__track-title">{{track?.title}}</div>
               <span class="mdl-list__item-sub-title">by {{track?.username}}</span>
             </span>
         </li>

@@ -258,6 +258,13 @@ a:link, a:visited {
     margin-bottom: 16px;
 }
 
+.sw-playlist-container .sw-playlist-container__track-title {
+    width: 320px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
 .sw-player .sw-player-actions .sw-player-actions__offset {
     margin-left: 32px;
 }
